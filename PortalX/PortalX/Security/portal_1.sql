@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [portal]
+    WITH PASSWORD = N'yhiaCa{|yaXy=UgN{tpLye0ymsFT7_&#$!~<%e7foRDghkla', SID = 0x724345CFB0057E4E990955774EC8EFD2, DEFAULT_DATABASE = [portal], DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+
