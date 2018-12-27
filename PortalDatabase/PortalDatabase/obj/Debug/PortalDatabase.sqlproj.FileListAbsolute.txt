@@ -1,0 +1,10 @@
+d:\documents\visual studio 2015\Projects\PortalDatabase\PortalDatabase\bin\Debug\PortalDatabase.dacpac
+d:\documents\visual studio 2015\Projects\PortalDatabase\PortalDatabase\bin\Debug\PortalDatabase.dll
+d:\documents\visual studio 2015\Projects\PortalDatabase\PortalDatabase\bin\Debug\PortalDatabase.pdb
+d:\documents\visual studio 2015\Projects\PortalDatabase\PortalDatabase\bin\Debug\master.dacpac
+d:\documents\visual studio 2015\Projects\PortalDatabase\PortalDatabase\obj\Debug\Model.xml
+d:\documents\visual studio 2015\Projects\PortalDatabase\PortalDatabase\obj\Debug\refactor.xml
+d:\documents\visual studio 2015\Projects\PortalDatabase\PortalDatabase\obj\Debug\postdeploy.sql
+d:\documents\visual studio 2015\Projects\PortalDatabase\PortalDatabase\obj\Debug\predeploy.sql
+d:\documents\visual studio 2015\Projects\PortalDatabase\PortalDatabase\obj\Debug\PortalDatabase.dll
+d:\documents\visual studio 2015\Projects\PortalDatabase\PortalDatabase\obj\Debug\PortalDatabase.pdb

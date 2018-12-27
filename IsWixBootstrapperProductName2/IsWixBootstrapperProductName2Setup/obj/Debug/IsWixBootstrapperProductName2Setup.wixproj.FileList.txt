@@ -1,0 +1,9 @@
+d:\documents\visual studio 2015\Projects\IsWixBootstrapperProductName2\IsWixBootstrapperProductName2Setup\bin\Debug\IsWixBootstrapperProductName2.msi
+d:\documents\visual studio 2015\Projects\IsWixBootstrapperProductName2\IsWixBootstrapperProductName2Setup\bin\Debug\IsWixBootstrapperProductName2.wixpdb
+obj\Debug\pth01F73CE90B57B95B225448855D74045B\Product.wixobj
+obj\Debug\pth01F73CE90B57B95B225448855D74045B\Features.wixobj
+obj\Debug\pth01F73CE90B57B95B225448855D74045B\UI.wixobj
+obj\Debug\pth01F73CE90B57B95B225448855D74045B\UI-CustomDialog.wixobj
+obj\Debug\IsWixBootstrapperProductName2Setup.wixproj.BindContentsFileListnull.txt
+obj\Debug\IsWixBootstrapperProductName2Setup.wixproj.BindOutputsFileListnull.txt
+obj\Debug\IsWixBootstrapperProductName2Setup.wixproj.BindBuiltOutputsFileListnull.txt

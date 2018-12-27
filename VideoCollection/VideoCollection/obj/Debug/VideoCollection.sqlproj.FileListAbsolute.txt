@@ -1,0 +1,15 @@
+C:\Users\greentx.NA\Source\Repos\VideoCollection\VideoCollection\bin\Debug\VideoCollection.dacpac
+C:\Users\greentx.NA\Source\Repos\VideoCollection\VideoCollection\obj\Debug\VideoCollection.dll
+C:\Users\greentx.NA\Source\Repos\VideoCollection\VideoCollection\obj\Debug\VideoCollection.pdb
+C:\Users\greentx.NA\Source\Repos\VideoCollection\VideoCollection\bin\Debug\VideoCollection.dll
+C:\Users\greentx.NA\Source\Repos\VideoCollection\VideoCollection\bin\Debug\VideoCollection.pdb
+D:\Dev\VideoCollection\VideoCollection\bin\Debug\VideoCollection.dacpac
+D:\Dev\VideoCollection\VideoCollection\bin\Debug\VideoCollection.dll
+D:\Dev\VideoCollection\VideoCollection\bin\Debug\VideoCollection.pdb
+D:\Dev\VideoCollection\VideoCollection\obj\Debug\VideoCollection.sqlprojAssemblyReference.cache
+D:\Dev\VideoCollection\VideoCollection\obj\Debug\VideoCollection.dll
+D:\Dev\VideoCollection\VideoCollection\obj\Debug\VideoCollection.pdb
+D:\Dev\VideoCollection\VideoCollection\obj\Debug\Model.xml
+D:\Dev\VideoCollection\VideoCollection\obj\Debug\refactor.xml
+D:\Dev\VideoCollection\VideoCollection\obj\Debug\postdeploy.sql
+D:\Dev\VideoCollection\VideoCollection\obj\Debug\predeploy.sql

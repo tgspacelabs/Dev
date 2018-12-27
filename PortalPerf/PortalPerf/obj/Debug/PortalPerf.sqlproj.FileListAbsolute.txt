@@ -1,0 +1,9 @@
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\PortalPerf\PortalPerf\bin\Debug\PortalPerf.dacpac
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\PortalPerf\PortalPerf\bin\Debug\PortalPerf.dll
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\PortalPerf\PortalPerf\bin\Debug\PortalPerf.pdb
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\PortalPerf\PortalPerf\obj\Debug\PortalPerf.dll
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\PortalPerf\PortalPerf\obj\Debug\PortalPerf.pdb
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\PortalPerf\PortalPerf\obj\Debug\Model.xml
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\PortalPerf\PortalPerf\obj\Debug\refactor.xml
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\PortalPerf\PortalPerf\obj\Debug\postdeploy.sql
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\PortalPerf\PortalPerf\obj\Debug\predeploy.sql

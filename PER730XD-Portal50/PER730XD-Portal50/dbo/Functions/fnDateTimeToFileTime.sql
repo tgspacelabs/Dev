@@ -1,0 +1,15 @@
+﻿
+CREATE FUNCTION [dbo].[fnDateTimeToFileTime] 
+(     
+@DateTime AS DATETIME 
+) 
+RETURNS BIGINT 
+BEGIN  
+IF @DateTime IS NULL     
+RETURN NULL  
+DECLARE @MsecBetween1601And1970 
+BIGINT DECLARE @MsecBetween1970AndDate BIGINT  
+SET @MsecBetween1601And1970 = 11644473600000  
+SET @MsecBetween1970AndDate = DATEDIFF(ss, CAST('1970-01-01 00:00:00' as DATETIME), @DateTime) * CAST(1000 AS BIGINT) + DATEPART(Ms, @DateTime)
+RETURN (@MsecBetween1601And1970 + @MsecBetween1970AndDate) * CAST(10000 AS BIGINT)   END 
+

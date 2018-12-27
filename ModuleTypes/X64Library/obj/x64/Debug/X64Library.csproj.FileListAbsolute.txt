@@ -1,0 +1,4 @@
+d:\documents\visual studio 2015\Projects\ModuleTypes\X64Library\bin\x64\Debug\X64Library.dll
+d:\documents\visual studio 2015\Projects\ModuleTypes\X64Library\bin\x64\Debug\X64Library.pdb
+d:\documents\visual studio 2015\Projects\ModuleTypes\X64Library\obj\x64\Debug\X64Library.dll
+d:\documents\visual studio 2015\Projects\ModuleTypes\X64Library\obj\x64\Debug\X64Library.pdb

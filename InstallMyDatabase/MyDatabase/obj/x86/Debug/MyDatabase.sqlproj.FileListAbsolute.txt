@@ -1,0 +1,9 @@
+D:\Documents\Software\SQL Blog\Jamie Thomson\InstallMyDatabase\MyDatabase\bin\Debug\MyDatabase.dacpac
+D:\Documents\Software\SQL Blog\Jamie Thomson\InstallMyDatabase\MyDatabase\bin\Debug\MyDatabase.dll
+D:\Documents\Software\SQL Blog\Jamie Thomson\InstallMyDatabase\MyDatabase\bin\Debug\MyDatabase.pdb
+D:\Documents\Software\SQL Blog\Jamie Thomson\InstallMyDatabase\MyDatabase\obj\x86\Debug\MyDatabase.dll
+D:\Documents\Software\SQL Blog\Jamie Thomson\InstallMyDatabase\MyDatabase\obj\x86\Debug\MyDatabase.pdb
+D:\Documents\Software\SQL Blog\Jamie Thomson\InstallMyDatabase\MyDatabase\obj\x86\Debug\Model.xml
+D:\Documents\Software\SQL Blog\Jamie Thomson\InstallMyDatabase\MyDatabase\obj\x86\Debug\refactor.xml
+D:\Documents\Software\SQL Blog\Jamie Thomson\InstallMyDatabase\MyDatabase\obj\x86\Debug\postdeploy.sql
+D:\Documents\Software\SQL Blog\Jamie Thomson\InstallMyDatabase\MyDatabase\obj\x86\Debug\predeploy.sql

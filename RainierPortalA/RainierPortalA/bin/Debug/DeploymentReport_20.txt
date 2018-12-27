@@ -1,0 +1,31 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Encounter]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Encounter].[BedID] on table [dbo].[Encounter] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+
+** User actions
+     Table rebuild
+       [dbo].[Encounter] (Table)
+     Create
+       [dbo].[FK_Encounter_Bed_BedID] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[DF_Encounter_CreatedDateTime] (Default Constraint)
+       [dbo].[FK_DeviceSession_Encounter_EncounterID] (Foreign Key)
+       [dbo].[FK_Encounter_Patient_PatientID] (Foreign Key)
+     Create
+       [dbo].[FK_DeviceSession_Encounter_EncounterID] (Foreign Key)
+       [dbo].[FK_Encounter_Patient_PatientID] (Foreign Key)
+       [dbo].[Encounter].[MS_Description] (Extended Property)
+
+The column [dbo].[Encounter].[BedID] on table [dbo].[Encounter] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

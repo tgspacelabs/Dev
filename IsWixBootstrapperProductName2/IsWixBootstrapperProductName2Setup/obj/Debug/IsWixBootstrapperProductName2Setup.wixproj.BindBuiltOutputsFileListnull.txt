@@ -1,0 +1,2 @@
+d:\documents\visual studio 2015\Projects\IsWixBootstrapperProductName2\IsWixBootstrapperProductName2Setup\bin\Debug\IsWixBootstrapperProductName2.msi
+d:\documents\visual studio 2015\Projects\IsWixBootstrapperProductName2\IsWixBootstrapperProductName2Setup\bin\Debug\IsWixBootstrapperProductName2.wixpdb

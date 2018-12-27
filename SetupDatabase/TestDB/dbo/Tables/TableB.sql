@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[TableB] (
+    [TBID]  INT            NOT NULL,
+    [Title] NVARCHAR (255) NOT NULL,
+    CONSTRAINT [PK_TableB] PRIMARY KEY CLUSTERED ([TBID] ASC) WITH (FILLFACTOR = 100)
+);
+

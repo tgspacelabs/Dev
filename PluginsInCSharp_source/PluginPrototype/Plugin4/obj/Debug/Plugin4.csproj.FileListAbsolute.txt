@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin4\bin\Debug\Plugin4.dll
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin4\bin\Debug\Plugin4.pdb
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin4\obj\Debug\Plugin4.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin4\obj\Debug\Plugin4.Plugin4.resources
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin4\obj\Debug\Plugin4.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin4\obj\Debug\Plugin4.dll
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin4\obj\Debug\Plugin4.pdb

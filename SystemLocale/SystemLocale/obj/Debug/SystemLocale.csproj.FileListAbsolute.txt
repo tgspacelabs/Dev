@@ -1,0 +1,14 @@
+D:\Dev\ConsoleApplication10\ConsoleApplication10\obj\Debug\SystemLocale.csproj.CoreCompileInputs.cache
+D:\Dev\ConsoleApplication10\ConsoleApplication10\bin\Debug\SystemLocale.exe.config
+D:\Dev\ConsoleApplication10\ConsoleApplication10\bin\Debug\SystemLocale.exe
+D:\Dev\ConsoleApplication10\ConsoleApplication10\bin\Debug\SystemLocale.pdb
+D:\Dev\ConsoleApplication10\ConsoleApplication10\obj\Debug\SystemLocale.exe
+D:\Dev\ConsoleApplication10\ConsoleApplication10\obj\Debug\SystemLocale.pdb
+D:\Dev\ConsoleApplication10\ConsoleApplication10\obj\Debug\SystemLocale.csprojAssemblyReference.cache
+D:\Dev\SystemLocale\SystemLocale\bin\Debug\SystemLocale.exe.config
+D:\Dev\SystemLocale\SystemLocale\bin\Debug\SystemLocale.exe
+D:\Dev\SystemLocale\SystemLocale\bin\Debug\SystemLocale.pdb
+D:\Dev\SystemLocale\SystemLocale\obj\Debug\SystemLocale.csprojAssemblyReference.cache
+D:\Dev\SystemLocale\SystemLocale\obj\Debug\SystemLocale.csproj.CoreCompileInputs.cache
+D:\Dev\SystemLocale\SystemLocale\obj\Debug\SystemLocale.exe
+D:\Dev\SystemLocale\SystemLocale\obj\Debug\SystemLocale.pdb

@@ -1,0 +1,9 @@
+D:\Debug\AnyCPU\TestDB.dacpac
+D:\Debug\AnyCPU\TestDB.dll
+D:\Debug\AnyCPU\TestDB.pdb
+D:\Documents\Visual Studio 2015\Projects\SetupDatabase\TestDB\obj\Debug\Model.xml
+D:\Documents\Visual Studio 2015\Projects\SetupDatabase\TestDB\obj\Debug\refactor.xml
+D:\Documents\Visual Studio 2015\Projects\SetupDatabase\TestDB\obj\Debug\postdeploy.sql
+D:\Documents\Visual Studio 2015\Projects\SetupDatabase\TestDB\obj\Debug\predeploy.sql
+D:\Documents\Visual Studio 2015\Projects\SetupDatabase\TestDB\obj\Debug\TestDB.dll
+D:\Documents\Visual Studio 2015\Projects\SetupDatabase\TestDB\obj\Debug\TestDB.pdb

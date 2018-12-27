@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[member].[member_corporation_linkage] (Index)
+
+** Supporting actions
+
+Incorrect syntax near TABLOCKX.
+Incorrect syntax near DUMP.
+Incorrect syntax near DUMP.
+Incorrect syntax near DUMP.
+Incorrect syntax near DUMP.
+

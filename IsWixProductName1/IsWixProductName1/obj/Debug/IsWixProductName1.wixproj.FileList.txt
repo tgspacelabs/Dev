@@ -1,0 +1,10 @@
+d:\documents\visual studio 2015\Projects\IsWixProductName1\IsWixProductName1\bin\Debug\IsWixProductName1.msi
+d:\documents\visual studio 2015\Projects\IsWixProductName1\IsWixProductName1\bin\Debug\IsWixProductName1.wixpdb
+obj\Debug\pthAA7A7A9CBF87274C81A2ADE04649FBDA\Product.wixobj
+obj\Debug\pthAA7A7A9CBF87274C81A2ADE04649FBDA\Features.wixobj
+obj\Debug\pthAA7A7A9CBF87274C81A2ADE04649FBDA\IISMeta.wixobj
+obj\Debug\pthAA7A7A9CBF87274C81A2ADE04649FBDA\UI.wixobj
+obj\Debug\pthAA7A7A9CBF87274C81A2ADE04649FBDA\UI-CustomDialog.wixobj
+obj\Debug\IsWixProductName1.wixproj.BindContentsFileListnull.txt
+obj\Debug\IsWixProductName1.wixproj.BindOutputsFileListnull.txt
+obj\Debug\IsWixProductName1.wixproj.BindBuiltOutputsFileListnull.txt

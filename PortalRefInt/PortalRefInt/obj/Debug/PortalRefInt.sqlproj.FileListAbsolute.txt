@@ -1,0 +1,10 @@
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\PortalRefInt\PortalRefInt\bin\Debug\PortalRefInt.dacpac
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\PortalRefInt\PortalRefInt\bin\Debug\PortalRefInt.dll
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\PortalRefInt\PortalRefInt\bin\Debug\PortalRefInt.pdb
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\PortalRefInt\PortalRefInt\bin\Debug\master.dacpac
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\PortalRefInt\PortalRefInt\obj\Debug\Model.xml
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\PortalRefInt\PortalRefInt\obj\Debug\refactor.xml
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\PortalRefInt\PortalRefInt\obj\Debug\postdeploy.sql
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\PortalRefInt\PortalRefInt\obj\Debug\predeploy.sql
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\PortalRefInt\PortalRefInt\obj\Debug\PortalRefInt.dll
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\PortalRefInt\PortalRefInt\obj\Debug\PortalRefInt.pdb

@@ -1,0 +1,7 @@
+E:\tfs\XN13X\BuildOutput\Debug\x64\XNetDataContracts.dll
+E:\tfs\XN13X\BuildOutput\Debug\x64\XNetDataContracts.pdb
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\obj\x64\Debug\XNetDataContracts.csproj.CoreCompileInputs.cache
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\obj\x64\Debug\XNetDataContracts.csproj.CopyComplete
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\obj\x64\Debug\XNetDataContracts.dll
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\obj\x64\Debug\XNetDataContracts.pdb
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\obj\x64\Debug\XNetDataContracts.csprojAssemblyReference.cache

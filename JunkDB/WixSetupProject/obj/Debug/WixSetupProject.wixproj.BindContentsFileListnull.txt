@@ -1,0 +1,15 @@
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\bin\Debug\\JunkDBWinForms.exe
+Graphics\SL_BG.bmp
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\\Properties\Resources.Designer.cs
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\\Properties\Settings.Designer.cs
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\\Properties\Resources.resx
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\\Form1.cs
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\\JunkDBDataSet.Designer.cs
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\bin\Debug\\JunkDBWinForms.exe.config
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\\Form1.resx
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\\JunkDBWinForms.csproj
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\\Form1.Designer.cs
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\\Program.cs
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\bin\Debug\\JunkDBWinForms.pdb
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\\Properties\AssemblyInfo.cs
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\\App.config

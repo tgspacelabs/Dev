@@ -1,0 +1,8 @@
+﻿INSERT INTO [dbo].[Table1] ([a], [b]) VALUES (0, 1)
+INSERT INTO [dbo].[Table1] ([a], [b]) VALUES (1, 2)
+INSERT INTO [dbo].[Table1] ([a], [b]) VALUES (2, 3)
+INSERT INTO [dbo].[Table1] ([a], [b]) VALUES (15, 48)
+INSERT INTO [dbo].[Table1] ([a], [b]) VALUES (26, 59)
+INSERT INTO [dbo].[Table1] ([a], [b]) VALUES (46, 79)
+INSERT INTO [dbo].[Table1] ([a], [b]) VALUES (56, 67)
+INSERT INTO [dbo].[Table1] ([a], [b]) VALUES (89, 54)

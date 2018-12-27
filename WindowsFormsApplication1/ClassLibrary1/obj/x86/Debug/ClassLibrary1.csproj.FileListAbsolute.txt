@@ -1,0 +1,6 @@
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\ClassLibrary1\bin\x86\Debug\ClassLibrary1.dll
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\ClassLibrary1\bin\x86\Debug\ClassLibrary1.pdb
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\ClassLibrary1\bin\x86\Debug\ClassLibrary1.dll.CodeAnalysisLog.xml
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\ClassLibrary1\bin\x86\Debug\ClassLibrary1.dll.lastcodeanalysissucceeded
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\ClassLibrary1\obj\x86\Debug\ClassLibrary1.dll
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\ClassLibrary1\obj\x86\Debug\ClassLibrary1.pdb

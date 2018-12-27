@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TONYTEST01-TONYTEST02", "TONYTEST01-TONYTEST02.sqlproj", "{0C4F38B3-72A2-4D83-BCE4-02C85D037686}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TonyTest01", "..\TonyTest01\TonyTest01.sqlproj", "{6AF6C3C4-5D2C-490E-BC4C-613DD91006C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C4F38B3-72A2-4D83-BCE4-02C85D037686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4F38B3-72A2-4D83-BCE4-02C85D037686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4F38B3-72A2-4D83-BCE4-02C85D037686}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0C4F38B3-72A2-4D83-BCE4-02C85D037686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4F38B3-72A2-4D83-BCE4-02C85D037686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4F38B3-72A2-4D83-BCE4-02C85D037686}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6AF6C3C4-5D2C-490E-BC4C-613DD91006C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF6C3C4-5D2C-490E-BC4C-613DD91006C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF6C3C4-5D2C-490E-BC4C-613DD91006C4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6AF6C3C4-5D2C-490E-BC4C-613DD91006C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF6C3C4-5D2C-490E-BC4C-613DD91006C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF6C3C4-5D2C-490E-BC4C-613DD91006C4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

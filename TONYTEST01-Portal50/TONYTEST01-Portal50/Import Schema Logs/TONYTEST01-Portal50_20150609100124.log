@@ -1,0 +1,77 @@
+6/9/2015 3:01:24 PM	This log contains information about the import schema operation into project 'TONYTEST01-Portal50' on computer 'SNODRND0055' by user 'greentx'.
+6/9/2015 3:01:25 PM	Import of database schema has started.
+6/9/2015 3:01:35 PM	Gathering database options
+6/9/2015 3:01:35 PM	Gathering users
+6/9/2015 3:01:35 PM	Gathering roles
+6/9/2015 3:01:35 PM	Gathering application roles
+6/9/2015 3:01:35 PM	Gathering role memberships
+6/9/2015 3:01:35 PM	Gathering filegroups
+6/9/2015 3:01:35 PM	Gathering full-text catalogs
+6/9/2015 3:01:35 PM	Gathering assemblies
+6/9/2015 3:01:35 PM	Gathering certificates
+6/9/2015 3:01:35 PM	Gathering asymmetric keys
+6/9/2015 3:01:35 PM	Gathering symmetric keys
+6/9/2015 3:01:35 PM	Gathering encrypted symmetric keys
+6/9/2015 3:01:35 PM	Gathering schemas
+6/9/2015 3:01:35 PM	Gathering XML schema collections
+6/9/2015 3:01:35 PM	Gathering user-defined data types
+6/9/2015 3:01:35 PM	Gathering user-defined types
+6/9/2015 3:01:35 PM	Gathering table types
+6/9/2015 3:01:35 PM	Gathering unique keys for table types
+6/9/2015 3:01:35 PM	Gathering primary keys for table types
+6/9/2015 3:01:35 PM	Gathering check constraints for table types
+6/9/2015 3:01:35 PM	Gathering default constraints for table types
+6/9/2015 3:01:35 PM	Gathering partition functions
+6/9/2015 3:01:35 PM	Gathering partition schemes
+6/9/2015 3:01:35 PM	Gathering functions
+6/9/2015 3:01:35 PM	Gathering encrypted functions
+6/9/2015 3:01:35 PM	Gathering aggregates
+6/9/2015 3:01:35 PM	Gathering procedures
+6/9/2015 3:01:36 PM	Gathering encrypted procedures
+6/9/2015 3:01:36 PM	Gathering tables
+6/9/2015 3:01:36 PM	Gathering primary keys
+6/9/2015 3:01:36 PM	Gathering unique constraints
+6/9/2015 3:01:36 PM	Gathering foreign keys
+6/9/2015 3:01:36 PM	Gathering default constraints
+6/9/2015 3:01:36 PM	Gathering check constraints
+6/9/2015 3:01:36 PM	Gathering views
+6/9/2015 3:01:36 PM	Gathering encrypted views
+6/9/2015 3:01:36 PM	Gathering indexes
+6/9/2015 3:01:36 PM	Gathering statistics
+6/9/2015 3:01:36 PM	Gathering full-text index stoplists
+6/9/2015 3:01:36 PM	Gathering search property lists
+6/9/2015 3:01:36 PM	Gathering search properties
+6/9/2015 3:01:36 PM	Gathering full-text indexes
+6/9/2015 3:01:36 PM	Gathering column store indexes
+6/9/2015 3:01:36 PM	Gathering spatial indexes
+6/9/2015 3:01:36 PM	Gathering XML indexes
+6/9/2015 3:01:36 PM	Gathering Selective XML indexes
+6/9/2015 3:01:36 PM	Gathering encrypted triggers
+6/9/2015 3:01:36 PM	Gathering triggers
+6/9/2015 3:01:36 PM	Gathering encrypted and clr ddl triggers
+6/9/2015 3:01:36 PM	Gathering ddl triggers
+6/9/2015 3:01:36 PM	Gathering synonyms
+6/9/2015 3:01:36 PM	Gathering defaults
+6/9/2015 3:01:36 PM	Gathering data constraint uddt bindings
+6/9/2015 3:01:36 PM	Gathering rules
+6/9/2015 3:01:36 PM	Gathering data constraint uddt bindings
+6/9/2015 3:01:36 PM	Gathering message types
+6/9/2015 3:01:36 PM	Gathering queues
+6/9/2015 3:01:36 PM	Gathering contracts
+6/9/2015 3:01:36 PM	Gathering services
+6/9/2015 3:01:36 PM	Gathering event notifications
+6/9/2015 3:01:36 PM	Gathering remote service bindings
+6/9/2015 3:01:36 PM	Gathering broker priorities
+6/9/2015 3:01:36 PM	Gathering signatures
+6/9/2015 3:01:36 PM	Gathering data compression options
+6/9/2015 3:01:36 PM	Gathering sequence types
+6/9/2015 3:01:36 PM	Gathering database permissions
+6/9/2015 3:01:36 PM	Gathering extended properties
+6/9/2015 3:01:37 PM	Gathering credentials
+6/9/2015 3:01:37 PM	Gathering logins
+6/9/2015 3:01:37 PM	Gathering server audits
+6/9/2015 3:01:39 PM	Scanning project for duplicate elements
+6/9/2015 3:01:41 PM	Finished duplicate element processing
+6/9/2015 3:01:49 PM	Finished importing database.
+6/9/2015 3:01:49 PM	A summary of the import was saved to the following location: c:\users\greentx\documents\visual studio 2013\Projects\TONYTEST01-Portal50\TONYTEST01-Portal50\Import Schema Logs\TONYTEST01-Portal50_20150609100124.log
+6/9/2015 3:01:49 PM	Click Finish to continue...

@@ -1,0 +1,6 @@
+d:\documents\visual studio 2015\Projects\SqlServerColumnstoreSample\SqlServerColumnstoreSample\bin\Release\SqlServerColumnstoreSample.exe.config
+d:\documents\visual studio 2015\Projects\SqlServerColumnstoreSample\SqlServerColumnstoreSample\bin\Release\SqlServerColumnstoreSample.exe
+d:\documents\visual studio 2015\Projects\SqlServerColumnstoreSample\SqlServerColumnstoreSample\bin\Release\SqlServerColumnstoreSample.pdb
+d:\documents\visual studio 2015\Projects\SqlServerColumnstoreSample\SqlServerColumnstoreSample\obj\Release\SqlServerColumnstoreSample.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\SqlServerColumnstoreSample\SqlServerColumnstoreSample\obj\Release\SqlServerColumnstoreSample.exe
+d:\documents\visual studio 2015\Projects\SqlServerColumnstoreSample\SqlServerColumnstoreSample\obj\Release\SqlServerColumnstoreSample.pdb

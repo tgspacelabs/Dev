@@ -1,0 +1,3 @@
+﻿CREATE SCHEMA [PHI]
+    AUTHORIZATION [dbo];
+

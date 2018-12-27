@@ -1,0 +1,76 @@
+9/29/2015 1:23:11 PM	This log contains information about the import schema operation into project 'Database1' on computer 'SNODRND0055' by user 'greentx'.
+9/29/2015 1:23:11 PM	Import of database schema has started.
+9/29/2015 1:23:23 PM	Gathering database options
+9/29/2015 1:23:23 PM	Gathering users
+9/29/2015 1:23:23 PM	Gathering roles
+9/29/2015 1:23:23 PM	Gathering application roles
+9/29/2015 1:23:23 PM	Gathering role memberships
+9/29/2015 1:23:23 PM	Gathering filegroups
+9/29/2015 1:23:23 PM	Gathering full-text catalogs
+9/29/2015 1:23:23 PM	Gathering assemblies
+9/29/2015 1:23:23 PM	Gathering certificates
+9/29/2015 1:23:23 PM	Gathering asymmetric keys
+9/29/2015 1:23:23 PM	Gathering symmetric keys
+9/29/2015 1:23:23 PM	Gathering encrypted symmetric keys
+9/29/2015 1:23:23 PM	Gathering schemas
+9/29/2015 1:23:24 PM	Gathering XML schema collections
+9/29/2015 1:23:24 PM	Gathering user-defined data types
+9/29/2015 1:23:24 PM	Gathering user-defined types
+9/29/2015 1:23:24 PM	Gathering table types
+9/29/2015 1:23:24 PM	Gathering unique keys for table types
+9/29/2015 1:23:24 PM	Gathering primary keys for table types
+9/29/2015 1:23:24 PM	Gathering check constraints for table types
+9/29/2015 1:23:24 PM	Gathering default constraints for table types
+9/29/2015 1:23:24 PM	Gathering partition functions
+9/29/2015 1:23:24 PM	Gathering partition schemes
+9/29/2015 1:23:24 PM	Gathering functions
+9/29/2015 1:23:24 PM	Gathering encrypted functions
+9/29/2015 1:23:27 PM	Gathering aggregates
+9/29/2015 1:23:27 PM	Gathering procedures
+9/29/2015 1:23:28 PM	Gathering encrypted procedures
+9/29/2015 1:23:28 PM	Gathering tables
+9/29/2015 1:23:29 PM	Gathering primary keys
+9/29/2015 1:23:29 PM	Gathering unique constraints
+9/29/2015 1:23:29 PM	Gathering foreign keys
+9/29/2015 1:23:29 PM	Gathering default constraints
+9/29/2015 1:23:29 PM	Gathering check constraints
+9/29/2015 1:23:29 PM	Gathering views
+9/29/2015 1:23:29 PM	Gathering encrypted views
+9/29/2015 1:23:29 PM	Gathering indexes
+9/29/2015 1:23:29 PM	Gathering statistics
+9/29/2015 1:23:29 PM	Gathering full-text index stoplists
+9/29/2015 1:23:29 PM	Gathering search property lists
+9/29/2015 1:23:29 PM	Gathering search properties
+9/29/2015 1:23:29 PM	Gathering full-text indexes
+9/29/2015 1:23:29 PM	Gathering column store indexes
+9/29/2015 1:23:29 PM	Gathering spatial indexes
+9/29/2015 1:23:29 PM	Gathering XML indexes
+9/29/2015 1:23:29 PM	Gathering Selective XML indexes
+9/29/2015 1:23:29 PM	Gathering encrypted triggers
+9/29/2015 1:23:29 PM	Gathering triggers
+9/29/2015 1:23:29 PM	Gathering encrypted and clr ddl triggers
+9/29/2015 1:23:29 PM	Gathering ddl triggers
+9/29/2015 1:23:29 PM	Gathering synonyms
+9/29/2015 1:23:29 PM	Gathering defaults
+9/29/2015 1:23:29 PM	Gathering data constraint uddt bindings
+9/29/2015 1:23:29 PM	Gathering rules
+9/29/2015 1:23:29 PM	Gathering data constraint uddt bindings
+9/29/2015 1:23:29 PM	Gathering message types
+9/29/2015 1:23:29 PM	Gathering queues
+9/29/2015 1:23:29 PM	Gathering contracts
+9/29/2015 1:23:29 PM	Gathering services
+9/29/2015 1:23:29 PM	Gathering event notifications
+9/29/2015 1:23:29 PM	Gathering remote service bindings
+9/29/2015 1:23:29 PM	Gathering broker priorities
+9/29/2015 1:23:29 PM	Gathering signatures
+9/29/2015 1:23:29 PM	Gathering data compression options
+9/29/2015 1:23:29 PM	Gathering sequence types
+9/29/2015 1:23:29 PM	Gathering extended properties
+9/29/2015 1:23:30 PM	Gathering credentials
+9/29/2015 1:23:30 PM	Gathering logins
+9/29/2015 1:23:30 PM	Gathering server audits
+9/29/2015 1:23:32 PM	Scanning project for duplicate elements
+9/29/2015 1:23:34 PM	Finished duplicate element processing
+9/29/2015 1:23:45 PM	Finished importing database.
+9/29/2015 1:23:45 PM	A summary of the import was saved to the following location: d:\Documents\Visual Studio 2015\Projects\Database1\Import Schema Logs\Database1_20150929082311.log
+9/29/2015 1:23:45 PM	Click Finish to continue...

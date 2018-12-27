@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [portal]
+    WITH PASSWORD = N'_yifRhh6ubjwuomK{odmvPbimsFT7_&#$!~<zawxjz<xecgd', SID = 0xCB8C3C2BF7D57E45973082D29BD93EE0, DEFAULT_DATABASE = [portal], CHECK_POLICY = OFF;
+

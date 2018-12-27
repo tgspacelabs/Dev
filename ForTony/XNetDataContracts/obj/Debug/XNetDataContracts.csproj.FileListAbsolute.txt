@@ -1,0 +1,16 @@
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\bin\Debug\XNetDataContracts.dll
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\bin\Debug\XNetDataContracts.pdb
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\bin\Debug\Newtonsoft.Json.dll
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\bin\Debug\Newtonsoft.Json.xml
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\obj\Debug\XNetDataContracts.csprojAssemblyReference.cache
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\obj\Debug\XNetDataContracts.csproj.CoreCompileInputs.cache
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\obj\Debug\XNetDataContracts.csproj.CopyComplete
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\obj\Debug\XNetDataContracts.dll
+E:\tfs\XN13X\Products\XprezzNet\Components\XNetDataContracts\obj\Debug\XNetDataContracts.pdb
+D:\Dev\ForTony\XNetDataContracts\bin\Debug\XNetDataContracts.dll
+D:\Dev\ForTony\XNetDataContracts\bin\Debug\XNetDataContracts.pdb
+D:\Dev\ForTony\XNetDataContracts\obj\Debug\XNetDataContracts.csprojAssemblyReference.cache
+D:\Dev\ForTony\XNetDataContracts\obj\Debug\XNetDataContracts.csproj.CoreCompileInputs.cache
+D:\Dev\ForTony\XNetDataContracts\obj\Debug\XNetDataContracts.csproj.CopyComplete
+D:\Dev\ForTony\XNetDataContracts\obj\Debug\XNetDataContracts.dll
+D:\Dev\ForTony\XNetDataContracts\obj\Debug\XNetDataContracts.pdb

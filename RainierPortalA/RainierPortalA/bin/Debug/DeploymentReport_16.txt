@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[RefParameter6] (Foreign Key)
+       [dbo].[RefParameter7] (Foreign Key)
+       [dbo].[PK6] (Primary Key)
+     Create
+       [dbo].[PK_ParameterValue_ParameterValueID] (Primary Key)
+       [dbo].[FK_ParameterValue_Parameter_ParameterID] (Foreign Key)
+
+** Supporting actions

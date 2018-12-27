@@ -1,0 +1,15 @@
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\bin\Debug\AdventureWorksOrdersViewer.exe.config
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\bin\Debug\AdventureWorksOrdersViewer.exe
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\bin\Debug\AdventureWorksOrdersViewer.pdb
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\obj\Debug\AdventureWorksOrdersViewer.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\obj\Debug\MainWindow.g.cs
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\obj\Debug\App.g.cs
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\obj\Debug\AdventureWorksOrdersViewer_MarkupCompile.cache
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\obj\Debug\AdventureWorksOrdersViewer_MarkupCompile.lref
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\obj\Debug\MainWindow.baml
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\obj\Debug\AdventureWorksOrdersViewer.g.resources
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\obj\Debug\AdventureWorksOrdersViewer.Properties.Resources.resources
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\obj\Debug\AdventureWorksOrdersViewer.csproj.GenerateResource.Cache
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\obj\Debug\AdventureWorksOrdersViewer.exe
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\obj\Debug\AdventureWorksOrdersViewer.pdb
+d:\documents\visual studio 2015\Projects\AdventureWorksOrdersViewer\AdventureWorksOrdersViewer\obj\Debug\GeneratedInternalTypeHelper.g.cs

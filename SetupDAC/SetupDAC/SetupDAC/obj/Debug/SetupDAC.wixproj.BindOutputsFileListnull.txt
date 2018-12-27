@@ -1,0 +1,3 @@
+d:\Documents\Visual Studio 2015\Projects\SetupDAC\SetupDAC\bin\Debug\cab1.cab
+d:\Documents\Visual Studio 2015\Projects\SetupDAC\SetupDAC\bin\Debug\SetupDAC.msi
+d:\Documents\Visual Studio 2015\Projects\SetupDAC\SetupDAC\bin\Debug\SetupDAC.wixpdb

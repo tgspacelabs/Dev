@@ -1,0 +1,13 @@
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\bin\Debug\ElasticScaleStarterKit.exe.config
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\bin\Debug\InitializeShard.sql
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\bin\Debug\ElasticScaleStarterKit.exe
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\bin\Debug\ElasticScaleStarterKit.pdb
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\bin\Debug\Microsoft.Azure.SqlDatabase.ElasticScale.Client.dll
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.xml
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.xml
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\bin\Debug\Microsoft.Azure.SqlDatabase.ElasticScale.Client.xml
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\obj\Debug\ElasticScaleStarterKit.csprojResolveAssemblyReference.cache
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\obj\Debug\ElasticScaleStarterKit.exe
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for1\ElasticScaleStarterKit\obj\Debug\ElasticScaleStarterKit.pdb

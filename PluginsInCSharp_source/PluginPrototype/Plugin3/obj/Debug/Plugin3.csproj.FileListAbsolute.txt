@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin3\bin\Debug\Plugin3.dll
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin3\bin\Debug\Plugin3.pdb
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin3\obj\Debug\Plugin3.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin3\obj\Debug\Plugin3.ctlMain.resources
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin3\obj\Debug\Plugin3.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin3\obj\Debug\Plugin3.dll
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Plugin3\obj\Debug\Plugin3.pdb

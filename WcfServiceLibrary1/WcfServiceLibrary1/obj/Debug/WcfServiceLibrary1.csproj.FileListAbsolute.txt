@@ -1,0 +1,7 @@
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojResolveAssemblyReference.cache
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CoreCompileInputs.cache
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb

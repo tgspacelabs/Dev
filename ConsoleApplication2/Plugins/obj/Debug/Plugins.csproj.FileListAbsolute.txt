@@ -1,0 +1,34 @@
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\Plugins\bin\Debug\Plugins.dll.config
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\Plugins\bin\Debug\Plugins.dll
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\Plugins\bin\Debug\Plugins.pdb
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\Plugins\bin\Debug\NuGet.Copy.dll
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\Plugins\bin\Debug\Plugin1.dll
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\Plugins\bin\Debug\Plugin2.dll
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\Plugins\bin\Debug\Plugin1.pdb
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\Plugins\bin\Debug\Plugin2.pdb
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\Plugins\obj\Debug\Plugins.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\Plugins\obj\Debug\Plugins.dll
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\Plugins\obj\Debug\Plugins.pdb
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication2\Plugins\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication2\Plugins\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication2\Plugins\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication2\Plugins\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\Plugins.dll.config
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\Plugins.dll
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\Plugins.pdb
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\EntityFramework.dll
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\EntityFramework.SqlServer.dll
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\NuGet.Copy.dll
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\Plugin1.dll
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\Plugin2.dll
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\Plugin1.pdb
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\Plugin1.dll.config
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\Plugin2.pdb
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\Plugin2.dll.config
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\EntityFramework.xml
+D:\Dev\ConsoleApplication2\Plugins\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dev\ConsoleApplication2\Plugins\obj\Debug\Plugins.csprojAssemblyReference.cache
+D:\Dev\ConsoleApplication2\Plugins\obj\Debug\Plugins.csproj.CoreCompileInputs.cache
+D:\Dev\ConsoleApplication2\Plugins\obj\Debug\Plugins.csproj.CopyComplete
+D:\Dev\ConsoleApplication2\Plugins\obj\Debug\Plugins.dll
+D:\Dev\ConsoleApplication2\Plugins\obj\Debug\Plugins.pdb

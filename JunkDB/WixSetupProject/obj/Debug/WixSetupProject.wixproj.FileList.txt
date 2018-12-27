@@ -1,0 +1,8 @@
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\WixSetupProject\bin\Debug\WixSetupProject.msi
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\WixSetupProject\bin\Debug\WixSetupProject.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\pthF51DF919EAF40B45A50343F1ECFD7A01\_JunkDBWinForms.wixobj
+obj\Debug\WixSetupProject.wixproj.BindContentsFileListnull.txt
+obj\Debug\WixSetupProject.wixproj.BindOutputsFileListnull.txt
+obj\Debug\WixSetupProject.wixproj.BindBuiltOutputsFileListnull.txt
+obj\Debug\StandardUI.wixobj

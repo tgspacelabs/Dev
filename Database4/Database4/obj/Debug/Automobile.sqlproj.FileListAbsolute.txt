@@ -1,0 +1,5 @@
+d:\documents\visual studio 2015\Projects\Database4\Database4\bin\Debug\Automobile.dacpac
+d:\documents\visual studio 2015\Projects\Database4\Database4\bin\Debug\Automobile.dll
+d:\documents\visual studio 2015\Projects\Database4\Database4\bin\Debug\Automobile.pdb
+d:\documents\visual studio 2015\Projects\Database4\Database4\obj\Debug\Automobile.dll
+d:\documents\visual studio 2015\Projects\Database4\Database4\obj\Debug\Automobile.pdb

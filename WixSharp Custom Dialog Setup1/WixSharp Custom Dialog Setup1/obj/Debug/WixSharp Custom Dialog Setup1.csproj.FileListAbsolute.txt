@@ -1,0 +1,15 @@
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\bin\Debug\WixSharpSetup.exe.config
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\obj\Debug\WixSharpSetup.CustomDialog.resources
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\obj\Debug\WixSharp Custom Dialog Setup1.csproj.GenerateResource.Cache
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\bin\Debug\WixSharpSetup.exe
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\bin\Debug\WixSharpSetup.pdb
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\bin\Debug\Microsoft.Deployment.WindowsInstaller.dll
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\bin\Debug\WixSharp.dll
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\bin\Debug\WixSharp.UI.dll
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\bin\Debug\BootstrapperCore.dll
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\bin\Debug\Microsoft.Deployment.WindowsInstaller.xml
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\bin\Debug\WixSharp.xml
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\bin\Debug\WixSharp.UI.xml
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\bin\Debug\BootstrapperCore.xml
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\obj\Debug\WixSharpSetup.exe
+d:\documents\visual studio 2015\Projects\WixSharp Custom Dialog Setup1\WixSharp Custom Dialog Setup1\obj\Debug\WixSharpSetup.pdb

@@ -1,0 +1,5 @@
+d:\Documents\Visual Studio 2015\Projects\TestTransactionDBX\TestTransactionDBX\bin\Debug\TestTransactionDBX.dacpac
+d:\Documents\Visual Studio 2015\Projects\TestTransactionDBX\TestTransactionDBX\bin\Debug\TestTransactionDBX.dll
+d:\Documents\Visual Studio 2015\Projects\TestTransactionDBX\TestTransactionDBX\bin\Debug\TestTransactionDBX.pdb
+d:\Documents\Visual Studio 2015\Projects\TestTransactionDBX\TestTransactionDBX\obj\Debug\TestTransactionDBX.dll
+d:\Documents\Visual Studio 2015\Projects\TestTransactionDBX\TestTransactionDBX\obj\Debug\TestTransactionDBX.pdb

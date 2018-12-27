@@ -1,0 +1,7 @@
+d:\tfsws\TG_ICSG2_Dev\BuildOutput\Debug\x86\JunkDB.dacpac
+d:\tfsws\TG_ICSG2_Dev\BuildOutput\Debug\x86\JunkDB.dll
+d:\tfsws\TG_ICSG2_Dev\BuildOutput\Debug\x86\JunkDB.pdb
+D:\Debug\x86\JunkDB.dll
+D:\Debug\x86\JunkDB.pdb
+D:\Documents\Visual Studio 2015\Projects\JunkDB\JunkDB\obj\x86\Debug\JunkDB.dll
+D:\Documents\Visual Studio 2015\Projects\JunkDB\JunkDB\obj\x86\Debug\JunkDB.pdb

@@ -1,0 +1,20 @@
+﻿Build started 10/14/2015 10:33:35 AM.
+     1>Project "D:\Documents\Visual Studio 2015\Projects\Win32Project1\Win32Project1\Win32Project1.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\Win32Project1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Win32Project1.vcxproj -> D:\Documents\Visual Studio 2015\Projects\Win32Project1\x64\Debug\Win32Project1.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\Win32Project1.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\Win32Project1.tlog\Win32Project1.lastbuildstate".
+     1>Done Building Project "D:\Documents\Visual Studio 2015\Projects\Win32Project1\Win32Project1\Win32Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.19

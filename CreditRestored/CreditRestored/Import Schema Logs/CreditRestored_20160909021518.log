@@ -1,0 +1,77 @@
+9/9/2016 7:15:18 AM	This log contains information about the import schema operation into project 'CreditRestored' on computer 'SNODRND0055' by user 'greentx'.
+9/9/2016 7:15:18 AM	Import of database schema has started.
+9/9/2016 7:15:24 AM	Gathering database options
+9/9/2016 7:15:24 AM	Gathering users
+9/9/2016 7:15:24 AM	Gathering roles
+9/9/2016 7:15:24 AM	Gathering application roles
+9/9/2016 7:15:24 AM	Gathering role memberships
+9/9/2016 7:15:24 AM	Gathering filegroups
+9/9/2016 7:15:24 AM	Gathering full-text catalogs
+9/9/2016 7:15:24 AM	Gathering assemblies
+9/9/2016 7:15:24 AM	Gathering certificates
+9/9/2016 7:15:24 AM	Gathering asymmetric keys
+9/9/2016 7:15:24 AM	Gathering symmetric keys
+9/9/2016 7:15:24 AM	Gathering encrypted symmetric keys
+9/9/2016 7:15:24 AM	Gathering schemas
+9/9/2016 7:15:24 AM	Gathering XML schema collections
+9/9/2016 7:15:24 AM	Gathering user-defined data types
+9/9/2016 7:15:24 AM	Gathering user-defined types
+9/9/2016 7:15:24 AM	Gathering table types
+9/9/2016 7:15:24 AM	Gathering unique keys for table types
+9/9/2016 7:15:24 AM	Gathering primary keys for table types
+9/9/2016 7:15:24 AM	Gathering indexes for table types
+9/9/2016 7:15:24 AM	Gathering check constraints for table types
+9/9/2016 7:15:24 AM	Gathering default constraints for table types
+9/9/2016 7:15:24 AM	Gathering partition functions
+9/9/2016 7:15:24 AM	Gathering partition schemes
+9/9/2016 7:15:25 AM	Gathering functions
+9/9/2016 7:15:25 AM	Gathering encrypted functions
+9/9/2016 7:15:25 AM	Gathering aggregates
+9/9/2016 7:15:25 AM	Gathering procedures
+9/9/2016 7:15:25 AM	Gathering encrypted procedures
+9/9/2016 7:15:25 AM	Gathering tables
+9/9/2016 7:15:25 AM	Gathering primary keys
+9/9/2016 7:15:25 AM	Gathering unique constraints
+9/9/2016 7:15:25 AM	Gathering foreign keys
+9/9/2016 7:15:25 AM	Gathering default constraints
+9/9/2016 7:15:25 AM	Gathering check constraints
+9/9/2016 7:15:25 AM	Gathering views
+9/9/2016 7:15:25 AM	Gathering encrypted views
+9/9/2016 7:15:25 AM	Gathering indexes
+9/9/2016 7:15:25 AM	Gathering statistics
+9/9/2016 7:15:25 AM	Gathering full-text index stoplists
+9/9/2016 7:15:25 AM	Gathering search property lists
+9/9/2016 7:15:25 AM	Gathering search properties
+9/9/2016 7:15:25 AM	Gathering full-text indexes
+9/9/2016 7:15:25 AM	Gathering column store indexes
+9/9/2016 7:15:25 AM	Gathering spatial indexes
+9/9/2016 7:15:25 AM	Gathering XML indexes
+9/9/2016 7:15:25 AM	Gathering Selective XML indexes
+9/9/2016 7:15:25 AM	Gathering encrypted triggers
+9/9/2016 7:15:25 AM	Gathering triggers
+9/9/2016 7:15:25 AM	Gathering encrypted and clr ddl triggers
+9/9/2016 7:15:25 AM	Gathering ddl triggers
+9/9/2016 7:15:25 AM	Gathering synonyms
+9/9/2016 7:15:25 AM	Gathering defaults
+9/9/2016 7:15:25 AM	Gathering data constraint uddt bindings
+9/9/2016 7:15:25 AM	Gathering rules
+9/9/2016 7:15:25 AM	Gathering data constraint uddt bindings
+9/9/2016 7:15:25 AM	Gathering message types
+9/9/2016 7:15:25 AM	Gathering queues
+9/9/2016 7:15:25 AM	Gathering contracts
+9/9/2016 7:15:25 AM	Gathering services
+9/9/2016 7:15:25 AM	Gathering event notifications
+9/9/2016 7:15:25 AM	Gathering remote service bindings
+9/9/2016 7:15:25 AM	Gathering broker priorities
+9/9/2016 7:15:25 AM	Gathering signatures
+9/9/2016 7:15:25 AM	Gathering data compression options
+9/9/2016 7:15:25 AM	Gathering sequence types
+9/9/2016 7:15:25 AM	Gathering extended properties
+9/9/2016 7:15:25 AM	Gathering credentials
+9/9/2016 7:15:25 AM	Gathering logins
+9/9/2016 7:15:25 AM	Gathering server audits
+9/9/2016 7:15:26 AM	Scanning project for duplicate elements
+9/9/2016 7:15:27 AM	Finished duplicate element processing
+9/9/2016 7:15:27 AM	Finished importing database.
+9/9/2016 7:15:27 AM	A summary of the import was saved to the following location: d:\documents\visual studio 2015\Projects\CreditRestored\CreditRestored\Import Schema Logs\CreditRestored_20160909021518.log
+9/9/2016 7:15:27 AM	Click Finish to continue...

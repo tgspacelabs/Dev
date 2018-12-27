@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\Microsoft.Data.Tools.Utilities.dll
+C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\Microsoft.SqlServer.Dac.dll
+C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\Extensions\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\SqlPackage.exe
+C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\SqlPackage.exe.config
+D:\Debug\AnyCPU\TestDB.dacpac

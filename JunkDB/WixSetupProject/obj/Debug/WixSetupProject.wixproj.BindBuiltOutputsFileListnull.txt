@@ -1,0 +1,2 @@
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\WixSetupProject\bin\Debug\WixSetupProject.msi
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\WixSetupProject\bin\Debug\WixSetupProject.wixpdb

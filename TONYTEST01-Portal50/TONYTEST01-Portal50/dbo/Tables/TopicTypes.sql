@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[TopicTypes] (
+    [Id]      UNIQUEIDENTIFIER NOT NULL,
+    [Name]    VARCHAR (50)     NOT NULL,
+    [BaseId]  UNIQUEIDENTIFIER NULL,
+    [Comment] NVARCHAR (250)   NULL,
+    CONSTRAINT [PK_TopicTypes_Id] PRIMARY KEY NONCLUSTERED ([Id] ASC) WITH (FILLFACTOR = 100)
+);
+
+
+GO
+CREATE CLUSTERED INDEX [IX_TopicTypes]
+    ON [dbo].[TopicTypes]([BaseId] ASC) WITH (FILLFACTOR = 100);
+

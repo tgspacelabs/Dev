@@ -1,0 +1,7 @@
+D:\Debug\x86\cab1.cab
+D:\Debug\x86\SetupDAC.msi
+D:\Debug\x86\SetupDAC.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\SetupDatabase.wixproj.BindContentsFileListnull.txt
+obj\Debug\SetupDatabase.wixproj.BindOutputsFileListnull.txt
+obj\Debug\SetupDatabase.wixproj.BindBuiltOutputsFileListnull.txt

@@ -1,0 +1,6 @@
+d:\documents\visual studio 2015\Projects\Multiple Result Sets-NextResult\Multiple Result Sets-NextResult\bin\Debug\Multiple Result Sets-NextResult.exe.config
+d:\documents\visual studio 2015\Projects\Multiple Result Sets-NextResult\Multiple Result Sets-NextResult\bin\Debug\Multiple Result Sets-NextResult.exe
+d:\documents\visual studio 2015\Projects\Multiple Result Sets-NextResult\Multiple Result Sets-NextResult\bin\Debug\Multiple Result Sets-NextResult.pdb
+d:\documents\visual studio 2015\Projects\Multiple Result Sets-NextResult\Multiple Result Sets-NextResult\obj\Debug\Multiple Result Sets-NextResult.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\Multiple Result Sets-NextResult\Multiple Result Sets-NextResult\obj\Debug\Multiple Result Sets-NextResult.exe
+d:\documents\visual studio 2015\Projects\Multiple Result Sets-NextResult\Multiple Result Sets-NextResult\obj\Debug\Multiple Result Sets-NextResult.pdb

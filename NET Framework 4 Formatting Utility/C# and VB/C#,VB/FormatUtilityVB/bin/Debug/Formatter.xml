@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Formatter
+</name>
+</assembly>
+<members>
+<member name="T:Formatter.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.CultureLabel">
+<summary>
+  Looks up a localized string similar to &amp;Cultures:.
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.DateBoxText">
+<summary>
+  Looks up a localized string similar to &amp;Date and Time.
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.FormatLabel">
+<summary>
+  Looks up a localized string similar to &amp;Format String:.
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.InvariantCultureName">
+<summary>
+  Looks up a localized string similar to &lt;Invariant&gt;.
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.MSG_InvalidDate">
+<summary>
+  Looks up a localized string similar to The value to format is not a valid date and time..
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.MSG_InvalidDTO">
+<summary>
+  Looks up a localized string similar to The value to format is not a valid date and time with an offset..
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.MSG_InvalidFloat">
+<summary>
+  Looks up a localized string similar to The value to format is not a valid floating point number..
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.MSG_InvalidFormat">
+<summary>
+  Looks up a localized string similar to The format string is invalid..
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.MSG_InvalidInteger">
+<summary>
+  Looks up a localized string similar to The value to format is not a valid integer number..
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.NumberBoxText">
+<summary>
+  Looks up a localized string similar to &amp;Number.
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.OKButtonText">
+<summary>
+  Looks up a localized string similar to &amp;Display.
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.ResultLabel">
+<summary>
+  Looks up a localized string similar to &amp;Result String:.
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.ValueLabel">
+<summary>
+  Looks up a localized string similar to &amp;Value:.
+</summary>
+</member>
+<member name="P:Formatter.My.Resources.Resources.WindowCaption">
+<summary>
+  Looks up a localized string similar to Formatting Utility.
+</summary>
+</member>
+</members>
+</doc>

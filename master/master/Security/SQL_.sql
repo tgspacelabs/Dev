@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [SQL#]
+    FROM ASYMMETRIC KEY [SQL#Key];
+

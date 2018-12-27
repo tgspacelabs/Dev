@@ -1,0 +1,27 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[member2]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[member].[member_corporation_linkage] (Index)
+     Table rebuild
+       [dbo].[member2] (Table)
+
+** Supporting actions
+     Create
+       [dbo].[member2].[member2CorpFK] (Index)
+       [dbo].[member2].[member2RegionFK] (Index)
+
+Incorrect syntax near TABLOCKX.
+Incorrect syntax near DUMP.
+Incorrect syntax near DUMP.
+Incorrect syntax near DUMP.
+Incorrect syntax near DUMP.
+

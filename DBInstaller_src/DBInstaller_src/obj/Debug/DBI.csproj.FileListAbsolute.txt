@@ -1,0 +1,25 @@
+D:\Documents\Software\Code Project\DBInstaller_src\DBInstaller_src\bin\Debug\DBI.exe.config
+D:\Documents\Software\Code Project\DBInstaller_src\DBInstaller_src\bin\Debug\DBI.exe
+D:\Documents\Software\Code Project\DBInstaller_src\DBInstaller_src\bin\Debug\DBI.pdb
+D:\Documents\Software\Code Project\DBInstaller_src\DBInstaller_src\bin\Debug\DBI.exe.CodeAnalysisLog.xml
+D:\Documents\Software\Code Project\DBInstaller_src\DBInstaller_src\bin\Debug\DBI.exe.lastcodeanalysissucceeded
+D:\Documents\Software\Code Project\DBInstaller_src\DBInstaller_src\obj\Debug\DBI.Form1.resources
+D:\Documents\Software\Code Project\DBInstaller_src\DBInstaller_src\obj\Debug\DBI.csproj.GenerateResource.Cache
+D:\Documents\Software\Code Project\DBInstaller_src\DBInstaller_src\obj\Debug\DBI.exe
+D:\Documents\Software\Code Project\DBInstaller_src\DBInstaller_src\obj\Debug\DBI.pdb
+D:\Documents\Software\Code Project\DBInstaller_src\DBInstaller_src\obj\Debug\DBI.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\bin\Debug\DBI.exe.config
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\obj\Debug\DBI.exe
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\obj\Debug\DBI.pdb
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\obj\Debug\DBI.Form1.resources
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\obj\Debug\DBI.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\bin\Debug\DBI.exe
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\bin\Debug\DBI.pdb
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\bin\Debug\DBI.exe.CodeAnalysisLog.xml
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\bin\Debug\DBI.exe.lastcodeanalysissucceeded
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\Documents\Visual Studio 2015\Projects\DBInstaller_src\DBInstaller_src\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll

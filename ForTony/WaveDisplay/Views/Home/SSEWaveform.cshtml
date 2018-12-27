@@ -1,0 +1,235 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>WaveformSSE</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css">
+    <style>
+
+
+        .btn-circle {
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            padding: 6px 0;
+            font-size: 12px;
+            line-height: 1.428571429;
+            border-radius: 15px;
+        }
+
+            .btn-circle.btn-lg {
+                width: 50px;
+                height: 50px;
+                padding: 10px 16px;
+                font-size: 18px;
+                line-height: 1.33;
+                border-radius: 25px;
+            }
+
+            .btn-circle.btn-xl {
+                width: 70px;
+                height: 70px;
+                padding: 10px 16px;
+                font-size: 24px;
+                line-height: 1.33;
+                border-radius: 35px;
+            }
+    </style>
+</head>
+<body ng-app="App">
+
+    <div id="body" ng-controller="FooCtrl">
+        <div class="row">
+            <div ng-switch on="WaveformOn" class="col-xs-1" style="position:absolute; top:5px; left:0px;">
+
+                <span class="btn-group-justified">
+                    <button style="width: 50px; height: 50px;" class="btn btn-success btn-circle" ng-switch-when='false' ng-click='buttonOn()'><span class="glyphicon glyphicon-play"></span></button>
+                    <button style="width: 50px; height: 50px;" class="btn btn-success btn-circle" ng-switch-when='true' ng-click='buttonOff()'><span class="glyphicon glyphicon-stop"></span></button>
+                </span>
+
+            </div>
+            <div class="col-xs-3" style="position:absolute; top:5px; left:60px;">
+
+                <canvas id="canvas" width="{{canvasWidth}}" height="{{canvasHeight}}" style="background-color: black; visibility:Visible; "></canvas>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="~/Scripts/EventSourcePolyfill.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/jquery-2.1.4.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script type="text/javascript">
+
+    if (!location.origin)
+        location.origin = location.protocol + "//" + location.host;
+
+    var requestUrl = location.origin + '/XprezzNet' + '/rest/Devices/' + '@ViewBag.deviceId' + '/Topics/' + '@ViewBag.topicId' + '/Feeds/' + '@ViewBag.feedId' + '/FeedWaveformSSE';
+
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#dbbd7a";
+        ctx.fill();
+        var fps = 60;
+        var n = 1;
+        var canvasWidth = 2500;
+        var canvasHeight = 300;
+        var sampleData = Array.apply(null, new Array(canvasWidth)).map(function () { return canvasHeight });
+        var sampleDataSeq = Array.apply(null, new Array(canvasWidth)).map(function () { return 0 });
+
+        var count = 0;
+        var sampleCount = 0;
+        function drawWave() {
+
+          return  setTimeout(function () {
+
+                requestAnimationFrame(drawWave);
+
+                ctx.lineWidth = "2";
+
+                ctx.strokeStyle = 'green';
+
+
+                // Drawing code goes here
+                n += 1;
+                if (n >= sampleData.length) {
+                    n = 1;
+                }
+                if (sampleDataSeq[n] - sampleDataSeq[n - 1] != 1) {
+                    ctx.strokeStyle = 'red';
+                }
+
+                ctx.beginPath();
+                ctx.lineTo(n - 1, sampleData[n - 1]);
+                ctx.moveTo(n - 1, sampleData[n - 1]);
+                ctx.lineTo(n, sampleData[n]);
+                ctx.stroke();
+
+                // Cursor
+                ctx.clearRect(n + 1, 0, 10, canvas.height);
+
+            }, 1000 / fps);
+
+        }
+
+        appModule = angular.module('App', []);
+
+        appModule.factory('sse', function ($rootScope) {
+
+            var source = null;
+
+            return {
+
+                init: function (url) {
+                    if (source !== null && source !== undefined) {
+                        source.close();
+                    }
+                    source = new EventSource(url);
+                },
+                close: function () {
+                    if (source !== null && source !== undefined) {
+                        source.close();
+                    }
+                    source = null;
+                },
+
+                addEventListener: function (eventName, callback) {
+
+                    if (source === null || source === undefined) {
+                        return;
+                    }
+
+                    source.addEventListener(eventName, function () {
+                        var args = arguments;
+
+                        if (!$rootScope.$$phase) {
+
+                        $rootScope.$apply(function () {
+                            callback.apply(source, args);
+                        });
+
+                            //$digest or $apply
+                        }
+                    });
+                }
+            };
+
+
+        });
+
+
+        appModule.controller('FooCtrl', ['$scope', 'sse', function ($scope, sse) {
+            $scope.docHidden = false;
+            $scope.WaveformOn = false;
+            $scope.url = requestUrl;
+            $scope.timer = null;
+
+            $scope.buttonOn = function () {
+                $scope.WaveformOn = !$scope.WaveformOn;
+
+                sse.init(requestUrl);
+                sse.addEventListener('message', function (e) {
+
+                    var packet = JSON.parse(e.data);
+
+                    $scope.now = new Date().getTime() / 1000;
+                    $scope.packetTime = packet[0].Clock / 1000;
+                    $scope.latency = ($scope.now - $scope.packetTime).toPrecision(4);
+
+                    $scope.samples = packet;
+
+                    for (var i = 0; i < packet.length; i++) {
+
+                        sampleData[count + i] = canvasHeight / 2 - ($scope.samples[i].Value - 2048) * scale;
+                        sampleDataSeq[count + i] = $scope.samples[i].Seq;
+                    }
+
+                    count += $scope.samples.length;
+                    count = count % sampleData.length;
+                    $scope.count += $scope.samples.length;
+                 //   sampleCount = $scope.count;
+                });
+
+
+                $scope.timer =  drawWave();
+            }
+
+
+            $scope.buttonOff = function () {
+
+                sampleData = Array.apply(null, new Array(canvasWidth)).map(function () { return canvasHeight });
+                sse.close();
+                $scope.WaveformOn = !$scope.WaveformOn;
+
+                clearTimeout($scope.timer);
+            }
+
+
+            $scope.canvasWidth = canvasWidth;
+            $scope.canvasHeight = canvasHeight;
+            $scope.samples = [];
+            var scale = canvas.height / 4096.0;
+            scale = scale * 10.0;
+            
+            $scope.count = 0;
+
+            $scope.$watch(function () {
+                var body = angular.element(document).find('body');
+                return body.hidden;
+            }, function () {
+                $scope.docHidden = true;
+            });
+
+        }]);
+
+
+
+    </script>
+</body>
+</html>

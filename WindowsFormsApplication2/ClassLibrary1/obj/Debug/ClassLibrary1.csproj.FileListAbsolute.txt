@@ -1,0 +1,10 @@
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication2\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication2\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication2\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication2\ClassLibrary1\bin\Debug\EntityFramework.dll
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication2\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication2\ClassLibrary1\bin\Debug\EntityFramework.xml
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication2\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication2\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication2\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication2\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

@@ -1,0 +1,48 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[member2]
+     Clustered indexes that will be dropped
+       [dbo].[member2PK] on [dbo].[member2]
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[member].[member_corporation_linkage] (Index)
+       [dbo].[PK_member_ident] (Primary Key)
+       [dbo].[member].[MemberNo] (Column)
+     Unbind schemabinding
+       [dbo].[test2] (View)
+       [dbo].[test] (View)
+     Drop
+       [dbo].[member2PK] (Primary Key)
+     Table rebuild
+       [dbo].[member2] (Table)
+     Create
+       [dbo].[member2].[IX_member2_lastname_firstname_middleinitial] (Index)
+     Rebind schemabinding
+       [dbo].[test] (View)
+       [dbo].[test2] (View)
+     Alter
+       [dbo].[charge_wide] (View)
+       [dbo].[corp_member] (View)
+       [dbo].[payment_wide] (View)
+       [dbo].[statement_wide] (View)
+       [dbo].[basic_member] (View)
+       [dbo].[removemember] (Procedure)
+
+** Supporting actions
+     Create
+       [dbo].[member2].[member2CorpFK] (Index)
+       [dbo].[member2].[member2RegionFK] (Index)
+     Refresh
+       [dbo].[overdue] (View)
+
+Incorrect syntax near TABLOCKX.
+Incorrect syntax near DUMP.
+Incorrect syntax near DUMP.
+Incorrect syntax near DUMP.
+Incorrect syntax near DUMP.
+

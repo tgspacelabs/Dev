@@ -1,0 +1,6 @@
+d:\documents\visual studio 2015\Projects\ADONETConsoleApp1\ADONETConsoleApp1\bin\Debug\ADONETConsoleApp1.exe.config
+d:\documents\visual studio 2015\Projects\ADONETConsoleApp1\ADONETConsoleApp1\bin\Debug\ADONETConsoleApp1.exe
+d:\documents\visual studio 2015\Projects\ADONETConsoleApp1\ADONETConsoleApp1\bin\Debug\ADONETConsoleApp1.pdb
+d:\documents\visual studio 2015\Projects\ADONETConsoleApp1\ADONETConsoleApp1\obj\Debug\ADONETConsoleApp1.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\ADONETConsoleApp1\ADONETConsoleApp1\obj\Debug\ADONETConsoleApp1.exe
+d:\documents\visual studio 2015\Projects\ADONETConsoleApp1\ADONETConsoleApp1\obj\Debug\ADONETConsoleApp1.pdb

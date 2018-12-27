@@ -1,0 +1,9 @@
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\portal-Sequence\portal-Sequence\bin\Debug\portal-Sequence.dacpac
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\portal-Sequence\portal-Sequence\obj\Debug\Model.xml
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\portal-Sequence\portal-Sequence\obj\Debug\refactor.xml
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\portal-Sequence\portal-Sequence\obj\Debug\postdeploy.sql
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\portal-Sequence\portal-Sequence\obj\Debug\predeploy.sql
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\portal-Sequence\portal-Sequence\obj\Debug\portal_Sequence.dll
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\portal-Sequence\portal-Sequence\obj\Debug\portal_Sequence.pdb
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\portal-Sequence\portal-Sequence\bin\Debug\portal_Sequence.dll
+d:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\portal-Sequence\portal-Sequence\bin\Debug\portal_Sequence.pdb

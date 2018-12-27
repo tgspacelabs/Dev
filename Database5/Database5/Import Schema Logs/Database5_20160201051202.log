@@ -1,0 +1,76 @@
+2/1/2016 9:12:02 AM	This log contains information about the import schema operation into project 'Database5' on computer 'SNODRND0055' by user 'greentx'.
+2/1/2016 9:12:02 AM	Import of database schema has started.
+2/1/2016 9:12:07 AM	Gathering database options
+2/1/2016 9:12:07 AM	Gathering users
+2/1/2016 9:12:07 AM	Gathering roles
+2/1/2016 9:12:07 AM	Gathering application roles
+2/1/2016 9:12:07 AM	Gathering role memberships
+2/1/2016 9:12:07 AM	Gathering filegroups
+2/1/2016 9:12:07 AM	Gathering full-text catalogs
+2/1/2016 9:12:07 AM	Gathering assemblies
+2/1/2016 9:12:07 AM	Gathering certificates
+2/1/2016 9:12:07 AM	Gathering asymmetric keys
+2/1/2016 9:12:07 AM	Gathering symmetric keys
+2/1/2016 9:12:07 AM	Gathering encrypted symmetric keys
+2/1/2016 9:12:07 AM	Gathering schemas
+2/1/2016 9:12:07 AM	Gathering XML schema collections
+2/1/2016 9:12:07 AM	Gathering user-defined data types
+2/1/2016 9:12:07 AM	Gathering user-defined types
+2/1/2016 9:12:07 AM	Gathering table types
+2/1/2016 9:12:07 AM	Gathering unique keys for table types
+2/1/2016 9:12:07 AM	Gathering primary keys for table types
+2/1/2016 9:12:07 AM	Gathering check constraints for table types
+2/1/2016 9:12:07 AM	Gathering default constraints for table types
+2/1/2016 9:12:07 AM	Gathering partition functions
+2/1/2016 9:12:07 AM	Gathering partition schemes
+2/1/2016 9:12:07 AM	Gathering functions
+2/1/2016 9:12:07 AM	Gathering encrypted functions
+2/1/2016 9:12:07 AM	Gathering aggregates
+2/1/2016 9:12:08 AM	Gathering procedures
+2/1/2016 9:12:08 AM	Gathering encrypted procedures
+2/1/2016 9:12:08 AM	Gathering tables
+2/1/2016 9:12:08 AM	Gathering primary keys
+2/1/2016 9:12:08 AM	Gathering unique constraints
+2/1/2016 9:12:08 AM	Gathering foreign keys
+2/1/2016 9:12:08 AM	Gathering default constraints
+2/1/2016 9:12:08 AM	Gathering check constraints
+2/1/2016 9:12:08 AM	Gathering views
+2/1/2016 9:12:08 AM	Gathering encrypted views
+2/1/2016 9:12:08 AM	Gathering indexes
+2/1/2016 9:12:08 AM	Gathering statistics
+2/1/2016 9:12:08 AM	Gathering full-text index stoplists
+2/1/2016 9:12:08 AM	Gathering search property lists
+2/1/2016 9:12:08 AM	Gathering search properties
+2/1/2016 9:12:08 AM	Gathering full-text indexes
+2/1/2016 9:12:08 AM	Gathering column store indexes
+2/1/2016 9:12:08 AM	Gathering spatial indexes
+2/1/2016 9:12:08 AM	Gathering XML indexes
+2/1/2016 9:12:08 AM	Gathering Selective XML indexes
+2/1/2016 9:12:08 AM	Gathering encrypted triggers
+2/1/2016 9:12:08 AM	Gathering triggers
+2/1/2016 9:12:08 AM	Gathering encrypted and clr ddl triggers
+2/1/2016 9:12:08 AM	Gathering ddl triggers
+2/1/2016 9:12:08 AM	Gathering synonyms
+2/1/2016 9:12:08 AM	Gathering defaults
+2/1/2016 9:12:08 AM	Gathering data constraint uddt bindings
+2/1/2016 9:12:08 AM	Gathering rules
+2/1/2016 9:12:08 AM	Gathering data constraint uddt bindings
+2/1/2016 9:12:08 AM	Gathering message types
+2/1/2016 9:12:08 AM	Gathering queues
+2/1/2016 9:12:08 AM	Gathering contracts
+2/1/2016 9:12:08 AM	Gathering services
+2/1/2016 9:12:08 AM	Gathering event notifications
+2/1/2016 9:12:08 AM	Gathering remote service bindings
+2/1/2016 9:12:08 AM	Gathering broker priorities
+2/1/2016 9:12:08 AM	Gathering signatures
+2/1/2016 9:12:08 AM	Gathering data compression options
+2/1/2016 9:12:08 AM	Gathering sequence types
+2/1/2016 9:12:08 AM	Gathering extended properties
+2/1/2016 9:12:09 AM	Gathering credentials
+2/1/2016 9:12:09 AM	Gathering logins
+2/1/2016 9:12:09 AM	Gathering server audits
+2/1/2016 9:12:10 AM	Scanning project for duplicate elements
+2/1/2016 9:12:12 AM	Finished duplicate element processing
+2/1/2016 9:12:29 AM	Finished importing database.
+2/1/2016 9:12:29 AM	A summary of the import was saved to the following location: d:\documents\visual studio 2015\Projects\Database5\Database5\Import Schema Logs\Database5_20160201051202.log
+2/1/2016 9:12:29 AM	Click Finish to continue...

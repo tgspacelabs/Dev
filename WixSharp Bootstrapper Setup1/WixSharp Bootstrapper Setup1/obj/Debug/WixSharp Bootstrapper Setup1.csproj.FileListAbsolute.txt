@@ -1,0 +1,13 @@
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\bin\Debug\WixSharp Setup.exe.config
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\bin\Debug\WixSharp Setup.exe
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\bin\Debug\WixSharp Setup.pdb
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\bin\Debug\Microsoft.Deployment.WindowsInstaller.dll
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\bin\Debug\WixSharp.dll
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\bin\Debug\WixSharp.UI.dll
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\bin\Debug\BootstrapperCore.dll
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\bin\Debug\Microsoft.Deployment.WindowsInstaller.xml
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\bin\Debug\WixSharp.xml
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\bin\Debug\WixSharp.UI.xml
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\bin\Debug\BootstrapperCore.xml
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\obj\Debug\WixSharp Setup.exe
+d:\documents\visual studio 2015\Projects\WixSharp Bootstrapper Setup1\WixSharp Bootstrapper Setup1\obj\Debug\WixSharp Setup.pdb

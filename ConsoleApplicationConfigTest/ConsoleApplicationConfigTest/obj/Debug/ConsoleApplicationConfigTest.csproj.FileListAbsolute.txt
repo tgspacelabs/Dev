@@ -1,0 +1,14 @@
+d:\users\greentx.na\documents\visual studio 2015\Projects\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\bin\Debug\ConsoleApplicationConfigTest.exe.config
+d:\users\greentx.na\documents\visual studio 2015\Projects\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\obj\Debug\ConsoleApplicationConfigTest.csprojResolveAssemblyReference.cache
+d:\users\greentx.na\documents\visual studio 2015\Projects\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\bin\Debug\ConsoleApplicationConfigTest.exe
+d:\users\greentx.na\documents\visual studio 2015\Projects\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\bin\Debug\ConsoleApplicationConfigTest.pdb
+d:\users\greentx.na\documents\visual studio 2015\Projects\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\obj\Debug\ConsoleApplicationConfigTest.exe
+d:\users\greentx.na\documents\visual studio 2015\Projects\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\obj\Debug\ConsoleApplicationConfigTest.pdb
+D:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\obj\Debug\ConsoleApplicationConfigTest.csproj.CoreCompileInputs.cache
+D:\Dev\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\bin\Debug\ConsoleApplicationConfigTest.exe.config
+D:\Dev\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\bin\Debug\ConsoleApplicationConfigTest.exe
+D:\Dev\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\bin\Debug\ConsoleApplicationConfigTest.pdb
+D:\Dev\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\obj\Debug\ConsoleApplicationConfigTest.csprojAssemblyReference.cache
+D:\Dev\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\obj\Debug\ConsoleApplicationConfigTest.csproj.CoreCompileInputs.cache
+D:\Dev\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\obj\Debug\ConsoleApplicationConfigTest.exe
+D:\Dev\ConsoleApplicationConfigTest\ConsoleApplicationConfigTest\obj\Debug\ConsoleApplicationConfigTest.pdb

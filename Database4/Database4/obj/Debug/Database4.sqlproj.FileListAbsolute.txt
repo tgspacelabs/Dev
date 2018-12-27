@@ -1,0 +1,5 @@
+d:\documents\visual studio 2015\Projects\Database4\Database4\bin\Debug\Database4.dacpac
+d:\documents\visual studio 2015\Projects\Database4\Database4\bin\Debug\Database4.dll
+d:\documents\visual studio 2015\Projects\Database4\Database4\bin\Debug\Database4.pdb
+d:\documents\visual studio 2015\Projects\Database4\Database4\obj\Debug\Database4.dll
+d:\documents\visual studio 2015\Projects\Database4\Database4\obj\Debug\Database4.pdb

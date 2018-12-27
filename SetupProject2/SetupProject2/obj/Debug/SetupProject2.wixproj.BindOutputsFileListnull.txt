@@ -1,0 +1,3 @@
+d:\documents\visual studio 2015\Projects\SetupProject2\SetupProject2\bin\Debug\cab1.cab
+d:\documents\visual studio 2015\Projects\SetupProject2\SetupProject2\bin\Debug\SetupProject2.msi
+d:\documents\visual studio 2015\Projects\SetupProject2\SetupProject2\bin\Debug\SetupProject2.wixpdb

@@ -1,0 +1,39 @@
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.csproj.GenerateResource.Cache
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\bin\Debug\ConsoleApplicationLocalized.exe.config
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\bin\Debug\ConsoleApplicationLocalized.exe
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\bin\Debug\ConsoleApplicationLocalized.pdb
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\bin\Debug\pt\ConsoleApplicationLocalized.resources.dll
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\bin\Debug\de\ConsoleApplicationLocalized.resources.dll
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\bin\Debug\es\ConsoleApplicationLocalized.resources.dll
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\bin\Debug\fr\ConsoleApplicationLocalized.resources.dll
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\bin\Debug\it\ConsoleApplicationLocalized.resources.dll
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\bin\Debug\ConsoleApplicationLocalized.exe.CodeAnalysisLog.xml
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\bin\Debug\ConsoleApplicationLocalized.exe.lastcodeanalysissucceeded
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.Strings.resources
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.StringsX.resources
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.Strings.pt.resources
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.Strings.de.resources
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.Strings.es.resources
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.Strings.fr.resources
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.Strings.it.resources
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.StringsX.fr.resources
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\pt\ConsoleApplicationLocalized.resources.dll
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\de\ConsoleApplicationLocalized.resources.dll
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\es\ConsoleApplicationLocalized.resources.dll
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\fr\ConsoleApplicationLocalized.resources.dll
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\it\ConsoleApplicationLocalized.resources.dll
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.exe
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.pdb
+d:\Documents\Visual Studio 2015\Projects\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.csprojResolveAssemblyReference.cache
+D:\Dev\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.csprojAssemblyReference.cache
+D:\Dev\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.Strings.resources
+D:\Dev\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.StringsX.resources
+D:\Dev\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.Strings.pt.resources
+D:\Dev\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.Strings.de.resources
+D:\Dev\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.Strings.es.resources
+D:\Dev\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.Strings.fr.resources
+D:\Dev\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.Strings.it.resources
+D:\Dev\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.StringsX.fr.resources
+D:\Dev\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.csproj.GenerateResource.cache
+D:\Dev\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.exe
+D:\Dev\ConsoleApplicationLocalized\ConsoleApplicationLocalized\obj\Debug\ConsoleApplicationLocalized.pdb

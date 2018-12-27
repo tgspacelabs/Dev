@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:sql="http://schemas.microsoft.com/wix/SqlExtension" xmlns:ps="http://schemas.microsoft.com/wix/PSExtension">
+  <?define ComponentRules="OneToOne"?>
+  <!-- SourceDir instructs IsWiX the location of the directory that contains files for this merge module -->
+  <?define SourceDir="..\Deploy"?>
+  <Module Id="IsWixBootstrapperProductName2MM" Language="1033" Version="1.0.0.0">
+    <Package Id="b4f127cf-e919-46da-8b3c-88bf2efab980" Manufacturer="IsWixBootstrapperProductName2MM" InstallerVersion="200" Keywords="Test" Platform="x86" Description="Test Application Install" InstallScope="perMachine" />
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="MergeRedirectFolder" />
+      <Directory Id="ProgramMenuFolder" />
+      <Directory Id="StartMenuFolder" />
+    </Directory>
+    <Property Id="NewProperty1" Value="XYZ" />
+    <ComponentGroupRef Id="Custom" />
+  </Module>
+</Wix>

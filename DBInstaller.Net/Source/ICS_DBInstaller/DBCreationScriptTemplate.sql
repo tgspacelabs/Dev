@@ -1,0 +1,29 @@
+CREATE DATABASE [{DATABASE_NAME}] ON  PRIMARY 
+( NAME = N'{DATABASE_NAME}', FILENAME = N'{DB_INSTALLATION_PATH}\{DATABASE_NAME}_Primary.mdf', SIZE = 10GB, MAXSIZE = UNLIMITED, FILEGROWTH = 2GB )
+LOG ON 
+( NAME = N'{DATABASE_NAME}_log', FILENAME = N'{DB_INSTALLATION_PATH}\{DATABASE_NAME}_log.ldf', SIZE = 4GB, MAXSIZE = UNLIMITED, FILEGROWTH = 4GB)
+GO
+
+ALTER DATABASE [portal] SET READ_COMMITTED_SNAPSHOT ON WITH NO_WAIT
+GO
+ALTER DATABASE [portal] SET ALLOW_SNAPSHOT_ISOLATION ON
+GO
+EXEC sys.sp_configure N'show advanced options',1
+GO
+RECONFIGURE
+GO
+EXEC sys.sp_configure N'cost threshold for parallelism', N'100'
+GO
+EXEC sys.sp_configure N'max degree of parallelism', N'8'
+GO
+EXEC sp_configure 'optimize for ad hoc workloads', 1;
+GO
+RECONFIGURE
+GO
+-- Turn on Deadlock Trace Flags
+DBCC TRACEON(1204, -1); 
+GO
+DBCC TRACEON(1222, -1);
+GO
+RECONFIGURE WITH OVERRIDE
+GO

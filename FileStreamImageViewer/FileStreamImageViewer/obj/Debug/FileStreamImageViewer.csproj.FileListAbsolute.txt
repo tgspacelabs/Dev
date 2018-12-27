@@ -1,0 +1,19 @@
+d:\documents\visual studio 2015\Projects\FileStreamImageViewer\FileStreamImageViewer\bin\Debug\FileStreamImageViewer.exe.config
+d:\documents\visual studio 2015\Projects\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.Form1.resources
+d:\documents\visual studio 2015\Projects\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.Properties.Resources.resources
+d:\documents\visual studio 2015\Projects\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.csproj.GenerateResource.Cache
+d:\documents\visual studio 2015\Projects\FileStreamImageViewer\FileStreamImageViewer\bin\Debug\FileStreamImageViewer.exe
+d:\documents\visual studio 2015\Projects\FileStreamImageViewer\FileStreamImageViewer\bin\Debug\FileStreamImageViewer.pdb
+d:\documents\visual studio 2015\Projects\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.exe
+d:\documents\visual studio 2015\Projects\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.pdb
+d:\documents\visual studio 2015\Projects\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.csprojResolveAssemblyReference.cache
+D:\Dev\FileStreamImageViewer\FileStreamImageViewer\bin\Debug\FileStreamImageViewer.exe.config
+D:\Dev\FileStreamImageViewer\FileStreamImageViewer\bin\Debug\FileStreamImageViewer.exe
+D:\Dev\FileStreamImageViewer\FileStreamImageViewer\bin\Debug\FileStreamImageViewer.pdb
+D:\Dev\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.csprojAssemblyReference.cache
+D:\Dev\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.Form1.resources
+D:\Dev\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.Properties.Resources.resources
+D:\Dev\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.csproj.GenerateResource.cache
+D:\Dev\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.csproj.CoreCompileInputs.cache
+D:\Dev\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.exe
+D:\Dev\FileStreamImageViewer\FileStreamImageViewer\obj\Debug\FileStreamImageViewer.pdb

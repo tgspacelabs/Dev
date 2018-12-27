@@ -1,0 +1,17 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[IndexChange].[IX_IndexChange_Name] (Index)
+     Create
+       [dbo].[IndexChange].[IX_IndexChange_Name] (Index)
+
+** Supporting actions

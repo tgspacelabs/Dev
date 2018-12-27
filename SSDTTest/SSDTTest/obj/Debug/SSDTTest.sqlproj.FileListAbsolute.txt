@@ -1,0 +1,5 @@
+d:\documents\visual studio 2015\Projects\SSDTTest\SSDTTest\bin\Debug\SSDTTest.dacpac
+d:\documents\visual studio 2015\Projects\SSDTTest\SSDTTest\bin\Debug\SSDTTest.dll
+d:\documents\visual studio 2015\Projects\SSDTTest\SSDTTest\bin\Debug\SSDTTest.pdb
+d:\documents\visual studio 2015\Projects\SSDTTest\SSDTTest\obj\Debug\SSDTTest.dll
+d:\documents\visual studio 2015\Projects\SSDTTest\SSDTTest\obj\Debug\SSDTTest.pdb

@@ -1,0 +1,4 @@
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuLibrary\bin\Debug\AnyCpuLibrary.dll
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuLibrary\bin\Debug\AnyCpuLibrary.pdb
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuLibrary\obj\Debug\AnyCpuLibrary.dll
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuLibrary\obj\Debug\AnyCpuLibrary.pdb

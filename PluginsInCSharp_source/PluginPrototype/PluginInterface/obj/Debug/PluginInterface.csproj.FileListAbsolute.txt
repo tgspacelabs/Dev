@@ -1,0 +1,4 @@
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\PluginInterface\bin\Debug\PluginInterface.dll
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\PluginInterface\bin\Debug\PluginInterface.pdb
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\PluginInterface\obj\Debug\PluginInterface.dll
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\PluginInterface\obj\Debug\PluginInterface.pdb

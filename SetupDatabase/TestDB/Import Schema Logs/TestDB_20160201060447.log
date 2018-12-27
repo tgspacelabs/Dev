@@ -1,0 +1,10 @@
+2/1/2016 10:04:47 AM	This log contains information about the import schema operation into project 'TestDB' on computer 'SNODRND0055' by user 'greentx'.
+2/1/2016 10:04:47 AM	Deserializing model
+2/1/2016 10:04:48 AM	Resolving model
+2/1/2016 10:04:49 AM	Visiting imported model for types
+2/1/2016 10:04:49 AM	Scanning project for duplicate elements
+2/1/2016 10:04:49 AM	Finished duplicate element processing
+2/1/2016 10:04:51 AM	Processing extra files
+2/1/2016 10:04:51 AM	Finished importing Data-tier Application file.
+2/1/2016 10:04:51 AM	A summary of the import was saved to the following location: D:\Documents\Visual Studio 2015\Projects\SetupDAC\TestDB\Import Schema Logs\TestDB_20160201060447.log
+2/1/2016 10:04:51 AM	Click Finish to continue...

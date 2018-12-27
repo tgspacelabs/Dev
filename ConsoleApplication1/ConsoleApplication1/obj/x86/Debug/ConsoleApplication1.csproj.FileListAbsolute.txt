@@ -1,0 +1,21 @@
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\x86\Debug\ConsoleApplication1.exe.config
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\x86\Debug\ConsoleApplication1.exe
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\x86\Debug\ConsoleApplication1.pdb
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\x86\Debug\ClassLibrary1.dll
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\x86\Debug\ClassLibrary1.pdb
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+d:\tfsws\TG_ICSG2_Dev\BuildOutput\Debug\x86\ConsoleApplication1.exe.config
+d:\tfsws\TG_ICSG2_Dev\BuildOutput\Debug\x86\ConsoleApplication1.exe
+d:\tfsws\TG_ICSG2_Dev\BuildOutput\Debug\x86\ConsoleApplication1.pdb
+D:\Dev\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojAssemblyReference.cache
+D:\Dev\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+D:\Dev\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\Dev\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+D:\Dev\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csproj.CopyComplete
+D:\Dev\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.exe.config
+D:\Dev\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.exe
+D:\Dev\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.pdb
+D:\Dev\ConsoleApplication1\ConsoleApplication1\ClassLibrary1.dll
+D:\Dev\ConsoleApplication1\ConsoleApplication1\ClassLibrary1.pdb

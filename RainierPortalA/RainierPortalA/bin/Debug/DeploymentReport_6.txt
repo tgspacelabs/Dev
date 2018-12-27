@@ -1,0 +1,53 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Gender]
+     Clustered indexes that will be dropped
+       [dbo].[PK5] on [dbo].[DeviceParameter]
+     Clustered indexes that will be created
+       [dbo].[PK5] on [dbo].[DeviceParameter]
+       [dbo].[PK_Parameter_ParameterID] on [dbo].[Parameter]
+     Possible data issues
+       The column [dbo].[Gender].[GenderName] is being dropped, data loss could occur.
+       The column [dbo].[Patient].[DateOfBirth] is being dropped, data loss could occur.
+       The column [dbo].[Patient].[FirstName] is being dropped, data loss could occur.
+       The column [dbo].[Patient].[LastName] is being dropped, data loss could occur.
+       The column [dbo].[Patient].[SocialSecurityNumber] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Gender] (Default Constraint)
+       unnamed constraint on [dbo].[Gender] (Default Constraint)
+       [dbo].[DF_Patient_DateOfBirth] (Default Constraint)
+       [dbo].[DF_Patient_SocialSecurityNumber] (Default Constraint)
+       [dbo].[RefDevice4] (Foreign Key)
+       [dbo].[RefParameter5] (Foreign Key)
+       [dbo].[PK5] (Primary Key)
+       [dbo].[PK10] (Primary Key)
+       [dbo].[PK4] (Primary Key)
+     Table rebuild
+       [dbo].[Gender] (Table)
+     Alter
+       [dbo].[Patient] (Table)
+     Create
+       [PHI].[Patient] (Table)
+       [dbo].[PK5] (Primary Key)
+       [dbo].[PK_Parameter_ParameterID] (Primary Key)
+       [PHI].[DF_Patient_DateOfBirth] (Default Constraint)
+       [PHI].[DF_Patient_SocialSecurityNumber] (Default Constraint)
+       [dbo].[FK_DeviceParameter_MonitoringDevice_MonitoringDeviceID] (Foreign Key)
+       [dbo].[FK_DeviceParameter_Parameter_ParameterID] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[RefParameter6] (Foreign Key)
+       [dbo].[RefParameter7] (Foreign Key)
+     Create
+       [dbo].[RefParameter6] (Foreign Key)
+       [dbo].[RefParameter7] (Foreign Key)
+
+The column [dbo].[Gender].[GenderName] is being dropped, data loss could occur.
+The column [dbo].[Patient].[DateOfBirth] is being dropped, data loss could occur.
+The column [dbo].[Patient].[FirstName] is being dropped, data loss could occur.
+The column [dbo].[Patient].[LastName] is being dropped, data loss could occur.
+The column [dbo].[Patient].[SocialSecurityNumber] is being dropped, data loss could occur.
+

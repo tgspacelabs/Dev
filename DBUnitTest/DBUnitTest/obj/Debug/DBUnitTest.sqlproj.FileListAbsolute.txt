@@ -1,0 +1,9 @@
+d:\documents\visual studio 2015\Projects\DBUnitTest\DBUnitTest\bin\Debug\DBUnitTest.dacpac
+d:\documents\visual studio 2015\Projects\DBUnitTest\DBUnitTest\bin\Debug\DBUnitTest.dll
+d:\documents\visual studio 2015\Projects\DBUnitTest\DBUnitTest\bin\Debug\DBUnitTest.pdb
+d:\documents\visual studio 2015\Projects\DBUnitTest\DBUnitTest\obj\Debug\Model.xml
+d:\documents\visual studio 2015\Projects\DBUnitTest\DBUnitTest\obj\Debug\refactor.xml
+d:\documents\visual studio 2015\Projects\DBUnitTest\DBUnitTest\obj\Debug\postdeploy.sql
+d:\documents\visual studio 2015\Projects\DBUnitTest\DBUnitTest\obj\Debug\predeploy.sql
+d:\documents\visual studio 2015\Projects\DBUnitTest\DBUnitTest\obj\Debug\DBUnitTest.dll
+d:\documents\visual studio 2015\Projects\DBUnitTest\DBUnitTest\obj\Debug\DBUnitTest.pdb

@@ -1,0 +1,9 @@
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\bin\Debug\JunkDBWinForms.exe.config
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\bin\Debug\JunkDBWinForms.exe
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\bin\Debug\JunkDBWinForms.pdb
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\obj\Debug\JunkDBWinForms.csprojResolveAssemblyReference.cache
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\obj\Debug\JunkDBWinForms.Form1.resources
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\obj\Debug\JunkDBWinForms.Properties.Resources.resources
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\obj\Debug\JunkDBWinForms.csproj.GenerateResource.Cache
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\obj\Debug\JunkDBWinForms.exe
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\JunkDB\JunkDBWinForms\obj\Debug\JunkDBWinForms.pdb

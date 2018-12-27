@@ -1,0 +1,9 @@
+d:\documents\visual studio 2015\Projects\Database5\Database5\bin\Debug\Database5.dacpac
+d:\documents\visual studio 2015\Projects\Database5\Database5\bin\Debug\Database5.dll
+d:\documents\visual studio 2015\Projects\Database5\Database5\bin\Debug\Database5.pdb
+d:\documents\visual studio 2015\Projects\Database5\Database5\obj\x86\Debug\Model.xml
+d:\documents\visual studio 2015\Projects\Database5\Database5\obj\x86\Debug\refactor.xml
+d:\documents\visual studio 2015\Projects\Database5\Database5\obj\x86\Debug\postdeploy.sql
+d:\documents\visual studio 2015\Projects\Database5\Database5\obj\x86\Debug\predeploy.sql
+d:\documents\visual studio 2015\Projects\Database5\Database5\obj\x86\Debug\Database5.dll
+d:\documents\visual studio 2015\Projects\Database5\Database5\obj\x86\Debug\Database5.pdb

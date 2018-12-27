@@ -1,0 +1,48 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[int_waveform]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[int_waveform] (Table)
+
+** Supporting actions
+     Create
+       [dbo].[int_waveform].[IX_int_waveform_patient_channel_id_start_ft_end_ft] (Index)
+       [dbo].[int_waveform].[IX_int_waveform_end_ft] (Index)
+       [dbo].[int_waveform].[IX_int_waveform_patient_id_start_ft_end_ft] (Index)
+       [dbo].[int_waveform].[IX_int_waveform_patient_id_start_ft_patient_channel_id_start_dt_end_ft] (Index)
+       [dbo].[int_waveform].[IX_int_waveform_patient_channel_id_patient_id_end_ft_start_ft_start_dt_end_dt_compress_method]
+         (Index)
+       [dbo].[int_waveform].[MS_Description] (Extended Property)
+     Refresh
+       [dbo].[v_DiscardedOverlappingLegacyWaveformData] (View)
+       [dbo].[GetMinMaxPatientTimes] (Procedure)
+       [dbo].[GetPatientChannelTimes] (Procedure)
+       [dbo].[GetPatientWaveFormTimeHistory] (Procedure)
+       [dbo].[usp_CA_GetPatientWaveForms] (Procedure)
+       [dbo].[GetLegacyPatientChannelTimes] (Procedure)
+       [dbo].[GetLegacyPatientWaveFormTimeHistory] (Procedure)
+       [dbo].[GetPatientTimeOfDay] (Procedure)
+       [dbo].[GetPatientTimes] (Procedure)
+       [dbo].[GetPatientWaveFormTimeUpdate] (Procedure)
+       [dbo].[GetWaveFormTimes] (Procedure)
+       [dbo].[p_gts_Input_Rate] (Procedure)
+       [dbo].[p_gts_WaveForm_Index_Rate] (Procedure)
+       [dbo].[p_Purge_All_Patient_Data] (Procedure)
+       [dbo].[p_Purge_eval] (Procedure)
+       [dbo].[p_Purge_Input_Rate] (Procedure)
+       [dbo].[p_Purge_WaveForm_Data] (Procedure)
+       [dbo].[usp_CA_GetLegacyPatientWaveForms] (Procedure)
+       [dbo].[GetLeadList] (Procedure)
+       [dbo].[GetNumLeadConFigs] (Procedure)
+       [dbo].[GetNumProcStats] (Procedure)
+       [dbo].[GetProcStatList] (Procedure)
+       [dbo].[GetRawECGData] (Procedure)
+       [dbo].[usp_PurgeTasks] (Procedure)

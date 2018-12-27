@@ -1,0 +1,6 @@
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for2\ShardSqlCmd\bin\Debug\ShardSqlCmd.exe
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for2\ShardSqlCmd\bin\Debug\ShardSqlCmd.pdb
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for2\ShardSqlCmd\bin\Debug\Microsoft.Azure.SqlDatabase.ElasticScale.Client.dll
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for2\ShardSqlCmd\bin\Debug\Microsoft.Azure.SqlDatabase.ElasticScale.Client.xml
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for2\ShardSqlCmd\obj\Debug\ShardSqlCmd.exe
+c:\users\greentx\documents\visual studio 2013\Projects\Elastic DB Tools for2\ShardSqlCmd\obj\Debug\ShardSqlCmd.pdb

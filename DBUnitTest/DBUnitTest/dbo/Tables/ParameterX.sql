@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[ParameterX]
+(
+    [ParameterID] INT NOT NULL CONSTRAINT [PK_ParameterX_ParameterID] PRIMARY KEY IDENTITY, 
+    [Key] NVARCHAR(50) NOT NULL CONSTRAINT [UQ_ParameterX_Key] UNIQUE NONCLUSTERED, 
+    [Value] NVARCHAR(100) NOT NULL
+)

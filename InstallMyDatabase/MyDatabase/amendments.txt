@@ -1,0 +1,15 @@
+﻿Based on an article from Duke Kamstra http://blogs.msdn.com/b/dukek/archive/2009/10/19/implementing-a-wix-installer-that-calls-the-gdr-version-of-vsdbcmd-exe.aspx
+
+Stuff that I had to/wanted to change from Duke's article:
+=========================================================
+1) Some datadude output files have changed from being called Database.<suffix> to <ProjectName>_Database.<suffix>
+2) Instead of using $(var.SolutionDir) to point to datadude artifacts I have used Votive Project References http://wix.sourceforge.net/manual-wix3/votive_project_references.htm)
+3) Commented out Component MicrosoftSqlTypesDbschema in DatabaseArtifacts.wxi. Don't think this is produced in VS2010 (I may be wrong about that but it wasn't in the output from my project)
+4) Commented out Component MicrosoftSqlTypesDbschema in VsdbcmdArtifacts.wxi. Wasn't where Duke's code said it should have been so am hoping it isn't needed.
+5) Changed the include paths at top of VsdbcmdArtifacts.wxi to be "Microsoft Visual Studio 10.0" not "Microsoft Visual Studio 9.0"
+6) Once changed those, realised that Duke's ?define block to work out arropriate SrcArchPath actually wasn't working for me (<?if $(var.Platform)=x64 ?> was evaluating to false)  so I just took out the ?if and declared the path explicitly
+7) Key on <RegistrySearch> in VsdbcmdArtifacts.wxi changed from "Software\Microsoft\VisualStudio\9.0" to "Software\Microsoft\VisualStudio\10.0"
+8) After making all the changes to RegistrySearch stuff I then saw a comment from Duke saying that none of it was needed for VS2010 - so I commented it all out!
+9) Changed to use /manifest option rather than /model option on vsdbcmd command-line because that's more what I am used to.
+10) Added a new component in order to bundle along the vsdbcmd.exe.config file
+11) Made install of the Custom Action dependent on the relevant feature being selected for install.

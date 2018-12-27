@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[TableA] (
+    [TAID]  INT            NOT NULL,
+    [Title] NVARCHAR (255) NOT NULL,
+    CONSTRAINT [PK_TableA] PRIMARY KEY CLUSTERED ([TAID] ASC) WITH (FILLFACTOR = 100)
+);
+

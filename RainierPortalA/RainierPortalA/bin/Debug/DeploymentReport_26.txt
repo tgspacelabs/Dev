@@ -1,0 +1,18 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [PHI].[DF_PatientDemographics_DateOfBirth] (Default Constraint)
+       [PHI].[DF_PatientDemographics_SocialSecurityNumber] (Default Constraint)
+       [PHI].[FK_PatientDemographics_Patient_PatientID] (Foreign Key)
+       [PHI].[FK_PatientDemographics_Gender_GenderID] (Foreign Key)
+
+** Supporting actions

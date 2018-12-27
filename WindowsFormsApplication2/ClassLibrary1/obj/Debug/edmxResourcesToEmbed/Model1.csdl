@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Patients" EntityType="Model1.Patient" />
+    <EntitySet Name="Devices" EntityType="Model1.Device" />
+    <AssociationSet Name="PatientDevice" Association="Model1.PatientDevice">
+      <End Role="Patient" EntitySet="Patients" />
+      <End Role="Device" EntitySet="Devices" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Patient">
+    <Key>
+      <PropertyRef Name="PatientID" />
+    </Key>
+    <Property Name="PatientID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" />
+    <Property Name="MedicalRecordNumber" Type="String" Nullable="false" MaxLength="30" />
+    <Property Name="Birthdate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Devices" Relationship="Model1.PatientDevice" FromRole="Patient" ToRole="Device" />
+  </EntityType>
+  <EntityType Name="Device">
+    <Key>
+      <PropertyRef Name="DeviceID" />
+    </Key>
+    <Property Name="DeviceID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DeviceName" Type="String" Nullable="false" />
+    <Property Name="Model" Type="String" Nullable="false" />
+    <Property Name="Type" Type="String" Nullable="false" />
+    <NavigationProperty Name="Patient" Relationship="Model1.PatientDevice" FromRole="Device" ToRole="Patient" />
+    <Property Name="PatientPatientID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="PatientDevice">
+    <End Type="Model1.Patient" Role="Patient" Multiplicity="1" />
+    <End Type="Model1.Device" Role="Device" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="PatientID" />
+      </Principal>
+      <Dependent Role="Device">
+        <PropertyRef Name="PatientPatientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

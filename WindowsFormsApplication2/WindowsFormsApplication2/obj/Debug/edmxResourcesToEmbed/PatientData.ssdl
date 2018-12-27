@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PatientData.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PatientDataStoreContainer">
+    <EntitySet Name="Patients" EntityType="PatientData.Store.Patients" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Devices" EntityType="PatientData.Store.Devices" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="PatientDevice" Association="PatientData.Store.PatientDevice">
+      <End Role="Patient" EntitySet="Patients" />
+      <End Role="Device" EntitySet="Devices" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Patients">
+    <Key>
+      <PropertyRef Name="PatientID" />
+    </Key>
+    <Property Name="PatientID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="MedicalRecordNumber" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="Birthdate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Devices">
+    <Key>
+      <PropertyRef Name="DeviceID" />
+    </Key>
+    <Property Name="DeviceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DeviceName" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Model" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Type" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="PatientPatientID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="PatientDevice">
+    <End Role="Patient" Type="PatientData.Store.Patients" Multiplicity="1" />
+    <End Role="Device" Type="PatientData.Store.Devices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="PatientID" />
+      </Principal>
+      <Dependent Role="Device">
+        <PropertyRef Name="PatientPatientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

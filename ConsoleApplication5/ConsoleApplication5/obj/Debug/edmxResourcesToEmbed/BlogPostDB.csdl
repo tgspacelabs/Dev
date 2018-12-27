@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="BlogPostDB" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="BlogPostDBContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Blogs" EntityType="BlogPostDB.Blog" />
+    <EntitySet Name="Posts" EntityType="BlogPostDB.Post" />
+    <AssociationSet Name="BlogPost" Association="BlogPostDB.BlogPost">
+      <End Role="Blog" EntitySet="Blogs" />
+      <End Role="Post" EntitySet="Posts" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Blog">
+    <Key>
+      <PropertyRef Name="BlogID" />
+    </Key>
+    <Property Name="BlogID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BlogName" Type="String" Nullable="false" MaxLength="255" />
+    <NavigationProperty Name="Posts" Relationship="BlogPostDB.BlogPost" FromRole="Blog" ToRole="Post" />
+  </EntityType>
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="PostID" />
+    </Key>
+    <Property Name="PostID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Subject" Type="String" Nullable="false" MaxLength="255" />
+    <NavigationProperty Name="Blog" Relationship="BlogPostDB.BlogPost" FromRole="Post" ToRole="Blog" />
+    <Property Name="BlogBlogID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="BlogPost">
+    <End Type="BlogPostDB.Blog" Role="Blog" Multiplicity="1" />
+    <End Type="BlogPostDB.Post" Role="Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Blog">
+        <PropertyRef Name="BlogID" />
+      </Principal>
+      <Dependent Role="Post">
+        <PropertyRef Name="BlogBlogID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

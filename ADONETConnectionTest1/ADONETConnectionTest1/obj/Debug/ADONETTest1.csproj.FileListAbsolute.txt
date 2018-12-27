@@ -1,0 +1,6 @@
+c:\users\runam\documents\visual studio 2015\Projects\ADONETTest1\ADONETTest1\bin\Debug\ADONETTest1.exe.config
+c:\users\runam\documents\visual studio 2015\Projects\ADONETTest1\ADONETTest1\obj\Debug\ADONETTest1.csprojResolveAssemblyReference.cache
+c:\users\runam\documents\visual studio 2015\Projects\ADONETTest1\ADONETTest1\bin\Debug\ADONETTest1.exe
+c:\users\runam\documents\visual studio 2015\Projects\ADONETTest1\ADONETTest1\bin\Debug\ADONETTest1.pdb
+c:\users\runam\documents\visual studio 2015\Projects\ADONETTest1\ADONETTest1\obj\Debug\ADONETTest1.exe
+c:\users\runam\documents\visual studio 2015\Projects\ADONETTest1\ADONETTest1\obj\Debug\ADONETTest1.pdb

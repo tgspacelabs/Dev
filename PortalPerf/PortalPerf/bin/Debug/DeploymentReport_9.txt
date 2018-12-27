@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Performance]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Performance] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[DF_Performance_ServerName] (Default Constraint)
+       [dbo].[DF_Performance_ServerType] (Default Constraint)
+       [dbo].[DF_Performance_ServerVersion] (Default Constraint)
+       [dbo].[DF_Performance_BytesPerRow] (Default Constraint)
+       [dbo].[DF_Performance_Compressed] (Default Constraint)
+       [dbo].[DF_Performance_Created] (Default Constraint)
+     Refresh
+       [dbo].[uspInsertWaveforms] (Procedure)

@@ -1,0 +1,122 @@
+﻿
+
+
+/*[usp_InsertEncounterInformation] used to insert Encounter information*/
+CREATE PROCEDURE [dbo].[usp_InsertEncounterInformation]
+    (
+     @EncounterId UNIQUEIDENTIFIER,
+     @OrgId UNIQUEIDENTIFIER = NULL,
+     @ModDt DATETIME = NULL,
+     @PatientId UNIQUEIDENTIFIER = NULL,
+     @OrgPatientId UNIQUEIDENTIFIER = NULL,
+     @AccountId UNIQUEIDENTIFIER = NULL,
+     @StatusCd NVARCHAR(6) = NULL,
+     @PublicityCid INT = NULL,
+     @DietTypeCid INT = NULL,
+     @PatientClassCid INT = NULL,
+     @protectionTypeCid INT = NULL,
+     @VipSw NCHAR(2) = NULL,
+     @IsolationTypeCid INT = NULL,
+     @SecurityTypeCid INT = NULL,
+     @PatientTypeCid INT = NULL,
+     @AdmitHcpId UNIQUEIDENTIFIER = NULL,
+     @MedSvcCid INT = NULL,
+     @ReferringHcpId UNIQUEIDENTIFIER = NULL,
+     @UnitOrgId UNIQUEIDENTIFIER = NULL,
+     @AttendHcpId UNIQUEIDENTIFIER = NULL,
+     @PrimaryCareHcpId UNIQUEIDENTIFIER = NULL,
+     @FallRiskTypeCid INT = NULL,
+     @BeginDt DATETIME = NULL,
+     @AmbulStatusCid INT = NULL,
+     @AdmitDt DATETIME = NULL,
+     @BabyCd NCHAR(2) = NULL,
+     @Rm NVARCHAR(12) = NULL,
+     @RecurringCd NCHAR(2) = NULL,
+     @Bed NCHAR(12) = NULL,
+     @Discharge_dt DATETIME = NULL,
+     @NewbornSw NCHAR(2) = NULL,
+     @DischargeDispoCid INT = NULL,
+     @MonitorCreated TINYINT = NULL,
+     @comment NVARCHAR(200) = NULL
+    )
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT  INTO [dbo].[int_encounter]
+            ([encounter_id],
+             [organization_id],
+             [mod_dt],
+             [patient_id],
+             [orig_patient_id],
+             [account_id],
+             [status_cd],
+             [publicity_cid],
+             [diet_type_cid],
+             [patient_class_cid],
+             [protection_type_cid],
+             [vip_sw],
+             [isolation_type_cid],
+             [security_type_cid],
+             [patient_type_cid],
+             [admit_hcp_id],
+             [med_svc_cid],
+             [referring_hcp_id],
+             [unit_org_id],
+             [attend_hcp_id],
+             [primary_care_hcp_id],
+             [fall_risk_type_cid],
+             [begin_dt],
+             [ambul_status_cid],
+             [admit_dt],
+             [baby_cd],
+             [rm],
+             [recurring_cd],
+             [bed],
+             [discharge_dt],
+             [newborn_sw],
+             [discharge_dispo_cid],
+             [monitor_created],
+             [comment]
+            )
+    VALUES
+            (@EncounterId,
+             @OrgId,
+             GETDATE(),
+             @PatientId,
+             @OrgPatientId,
+             @AccountId,
+             @StatusCd,
+             @PublicityCid,
+             @DietTypeCid,
+             @PatientClassCid,
+             @protectionTypeCid,
+             @VipSw,
+             @IsolationTypeCid,
+             @SecurityTypeCid,
+             @PatientTypeCid,
+             @AdmitHcpId,
+             @MedSvcCid,
+             @ReferringHcpId,
+             @UnitOrgId,
+             @AttendHcpId,
+             @PrimaryCareHcpId,
+             @FallRiskTypeCid,
+             @BeginDt,
+             @AmbulStatusCid,
+             @AdmitDt,
+             @BabyCd,
+             @Rm,
+             @RecurringCd,
+             @Bed,
+             @Discharge_dt,
+             @NewbornSw,
+             @DischargeDispoCid,
+             @MonitorCreated,
+             @comment
+	        );
+END;
+
+GO
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'Insert Encounter information.', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'PROCEDURE', @level1name = N'usp_InsertEncounterInformation';
+

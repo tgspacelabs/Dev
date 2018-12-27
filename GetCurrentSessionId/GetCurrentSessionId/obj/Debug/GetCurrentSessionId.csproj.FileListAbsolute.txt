@@ -1,0 +1,7 @@
+D:\Dev\GetCurrentSessionId\GetCurrentSessionId\bin\Debug\GetCurrentSessionId.exe.config
+D:\Dev\GetCurrentSessionId\GetCurrentSessionId\bin\Debug\GetCurrentSessionId.exe
+D:\Dev\GetCurrentSessionId\GetCurrentSessionId\bin\Debug\GetCurrentSessionId.pdb
+D:\Dev\GetCurrentSessionId\GetCurrentSessionId\obj\Debug\GetCurrentSessionId.csprojAssemblyReference.cache
+D:\Dev\GetCurrentSessionId\GetCurrentSessionId\obj\Debug\GetCurrentSessionId.csproj.CoreCompileInputs.cache
+D:\Dev\GetCurrentSessionId\GetCurrentSessionId\obj\Debug\GetCurrentSessionId.exe
+D:\Dev\GetCurrentSessionId\GetCurrentSessionId\obj\Debug\GetCurrentSessionId.pdb

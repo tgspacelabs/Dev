@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [PHI].[Patient]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [PHI].[Patient] (Table)
+     Create
+       [PHI].[FK_Patient_Patient_PatientID] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [PHI].[DF_Patient_DateOfBirth] (Default Constraint)
+       [PHI].[DF_Patient_SocialSecurityNumber] (Default Constraint)

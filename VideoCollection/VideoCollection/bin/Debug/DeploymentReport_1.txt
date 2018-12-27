@@ -1,0 +1,32 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Actor] (Table)
+       [dbo].[Category] (Table)
+       [dbo].[ConversionErrors] (Table)
+       [dbo].[Director] (Table)
+       [dbo].[Genre] (Table)
+       [dbo].[Medium] (Table)
+       [dbo].[Movie] (Table)
+       [dbo].[MovieActor] (Table)
+       [dbo].[tblActors] (Table)
+       [dbo].[tblCategory] (Table)
+       [dbo].[tblDirector] (Table)
+       [dbo].[tblMovies] (Table)
+       [dbo].[tblMovieStars] (Table)
+       [dbo].[FK_Movie_Category_CategoryID] (Foreign Key)
+       [dbo].[FK_Movie_Director_DirectorID] (Foreign Key)
+       [dbo].[FK_Movie_Medium_MediumID] (Foreign Key)
+       [dbo].[FK_MovieActor_Actor_ActorID] (Foreign Key)
+       [dbo].[FK_MovieActor_Movie_MovieID] (Foreign Key)
+
+** Supporting actions

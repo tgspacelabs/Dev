@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="CompanyFolder" Name="My Company">
+          <Directory Id="INSTALLLOCATION" Name="IsWixBootstrapperProductName2">
+            <Merge Id="IsWixBootstrapperProductName2MM" SourceFile="$(var.IsWixBootstrapperProductName2MM.TargetPath)" DiskId="1" Language="1033"/>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+    <Feature Id="IsWixBootstrapperProductName2" Title="IsWixBootstrapperProductName2" Description="Installs all the files needed for IsWixBootstrapperProductName2" Level="1" AllowAdvertise="no" ConfigurableDirectory="INSTALLLOCATION">
+      <MergeRef Id="IsWixBootstrapperProductName2MM"/>
+    </Feature>
+  </Fragment>
+</Wix>

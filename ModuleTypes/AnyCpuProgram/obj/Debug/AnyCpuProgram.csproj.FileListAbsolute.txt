@@ -1,0 +1,12 @@
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuProgram\bin\Debug\AnyCpuProgram.exe.config
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuProgram\bin\Debug\AnyCpuProgram.exe
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuProgram\bin\Debug\AnyCpuProgram.pdb
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuProgram\obj\Debug\AnyCpuProgram.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuProgram\obj\Debug\AnyCpuProgram.exe
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuProgram\obj\Debug\AnyCpuProgram.pdb
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuProgram\bin\Debug\AnyCpuLibrary.dll
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuProgram\bin\Debug\AnyCpuLibrary.pdb
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuProgram\bin\Debug\X64Library.dll
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuProgram\bin\Debug\X86Library.dll
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuProgram\bin\Debug\X64Library.pdb
+d:\documents\visual studio 2015\Projects\ModuleTypes\AnyCpuProgram\bin\Debug\X86Library.pdb

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="*" Name="DacSetup" Language="1033" Version="1.0.0.0" Manufacturer="MSIT" UpgradeCode="09692f31-722e-4625-a5b6-d4f3805c78a5">
+        <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+        <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+        <MediaTemplate />
+
+        <Feature Id="ProductFeature" Title="DacSetup" Level="1">
+            <ComponentGroupRef Id="SqlPackageComponents"/>
+            <ComponentGroupRef Id="DacPacComponents"/>
+        </Feature>
+
+        <InstallExecuteSequence>
+            <Custom Action="SetCommandLine" Before="InstallFiles"/>
+            <Custom Action="ExecCommandLine" After="InstallFiles" >
+                <![CDATA[&ProductFeature=3 AND NOT REMOVE]]>   <!--Only run this custom action if a certain feature is being installed--> <!-- NO Action on Uninstall -->
+            </Custom>
+        </InstallExecuteSequence>
+    </Product>
+
+    <Fragment>
+        <CustomAction Id="SetCommandLine"
+                      Property="ExecCommandLine"
+                      Value="&quot;[DACINSTALLFOLDER]\SqlPackage.exe&quot; /Action:Publish /SourceFile:&quot;[DBINSTALLFOLDER]\testdb.dacpac&quot; /TargetServerName:[TARGETSERVERNAME] /TargetDatabaseName:[TARGETDATABASENAME]"
+                      Execute="immediate"/>
+
+        <CustomAction Id="ExecCommandLine" BinaryKey="WixCA" DllEntry="CAQuietExec" Execute="deferred" Return="check" Impersonate="yes"/>
+    </Fragment>
+
+    <Fragment>
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder">
+                <Directory Id="INSTALLFOLDER" Name="DacSetup">
+                    <Directory Id="DACINSTALLFOLDER" Name="SqlPackage" />
+                    <Directory Id="DBINSTALLFOLDER"  Name="Database" />
+
+                </Directory>
+            </Directory>
+        </Directory>
+    </Fragment>
+
+    <Fragment>
+        <ComponentGroup Id="DacPacComponents" Directory="DBINSTALLFOLDER">
+            <Component Id="Comp.TestDB.DacPac" Guid="*">
+                <File Id="File.TestDB.DacPac" Source=".\testdb.dacpac" KeyPath="yes" Checksum="yes"/>
+            </Component>
+        </ComponentGroup>
+
+        <ComponentGroup Id="SqlPackageComponents" Directory="DACINSTALLFOLDER">
+            <Component Id="Comp.SqlPackage.exe" Guid="*">
+                <File Id="File.SqlPackage.exe" Source="C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\SqlPackage.exe" KeyPath="yes" Checksum="yes"/>
+            </Component>
+            <Component Id="Comp.SqlPackage.exe.config" Guid="*">
+                <File Id="File.SqlPackage.exe.config" Source="C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\SqlPackage.exe.config" KeyPath="yes" Checksum="yes"/>
+            </Component>
+            <Component Id="Comp.Microsoft.Data.Tools.Schema.Sql.dll" Guid="*">
+                <File Id="File.Microsoft.Data.Tools.Schema.Sql.dll" Source="C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\Microsoft.Data.Tools.Schema.Sql.dll" KeyPath="yes" Checksum="yes"/>
+            </Component>
+            <Component Id="Comp.Microsoft.Data.Tools.Utilities.dll" Guid="*">
+                <File Id="File.Microsoft.Data.Tools.Utilities.dll" Source="C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\Microsoft.Data.Tools.Utilities.dll" KeyPath="yes" Checksum="yes"/>
+            </Component>
+            <Component Id="Comp.Microsoft.SqlServer.Dac.dll" Guid="*">
+                <File Id="File.Microsoft.SqlServer.Dac.dll" Source="C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\Microsoft.SqlServer.Dac.dll" KeyPath="yes" Checksum="yes"/>
+            </Component>
+            <Component Id="Comp.Microsoft.SqlServer.TransactSql.ScriptDom.dll" Guid="*">
+                <File Id="File.Microsoft.SqlServer.TransactSql.ScriptDom.dll" Source="C:\Program Files (x86)\Microsoft SQL Server\120\DAC\bin\Extensions\Microsoft.SqlServer.TransactSql.ScriptDom.dll" KeyPath="yes" Checksum="yes"/>
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>
+
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="*" Name="SetupDAC" Language="1033" Version="1.0.0.0" Manufacturer="" UpgradeCode="04080463-5ddc-4a3c-8568-58e9294caad8">
+        <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+        <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+        <MediaTemplate />
+
+        <Feature Id="ProductFeature" Title="SetupDAC" Level="1">
+            <ComponentGroupRef Id="ProductComponents" />
+        </Feature>
+    </Product>
+
+    <Fragment>
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder">
+                <Directory Id="INSTALLFOLDER" Name="SetupDAC" />
+            </Directory>
+        </Directory>
+    </Fragment>
+
+    <Fragment>
+        <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+            -->
+<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+<!--
+            -->
+<!-- <Component Id="ProductComponent"> -->
+<!--
+                -->
+<!-- TODO: Insert files, registry keys, and other resources here. -->
+<!--
+            -->
+<!-- </Component> -->
+<!--
+        </ComponentGroup>
+    </Fragment>
+</Wix>-->

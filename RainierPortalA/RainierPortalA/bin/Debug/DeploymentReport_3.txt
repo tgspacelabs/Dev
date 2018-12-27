@@ -1,0 +1,52 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Patient]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Facility].[CreateDateTime] is being dropped, data loss could occur.
+       The column [dbo].[Organization].[ CreateDateTime] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Patient] (Default Constraint)
+       unnamed constraint on [dbo].[Bed] (Default Constraint)
+       unnamed constraint on [dbo].[Room] (Default Constraint)
+       unnamed constraint on [dbo].[Unit] (Default Constraint)
+       [dbo].[RefDevice4] (Foreign Key)
+       [dbo].[RefDevice3] (Foreign Key)
+       [dbo].[PK1] (Primary Key)
+     Alter
+       [dbo].[Facility] (Table)
+       [dbo].[Organization] (Table)
+     Table rebuild
+       [dbo].[Patient] (Table)
+     Create
+       [dbo].[AcquistionModule] (Table)
+       [dbo].[DeviceSession] (Table)
+       [dbo].[Encounter] (Table)
+       [dbo].[MonitoringDevice] (Table)
+       Default Constraint: unnamed constraint on [dbo].[AcquistionModule] (Default Constraint)
+       [dbo].[DF_DeviceSession_CreatedDateTime] (Default Constraint)
+       [dbo].[DF_Encounter_CreatedDateTime] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[MonitoringDevice] (Default Constraint)
+       [dbo].[DF_Bed_CreatedDateTime] (Default Constraint)
+       [dbo].[DF_Room_CreatedDateTime] (Default Constraint)
+       [dbo].[DF_Unit_CreatedDateTime] (Default Constraint)
+       [dbo].[RefDevice4] (Foreign Key)
+       [dbo].[RefDevice3] (Foreign Key)
+       [dbo].[FK_AcquistionModule_MonitoringDevice_MonitoringDeviceID] (Foreign Key)
+       [dbo].[FK_DeviceSession_Encounter_EncounterID] (Foreign Key)
+       [dbo].[FK_Encounter_Patient_PatientID] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[RefPatient2] (Foreign Key)
+     Create
+       [dbo].[RefPatient2] (Foreign Key)
+
+The column [dbo].[Facility].[CreateDateTime] is being dropped, data loss could occur.
+The column [dbo].[Organization].[ CreateDateTime] is being dropped, data loss could occur.
+

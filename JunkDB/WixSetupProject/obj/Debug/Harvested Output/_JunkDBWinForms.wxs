@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="JunkDBWinForms.Binaries">
+            <Component Id="com_268DF2A3_011A_4FA1_A6EC_A08989E8E692" Guid="{09D22050-FA40-478A-B633-2D3876B685B8}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                <File Id="_268DF2A3_011A_4FA1_A6EC_A08989E8E692" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.TargetDir)\JunkDBWinForms.exe" />
+            </Component>
+            <Component Id="cmp00DD416014268DECDE9BDA4FF3469301" Guid="{9D012D1C-016C-46A2-9DA5-291FCD360909}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                <File Id="filB5EE475E1BD4343C0BD4041A24685087" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.TargetDir)\JunkDBWinForms.exe.config" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="JunkDBWinForms.Binaries">
+<ComponentRef Id="com_268DF2A3_011A_4FA1_A6EC_A08989E8E692" />
+<ComponentRef Id="cmp00DD416014268DECDE9BDA4FF3469301" />
+</ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="JunkDBWinForms.Satellites" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="JunkDBWinForms.Symbols">
+            <Component Id="cmpFBC0044490A9B3F4B83520104BF034D6" Guid="{8DCEBD11-6EDA-4A64-8559-2AC33630AFFE}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                <File Id="filF27495194EA1F28B55883B96948048EA" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.TargetDir)\JunkDBWinForms.pdb" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="JunkDBWinForms.Symbols">
+            <ComponentRef Id="cmpFBC0044490A9B3F4B83520104BF034D6" />
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="JunkDBWinForms.Content" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="JunkDBWinForms.Sources">
+            <Component Id="cmpE8BCB0D92E942C95BFE8368EC961F4DD" Guid="{768280C4-49A2-4600-8D06-C711F43E5AA6}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                <File Id="fil7C7DDE0D5C3BBCD9252F76C7DFF4865B" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.ProjectDir)\Form1.cs" />
+            </Component>
+            <Component Id="cmp6192C05B2D54DBC4115B28477A81C051" Guid="{6A265F1D-0FC7-4D4B-A8B4-6134170E1681}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                <File Id="filE641B1C035BDFD75AECC8344218F7784" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.ProjectDir)\Form1.Designer.cs" />
+            </Component>
+            <Component Id="cmp67DB864DA223EAC8FC96D6F74C961FB4" Guid="{754E833C-52DB-4D00-BB7E-41C7033D3F69}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                <File Id="filB3673FDD89C8E9551B5F5115C99C77B9" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.ProjectDir)\JunkDBDataSet.Designer.cs" />
+            </Component>
+            <Component Id="cmp52F5C9C0EFE36BACC706980F71C6C1B2" Guid="{1977AE8A-9CC7-4033-A073-51AE9A6DE9E8}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                <File Id="filEB5C5BE93DEDE6CE6F5BA43729D05FA1" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.ProjectDir)\Program.cs" />
+            </Component>
+            <Component Id="cmp61454FD67221BFF3E86B8D6E5B5D89FB" Guid="{EA81600D-D1D4-40A9-A439-2EDA4B7CE0BC}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                <File Id="filBA4E26FC8B02D67D5131E605FCA7066C" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.ProjectDir)\Form1.resx" />
+            </Component>
+            <Component Id="cmp592FCCD09E3D0F95B027DBD2B6F2A158" Guid="{AB5F1C6B-5CFC-4B31-AE54-A62F5561BF72}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                <File Id="filFB9BDFDBE61D00702A55C89DC5F11412" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.ProjectDir)\App.config" />
+            </Component>
+            <Component Id="cmpCF7FF796765B5CF686D9007D136B7240" Guid="{68F020CE-6195-46C6-A3F1-E0507683F624}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                <File Id="filD84016EF291CF79255C9721B8EB5D8B7" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.ProjectDir)\JunkDBWinForms.csproj" />
+            </Component>
+            <Directory Id="dirC7A6973EA6A3E8D7E445147BC314C370" Name="Properties">
+                <Component Id="cmpDA4EB527A6CD58B23A0CA6AF774CBD6B" Guid="{DB2B97A7-72FF-48CE-9D0B-94BFEB372973}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                    <File Id="filF5E651CC109367E984F116C9F1BE1FEE" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.ProjectDir)\Properties\AssemblyInfo.cs" />
+                </Component>
+                <Component Id="cmp0668AC2FBCC96A3F1415C0A4637A6BC0" Guid="{8FD37038-6766-46C2-9925-C61503135743}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                    <File Id="fil21D6E89E7E37252D52B91D918E614FD4" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.ProjectDir)\Properties\Resources.Designer.cs" />
+                </Component>
+                <Component Id="cmp8914A472AE7A86F370D1F7F8C8AB3510" Guid="{0AFF66ED-59AA-4D4C-A0BF-0936E2B5782B}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                    <File Id="fil4302EB6C883511F5BF959678BF601197" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.ProjectDir)\Properties\Settings.Designer.cs" />
+                </Component>
+                <Component Id="cmp66960AB61E261B82B03350D086C6E51E" Guid="{219CD359-24F3-40FE-8682-A2A157A57FF2}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                    <File Id="fil654049341E908FF4F0F96BEDAA279EAF" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.JunkDBWinForms.ProjectDir)\Properties\Resources.resx" />
+                </Component>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="JunkDBWinForms.Sources">
+            <ComponentRef Id="cmpE8BCB0D92E942C95BFE8368EC961F4DD" />
+            <ComponentRef Id="cmp6192C05B2D54DBC4115B28477A81C051" />
+            <ComponentRef Id="cmp67DB864DA223EAC8FC96D6F74C961FB4" />
+            <ComponentRef Id="cmp52F5C9C0EFE36BACC706980F71C6C1B2" />
+            <ComponentRef Id="cmp61454FD67221BFF3E86B8D6E5B5D89FB" />
+            <ComponentRef Id="cmp592FCCD09E3D0F95B027DBD2B6F2A158" />
+            <ComponentRef Id="cmpCF7FF796765B5CF686D9007D136B7240" />
+            <ComponentRef Id="cmpDA4EB527A6CD58B23A0CA6AF774CBD6B" />
+            <ComponentRef Id="cmp0668AC2FBCC96A3F1415C0A4637A6BC0" />
+            <ComponentRef Id="cmp8914A472AE7A86F370D1F7F8C8AB3510" />
+            <ComponentRef Id="cmp66960AB61E261B82B03350D086C6E51E" />
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="JunkDBWinForms.Documents" />
+    </Fragment>
+</Wix>

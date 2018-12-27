@@ -1,0 +1,71 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Clustered] (Table)
+       [dbo].[ClusteredPK] (Table)
+       [dbo].[Company] (Table)
+       [dbo].[Deadlock] (Table)
+       [dbo].[Employee] (Table)
+       [dbo].[Employee].[IX_Employee_LastName] (Index)
+       [dbo].[Employee].[IX_Employee_LastName_FirstName] (Index)
+       [dbo].[EventsDataX] (Table)
+       [dbo].[FragmentationLog] (Table)
+       [dbo].[int_misc_code] (Table)
+       [dbo].[int_misc_code].[IX_int_misc_code_code_id] (Index)
+       [dbo].[int_misc_code].[IX_int_misc_code_category_cd_code_organization_id_sys_id_method_cd] (Index)
+       [dbo].[int_misc_code].[IX_int_misc_code_code] (Index)
+       [dbo].[int_misc_code].[IX_int_misc_code_code_id_code_int_keystone_cd] (Index)
+       [dbo].[int_misc_code].[IX_int_misc_code_code_short_dsc_int_keystone_cd] (Index)
+       [dbo].[int_misc_code].[IX_int_misc_code_int_keystone_cd] (Index)
+       [dbo].[People] (Table)
+       [dbo].[Person] (Table)
+       [dbo].[Pets] (Table)
+       [dbo].[PetTypes] (Table)
+       [dbo].[ResourceStrings] (Table)
+       [dbo].[ResourceStrings].[IX_ResourceStrings_Locale_Name_Value] (Index)
+       [dbo].[SequentialTest] (Table)
+       [dbo].[T] (Table)
+       [dbo].[T1] (Table)
+       [dbo].[Table1] (Table)
+       [dbo].[Table2] (Table)
+       [dbo].[tblGUID_test] (Table)
+       [dbo].[tblINT_test] (Table)
+       [dbo].[TenMillionRows] (Table)
+       [dbo].[TestPages] (Table)
+       [dbo].[Untitled - 1] (Table)
+       [dbo].[WideTable] (Table)
+       [dbo].[WideTable].[WideTable_RandomInt] (Index)
+       [dbo].[DF_EventsDataX_TimeStampUTC] (Default Constraint)
+       [dbo].[DF_EventsDataX_Id] (Default Constraint)
+       [dbo].[DF_EventsDataX_CategoryValue] (Default Constraint)
+       [dbo].[DF_EventsDataX_Type] (Default Constraint)
+       [dbo].[DF_EventsDataX_Subtype] (Default Constraint)
+       [dbo].[DF_EventsDataX_Value1] (Default Constraint)
+       [dbo].[DF_EventsDataX_Value2] (Default Constraint)
+       [dbo].[DF_EventsDataX_Status] (Default Constraint)
+       [dbo].[DF_EventsDataX_ValidLeads] (Default Constraint)
+       [dbo].[DF_EventsDataX_TopicSessionId] (Default Constraint)
+       [dbo].[DF_EventsDataX_FeedTypeId] (Default Constraint)
+       [dbo].[DF_SequentialTest_SequentialID] (Default Constraint)
+       [dbo].[FK_Person_CompanyId] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Pets] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Pets] (Foreign Key)
+       [dbo].[FK_Table2_Table1] (Foreign Key)
+       [dbo].[AddOne] (Function)
+       [dbo].[AddOneInline] (Function)
+       [dbo].[AddOneTableValueFunction] (Function)
+       [dbo].[Proc1] (Procedure)
+       [dbo].[Clustered].[MS_Description] (Extended Property)
+       [dbo].[ClusteredPK].[MS_Description] (Extended Property)
+       [dbo].[Deadlock].[MS_Description] (Extended Property)
+
+** Supporting actions

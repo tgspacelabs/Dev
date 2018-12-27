@@ -1,0 +1,7 @@
+﻿CREATE SEQUENCE [dbo].[LiveDataCountBy4]
+    AS TINYINT
+    START WITH 1
+    INCREMENT BY 1
+    MAXVALUE 3
+    CYCLE;
+

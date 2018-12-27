@@ -1,0 +1,12 @@
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x86\Debug\WindowsFormsApplication1.exe.config
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x86\Debug\WindowsFormsApplication1.exe
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x86\Debug\WindowsFormsApplication1.pdb
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x86\Debug\WindowsFormsApplication1.exe.CodeAnalysisLog.xml
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x86\Debug\WindowsFormsApplication1.exe.lastcodeanalysissucceeded
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x86\Debug\ClassLibrary1.dll
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x86\Debug\ClassLibrary1.pdb
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb

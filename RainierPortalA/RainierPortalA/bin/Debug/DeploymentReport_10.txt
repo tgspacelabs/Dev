@@ -1,0 +1,69 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [PHI] (Schema)
+       [PHI].[Patient] (Table)
+       [dbo].[AcquistionModule] (Table)
+       [dbo].[Bed] (Table)
+       [dbo].[DeviceParameter] (Table)
+       [dbo].[DeviceSession] (Table)
+       [dbo].[Encounter] (Table)
+       [dbo].[Event] (Table)
+       [dbo].[Facility] (Table)
+       [dbo].[Gender] (Table)
+       [dbo].[MonitoringDevice] (Table)
+       [dbo].[Organization] (Table)
+       [dbo].[Parameter] (Table)
+       [dbo].[ParameterType] (Table)
+       [dbo].[ParameterValue] (Table)
+       [dbo].[Patient] (Table)
+       [dbo].[PatientDevice] (Table)
+       [dbo].[Room] (Table)
+       [dbo].[Unit] (Table)
+       [PHI].[DF_Patient_DateOfBirth] (Default Constraint)
+       [PHI].[DF_Patient_SocialSecurityNumber] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[AcquistionModule] (Default Constraint)
+       [dbo].[DF_Bed_CreatedDateTime] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[DeviceParameter] (Default Constraint)
+       [dbo].[DF_DeviceSession_CreatedDateTime] (Default Constraint)
+       [dbo].[DF_Encounter_CreatedDateTime] (Default Constraint)
+       [dbo].[DF_Facility_CreatedDateTime] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Gender] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Gender] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[MonitoringDevice] (Default Constraint)
+       [dbo].[DF_Organization_CreatedDateTime] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Parameter] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[ParameterType] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[ParameterValue] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Patient] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[PatientDevice] (Default Constraint)
+       [dbo].[DF_Room_CreatedDateTime] (Default Constraint)
+       [dbo].[DF_Unit_CreatedDateTime] (Default Constraint)
+       [PHI].[FK_Patient_Patient_PatientID] (Foreign Key)
+       [dbo].[FK_AcquistionModule_MonitoringDevice_MonitoringDeviceID] (Foreign Key)
+       [dbo].[FK_Bed_Room_RoomID] (Foreign Key)
+       [dbo].[FK_DeviceParameter_MonitoringDevice_MonitoringDeviceID] (Foreign Key)
+       [dbo].[FK_DeviceParameter_Parameter_ParameterID] (Foreign Key)
+       [dbo].[FK_DeviceSession_Encounter_EncounterID] (Foreign Key)
+       [dbo].[FK_Encounter_Patient_PatientID] (Foreign Key)
+       [dbo].[FK_Facility_Organization_OrganizationID] (Foreign Key)
+       [dbo].[RefParameter6] (Foreign Key)
+       [dbo].[RefParameter7] (Foreign Key)
+       [dbo].[RefDevice3] (Foreign Key)
+       [dbo].[RefPatient2] (Foreign Key)
+       [dbo].[FK_Room_Unit_UnitID] (Foreign Key)
+       [dbo].[FK_Unit_Facility_FacilityID] (Foreign Key)
+       [dbo].[DeviceSession].[MS_Description] (Extended Property)
+       [dbo].[Encounter].[MS_Description] (Extended Property)
+       [dbo].[Event].[MS_Description] (Extended Property)
+
+** Supporting actions

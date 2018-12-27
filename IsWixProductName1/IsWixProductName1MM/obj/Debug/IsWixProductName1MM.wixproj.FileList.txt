@@ -1,0 +1,7 @@
+d:\documents\visual studio 2015\Projects\IsWixProductName1\IsWixProductName1MM\bin\Debug\IsWixProductName1MM.msm
+d:\documents\visual studio 2015\Projects\IsWixProductName1\IsWixProductName1MM\bin\Debug\IsWixProductName1MM.wixpdb
+obj\Debug\IsWixProductName1MM.wixobj
+obj\Debug\IsWixProductName1MMcustom.wixobj
+obj\Debug\IsWixProductName1MM.wixproj.BindContentsFileListnull.txt
+obj\Debug\IsWixProductName1MM.wixproj.BindOutputsFileListnull.txt
+obj\Debug\IsWixProductName1MM.wixproj.BindBuiltOutputsFileListnull.txt

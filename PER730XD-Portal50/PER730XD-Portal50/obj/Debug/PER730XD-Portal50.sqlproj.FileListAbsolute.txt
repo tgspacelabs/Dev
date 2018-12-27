@@ -1,0 +1,9 @@
+c:\users\greentx\documents\visual studio 2013\Projects\PER730XD-Portal50\PER730XD-Portal50\bin\Debug\PER730XD-Portal50.dacpac
+c:\users\greentx\documents\visual studio 2013\Projects\PER730XD-Portal50\PER730XD-Portal50\bin\Debug\PER730XD_Portal50.dll
+c:\users\greentx\documents\visual studio 2013\Projects\PER730XD-Portal50\PER730XD-Portal50\bin\Debug\PER730XD_Portal50.pdb
+c:\users\greentx\documents\visual studio 2013\Projects\PER730XD-Portal50\PER730XD-Portal50\obj\Debug\Model.xml
+c:\users\greentx\documents\visual studio 2013\Projects\PER730XD-Portal50\PER730XD-Portal50\obj\Debug\refactor.xml
+c:\users\greentx\documents\visual studio 2013\Projects\PER730XD-Portal50\PER730XD-Portal50\obj\Debug\postdeploy.sql
+c:\users\greentx\documents\visual studio 2013\Projects\PER730XD-Portal50\PER730XD-Portal50\obj\Debug\predeploy.sql
+c:\users\greentx\documents\visual studio 2013\Projects\PER730XD-Portal50\PER730XD-Portal50\obj\Debug\PER730XD_Portal50.dll
+c:\users\greentx\documents\visual studio 2013\Projects\PER730XD-Portal50\PER730XD-Portal50\obj\Debug\PER730XD_Portal50.pdb

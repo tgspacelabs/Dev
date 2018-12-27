@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--http://blogs.msdn.com/b/dukek/archive/2009/10/19/implementing-a-wix-installer-that-calls-the-gdr-version-of-vsdbcmd-exe.aspx-->
+<Include>
+    <DirectoryRef Id="INSTALLLOCATION">
+    <Component Id="dacpac" Guid="A6980AAB-D61C-4F09-9EFB-4D95A3879C45">
+            <File Id="Database.dacpac" Source="$(var.MyDatabase.ProjectDir)\bin\debug\$(var.MyDatabase.ProjectName).dacpac" KeyPath="yes"/>
+        </Component>
+        <!--<Component Id="DatabaseSqlcmd" Guid="45A30C59-37F5-4096-A937-92CA66D8F8F4">
+            <File Id="Database.sqlcmdvars" Source="$(var.MyDatabase.ProjectDir)\bin\debug\$(var.MyDatabase.ProjectName)_Database.sqlcmdvars" KeyPath="yes"/>
+        </Component>
+        <Component Id="DatabaseSqldeployment" Guid="45A30C59-17F5-4096-A937-92CA66D8F8F4">
+            <File Id="Database.sqldeployment" Source="$(var.MyDatabase.ProjectDir)\bin\debug\$(var.MyDatabase.ProjectName)_Database.sqldeployment" KeyPath="yes"/>
+        </Component>
+        <Component Id="DatabaseSqlsettings" Guid="45A30C59-27F5-4096-A937-92CA66D8F8F4">
+            <File Id="Database.sqlsettings" Source="$(var.MyDatabase.ProjectDir)\bin\debug\$(var.MyDatabase.ProjectName)_Database.sqlsettings" KeyPath="yes"/>
+        </Component>
+        <Component Id="DATABASEDBSCHEMA" Guid="45A30C59-47F5-4096-A937-92CA66D8F8F4">
+            <File Id="Database1.dbschema" Source="$(var.MyDatabase.ProjectDir)\bin\debug\$(var.MyDatabase.ProjectName).dbschema" KeyPath="yes"/>
+        </Component>
+        <Component Id="DatabaseDeploymanifest" Guid="45A30C59-57F5-4096-A937-92CA66D8F8F4">
+            <File Id="Database1.deploymanifest" Source="$(var.MyDatabase.ProjectDir)\bin\debug\$(var.MyDatabase.ProjectName).deploymanifest" KeyPath="yes"/>
+        </Component>-->
+        <!--<Component Id="MicrosoftSqlTypesDbschema" Guid="45A30C59-67F5-4096-A937-92CA66D8F8F4">
+      <File Id="Microsoft.SqlTypes.dbschema" Source="$(var.MyDatabase.ProjectDir)\bin\debug\Microsoft.SqlTypes.dbschema" KeyPath="yes"/>
+    </Component>-->
+        <!--<Component Id="PostDeploymentScript" Guid="45A30C59-77F5-4096-A937-92CA66D8F8F4">
+            <File Id="Script.PostDeployment.sql" Source="$(var.MyDatabase.ProjectDir)\bin\debug\$(var.MyDatabase.ProjectName)_Script.PostDeployment.sql" KeyPath="yes"/>
+        </Component>
+        <Component Id="PreDeploymentScript" Guid="45A30C59-87F5-4096-A937-92CA66D8F8F4">
+            <File Id="Script.PreDeployment.sql" Source="$(var.MyDatabase.ProjectDir)\bin\debug\$(var.MyDatabase.ProjectName)_Script.PreDeployment.sql" KeyPath="yes"/>
+        </Component>-->
+    </DirectoryRef>
+</Include>

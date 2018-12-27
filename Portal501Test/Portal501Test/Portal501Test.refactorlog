@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="8d4e7a76-020d-41e4-8511-79d170cde024" ChangeDateTime="09/12/2016 19:54:49">
+    <Property Name="ElementName" Value="[dbo].[WaveformData].[idxc_WaveformData_1]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[WaveformData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[CL_WaveformData_TopicSessionId_StartTimeUTC_EndTimeUTC_TypeId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0f80aaf9-9a3e-4956-aab6-a5e352e9deac" ChangeDateTime="09/12/2016 19:55:41">
+    <Property Name="ElementName" Value="[dbo].[WaveformData].[idx_Waveformdata1]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[WaveformData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[IX_WaveformData_TopicSessionId_StartTimeUTC_EndTimeUTC]" />
+  </Operation>
+</Operations>

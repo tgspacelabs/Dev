@@ -1,0 +1,1 @@
+d:\users\greentx.na\documents\visual studio 2017\Projects\SqlServerEFSample\SqlServerEFSample\obj\Debug\SqlServerEFSample.csprojResolveAssemblyReference.cache

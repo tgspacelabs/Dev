@@ -1,0 +1,11 @@
+d:\users\greentx.na\documents\visual studio 2015\Projects\ReportsApplication1\ReportsApplication1\bin\Debug\ReportsApplication1.exe.config
+d:\users\greentx.na\documents\visual studio 2015\Projects\ReportsApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.csprojResolveAssemblyReference.cache
+d:\users\greentx.na\documents\visual studio 2015\Projects\ReportsApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.Form1.resources
+d:\users\greentx.na\documents\visual studio 2015\Projects\ReportsApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.Properties.Resources.resources
+d:\users\greentx.na\documents\visual studio 2015\Projects\ReportsApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.csproj.GenerateResource.Cache
+D:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\ReportsApplication1\ReportsApplication1\bin\Debug\ReportsApplication1.exe
+D:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\ReportsApplication1\ReportsApplication1\bin\Debug\ReportsApplication1.pdb
+D:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\ReportsApplication1\ReportsApplication1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\ReportsApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.csproj.CoreCompileInputs.cache
+D:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\ReportsApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.exe
+D:\Users\greentx.NA\Documents\Visual Studio 2015\Projects\ReportsApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.pdb

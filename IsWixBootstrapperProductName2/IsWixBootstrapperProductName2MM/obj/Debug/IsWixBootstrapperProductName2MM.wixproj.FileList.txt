@@ -1,0 +1,7 @@
+d:\documents\visual studio 2015\Projects\IsWixBootstrapperProductName2\IsWixBootstrapperProductName2MM\bin\Debug\IsWixBootstrapperProductName2MM.msm
+d:\documents\visual studio 2015\Projects\IsWixBootstrapperProductName2\IsWixBootstrapperProductName2MM\bin\Debug\IsWixBootstrapperProductName2MM.wixpdb
+obj\Debug\IsWixBootstrapperProductName2MM.wixobj
+obj\Debug\IsWixBootstrapperProductName2MMcustom.wixobj
+obj\Debug\IsWixBootstrapperProductName2MM.wixproj.BindContentsFileListnull.txt
+obj\Debug\IsWixBootstrapperProductName2MM.wixproj.BindOutputsFileListnull.txt
+obj\Debug\IsWixBootstrapperProductName2MM.wixproj.BindBuiltOutputsFileListnull.txt

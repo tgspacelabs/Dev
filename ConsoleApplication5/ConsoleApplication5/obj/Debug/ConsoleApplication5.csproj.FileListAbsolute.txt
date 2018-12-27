@@ -1,0 +1,22 @@
+d:\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+d:\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+d:\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+d:\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\EntityFramework.dll
+d:\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\EntityFramework.SqlServer.dll
+d:\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\EntityFramework.xml
+d:\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\EntityFramework.SqlServer.xml
+d:\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+d:\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+D:\Dev\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+D:\Dev\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+D:\Dev\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+D:\Dev\ConsoleApplication5\ConsoleApplication5\bin\Debug\EntityFramework.dll
+D:\Dev\ConsoleApplication5\ConsoleApplication5\bin\Debug\EntityFramework.SqlServer.dll
+D:\Dev\ConsoleApplication5\ConsoleApplication5\bin\Debug\EntityFramework.xml
+D:\Dev\ConsoleApplication5\ConsoleApplication5\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dev\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojAssemblyReference.cache
+D:\Dev\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csproj.CoreCompileInputs.cache
+D:\Dev\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csproj.CopyComplete
+D:\Dev\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+D:\Dev\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb

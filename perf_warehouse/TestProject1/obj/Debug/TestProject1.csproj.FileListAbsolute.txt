@@ -1,0 +1,11 @@
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\TestProject1\bin\Debug\TestProject1.dll.config
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\TestProject1\bin\Debug\TestProject1.dll
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\TestProject1\bin\Debug\TestProject1.pdb
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\TestProject1\bin\Debug\Microsoft.Data.Tools.Components.dll
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\TestProject1\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\TestProject1\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\TestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\TestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\TestProject1\obj\Debug\TestProject1.csprojResolveAssemblyReference.cache
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\TestProject1\obj\Debug\TestProject1.dll
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\TestProject1\obj\Debug\TestProject1.pdb

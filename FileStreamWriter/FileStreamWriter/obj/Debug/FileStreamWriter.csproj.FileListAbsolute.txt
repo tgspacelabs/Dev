@@ -1,0 +1,12 @@
+d:\users\greentx.na\documents\visual studio 2015\Projects\FileStreamWriter\FileStreamWriter\bin\Debug\FileStreamWriter.exe.config
+d:\users\greentx.na\documents\visual studio 2015\Projects\FileStreamWriter\FileStreamWriter\obj\Debug\FileStreamWriter.csprojResolveAssemblyReference.cache
+d:\users\greentx.na\documents\visual studio 2015\Projects\FileStreamWriter\FileStreamWriter\bin\Debug\FileStreamWriter.exe
+d:\users\greentx.na\documents\visual studio 2015\Projects\FileStreamWriter\FileStreamWriter\bin\Debug\FileStreamWriter.pdb
+d:\users\greentx.na\documents\visual studio 2015\Projects\FileStreamWriter\FileStreamWriter\obj\Debug\FileStreamWriter.exe
+d:\users\greentx.na\documents\visual studio 2015\Projects\FileStreamWriter\FileStreamWriter\obj\Debug\FileStreamWriter.pdb
+D:\Dev\FileStreamWriter\FileStreamWriter\bin\Debug\FileStreamWriter.exe.config
+D:\Dev\FileStreamWriter\FileStreamWriter\bin\Debug\FileStreamWriter.exe
+D:\Dev\FileStreamWriter\FileStreamWriter\bin\Debug\FileStreamWriter.pdb
+D:\Dev\FileStreamWriter\FileStreamWriter\obj\Debug\FileStreamWriter.csproj.CoreCompileInputs.cache
+D:\Dev\FileStreamWriter\FileStreamWriter\obj\Debug\FileStreamWriter.exe
+D:\Dev\FileStreamWriter\FileStreamWriter\obj\Debug\FileStreamWriter.pdb

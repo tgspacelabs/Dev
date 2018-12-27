@@ -1,0 +1,2 @@
+d:\documents\visual studio 2015\Projects\IsWixProductName1\IsWixProductName1MM\bin\Debug\IsWixProductName1MM.msm
+d:\documents\visual studio 2015\Projects\IsWixProductName1\IsWixProductName1MM\bin\Debug\IsWixProductName1MM.wixpdb

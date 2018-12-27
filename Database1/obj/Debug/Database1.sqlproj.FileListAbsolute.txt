@@ -1,0 +1,9 @@
+d:\Documents\Visual Studio 2015\Projects\Database1\bin\Debug\Database1.dacpac
+d:\Documents\Visual Studio 2015\Projects\Database1\bin\Debug\Database1.dll
+d:\Documents\Visual Studio 2015\Projects\Database1\bin\Debug\Database1.pdb
+d:\Documents\Visual Studio 2015\Projects\Database1\obj\Debug\Model.xml
+d:\Documents\Visual Studio 2015\Projects\Database1\obj\Debug\refactor.xml
+d:\Documents\Visual Studio 2015\Projects\Database1\obj\Debug\postdeploy.sql
+d:\Documents\Visual Studio 2015\Projects\Database1\obj\Debug\predeploy.sql
+d:\Documents\Visual Studio 2015\Projects\Database1\obj\Debug\Database1.dll
+d:\Documents\Visual Studio 2015\Projects\Database1\obj\Debug\Database1.pdb

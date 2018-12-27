@@ -1,0 +1,17 @@
+d:\documents\visual studio 2015\Projects\EmbeddedProperty\EmbeddedProperty\bin\Debug\EmbeddedProperty.exe.config
+d:\documents\visual studio 2015\Projects\EmbeddedProperty\EmbeddedProperty\bin\Debug\EmbeddedProperty.exe
+d:\documents\visual studio 2015\Projects\EmbeddedProperty\EmbeddedProperty\bin\Debug\EmbeddedProperty.pdb
+d:\documents\visual studio 2015\Projects\EmbeddedProperty\EmbeddedProperty\obj\Debug\EmbeddedProperty.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\EmbeddedProperty\EmbeddedProperty\obj\Debug\EmbeddedProperty.exe
+d:\documents\visual studio 2015\Projects\EmbeddedProperty\EmbeddedProperty\obj\Debug\EmbeddedProperty.pdb
+d:\documents\visual studio 2015\Projects\EmbeddedProperty\EmbeddedProperty\obj\Debug\EmbeddedProperty.Properties.Resources.resources
+d:\documents\visual studio 2015\Projects\EmbeddedProperty\EmbeddedProperty\obj\Debug\EmbeddedProperty.csproj.GenerateResource.Cache
+D:\Dev\EmbeddedProperty\EmbeddedProperty\bin\Debug\EmbeddedProperty.exe.config
+D:\Dev\EmbeddedProperty\EmbeddedProperty\bin\Debug\EmbeddedProperty.exe
+D:\Dev\EmbeddedProperty\EmbeddedProperty\bin\Debug\EmbeddedProperty.pdb
+D:\Dev\EmbeddedProperty\EmbeddedProperty\obj\Debug\EmbeddedProperty.csprojAssemblyReference.cache
+D:\Dev\EmbeddedProperty\EmbeddedProperty\obj\Debug\EmbeddedProperty.Properties.Resources.resources
+D:\Dev\EmbeddedProperty\EmbeddedProperty\obj\Debug\EmbeddedProperty.csproj.GenerateResource.cache
+D:\Dev\EmbeddedProperty\EmbeddedProperty\obj\Debug\EmbeddedProperty.csproj.CoreCompileInputs.cache
+D:\Dev\EmbeddedProperty\EmbeddedProperty\obj\Debug\EmbeddedProperty.exe
+D:\Dev\EmbeddedProperty\EmbeddedProperty\obj\Debug\EmbeddedProperty.pdb

@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Numbers] (
+    [n] INT IDENTITY (1, 1) NOT NULL,
+    CONSTRAINT [PK_dbo_Numbers_n] PRIMARY KEY CLUSTERED ([n] ASC) WITH (FILLFACTOR = 100)
+);
+

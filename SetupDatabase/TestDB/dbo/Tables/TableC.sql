@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[TableC] (
+    [TCID]  INT            NOT NULL,
+    [Title] NVARCHAR (255) NOT NULL,
+    CONSTRAINT [PK_TableC] PRIMARY KEY CLUSTERED ([TCID] ASC) WITH (FILLFACTOR = 100)
+);
+

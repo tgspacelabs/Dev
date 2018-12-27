@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSchemaModel FileFormatVersion="1.2" SchemaVersion="2.9" DspName="Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider" CollationLcid="1033" CollationCaseSensitive="False" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+	<Header>
+		<CustomData Category="AnsiNulls">
+			<Metadata Name="AnsiNulls" Value="True" />
+		</CustomData>
+		<CustomData Category="QuotedIdentifier">
+			<Metadata Name="QuotedIdentifier" Value="True" />
+		</CustomData>
+		<CustomData Category="CompatibilityMode">
+			<Metadata Name="CompatibilityMode" Value="130" />
+		</CustomData>
+		<CustomData Category="Reference" Type="Assembly">
+			<Metadata Name="LogicalName" Value="SimpleUnitTestDB.dll" />
+			<Metadata Name="FileName" Value="D:\DEV\SIMPLEUNITTESTDB\SIMPLEUNITTESTDB\OBJ\DEBUG\SIMPLEUNITTESTDB.DLL" />
+			<Metadata Name="AssemblyName" Value="SimpleUnitTestDB" />
+			<Metadata Name="PermissionSet" Value="SAFE" />
+			<Metadata Name="Owner" Value="" />
+			<Metadata Name="GenerateSqlClrDdl" Value="True" />
+			<Metadata Name="IsVisible" Value="True" />
+			<Metadata Name="IsModelAware" Value="True" />
+			<Metadata Name="SkipCreationIfEmpty" Value="True" />
+			<Metadata Name="AssemblySymbolsName" Value="D:\Dev\SimpleUnitTestDB\SimpleUnitTestDB\obj\Debug\SimpleUnitTestDB.pdb" />
+		</CustomData>
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
+	</Header>
+	<Model>
+		<Element Type="SqlDatabaseOptions">
+			<Property Name="Collation" Value="SQL_Latin1_General_CP1_CI_AS" />
+			<Property Name="IsAnsiNullDefaultOn" Value="True" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsAnsiWarningsOn" Value="True" />
+			<Property Name="IsArithAbortOn" Value="True" />
+			<Property Name="IsConcatNullYieldsNullOn" Value="True" />
+			<Property Name="IsTornPageProtectionOn" Value="False" />
+			<Property Name="IsFullTextEnabled" Value="True" />
+			<Property Name="PageVerifyMode" Value="3" />
+			<Property Name="DefaultLanguage" Value="" />
+			<Property Name="DefaultFullTextLanguage" Value="" />
+			<Property Name="QueryStoreStaleQueryThreshold" Value="367" />
+			<Relationship Name="DefaultFilegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlSchema" Name="[Sales]">
+			<Relationship Name="Authorizer">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlCheckConstraint" Name="[Sales].[CK_Orders_FilledDate]">
+			<Property Name="CheckExpressionScript">
+				<Value><![CDATA[(FilledDate >= OrderDate) AND (FilledDate < '01/01/2020')]]></Value>
+			</Property>
+			<Relationship Name="CheckExpressionDependencies">
+				<Entry>
+					<References Name="[Sales].[Orders].[FilledDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[OrderDate]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[Sales].[Orders]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlCheckConstraint" Name="[Sales].[CK_Orders_OrderDate]">
+			<Property Name="CheckExpressionScript">
+				<Value><![CDATA[(OrderDate > '01/01/2005') and (OrderDate < '01/01/2020')]]></Value>
+			</Property>
+			<Relationship Name="CheckExpressionDependencies">
+				<Entry>
+					<References Name="[Sales].[Orders].[OrderDate]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[Sales].[Orders]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[Sales].[Customer]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[Sales].[Customer].[CustomerID]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[Sales].[Customer].[CustomerName]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="40" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[Sales].[Customer].[YTDOrders]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[Sales].[Customer].[YTDSales]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References Name="[Sales]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlDefaultConstraint" Name="[Sales].[Def_Customer_YTDOrders]">
+			<Property Name="DefaultExpressionScript">
+				<Value><![CDATA[0]]></Value>
+			</Property>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[Sales].[Customer]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForColumn">
+				<Entry>
+					<References Name="[Sales].[Customer].[YTDOrders]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlDefaultConstraint" Name="[Sales].[Def_Customer_YTDSales]">
+			<Property Name="DefaultExpressionScript">
+				<Value><![CDATA[0]]></Value>
+			</Property>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[Sales].[Customer]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForColumn">
+				<Entry>
+					<References Name="[Sales].[Customer].[YTDSales]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlDefaultConstraint" Name="[Sales].[Def_Orders_OrderDate]">
+			<Property Name="DefaultExpressionScript">
+				<Value><![CDATA[GetDate()]]></Value>
+			</Property>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[Sales].[Orders]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForColumn">
+				<Entry>
+					<References Name="[Sales].[Orders].[OrderDate]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlDefaultConstraint" Name="[Sales].[Def_Orders_Status]">
+			<Property Name="DefaultExpressionScript">
+				<Value><![CDATA['O']]></Value>
+			</Property>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[Sales].[Orders]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForColumn">
+				<Entry>
+					<References Name="[Sales].[Orders].[Status]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[Sales].[FK_Orders_Customer_CustID]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[Sales].[Orders].[CustomerID]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[Sales].[Orders]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[Sales].[Customer].[CustomerID]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[Sales].[Customer]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[Sales].[Orders]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[Sales].[Orders].[CustomerID]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[Sales].[Orders].[OrderID]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[Sales].[Orders].[OrderDate]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[Sales].[Orders].[FilledDate]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[Sales].[Orders].[Status]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="1" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[char]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[Sales].[Orders].[Amount]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References Name="[Sales]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[Sales].[PK_Customer_CustID]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[Sales].[Customer].[CustomerID]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[Sales].[Customer]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[Sales].[PK_Orders_OrderID]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[Sales].[Orders].[OrderID]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[Sales].[Orders]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlProcedure" Name="[Sales].[uspCancelOrder]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+    DECLARE @Delta INT, @CustomerID INT, @PriorStatus CHAR(1)
+    BEGIN TRANSACTION
+        BEGIN TRY
+            IF (NOT EXISTS(SELECT [CustomerID] from [Sales].[Orders] WHERE [OrderID] = @OrderID))
+            BEGIN
+                -- Specify WITH LOG option so that the error is
+                -- written to the application log.
+                RAISERROR( 'That order does not exist.', -- Message text
+                           16, -- severity
+                            1 -- state
+                        ) WITH LOG;
+            END
+            
+            SELECT @Delta = [Amount], @CustomerID = [CustomerID], @PriorStatus = [Status]
+             FROM [Sales].[Orders] WHERE [OrderID] = @OrderID
+ 
+            IF @PriorStatus <> 'O' 
+            BEGIN
+                -- Specify WITH LOG option so that the error is
+                -- written to the application log.
+                RAISERROR ( 'You can only cancel open orders.', -- Message text
+                            16, -- Severity
+                            1 -- State
+                            ) WITH LOG;
+            END
+            ELSE
+            BEGIN
+                -- If we make it to here, then we can cancel the order. Update the status to 'X' first...
+                UPDATE [Sales].[Orders]
+                   SET [Status] = 'X'
+                WHERE [OrderID] = @OrderID
+                -- and then remove the amount from the YTDOrders for the customer
+                UPDATE [Sales].[Customer]
+                       SET
+                           YTDOrders = YTDOrders - @Delta
+                WHERE [CustomerID] = @CustomerID
+                COMMIT TRANSACTION
+                RETURN 1; -- indicate success
+            END
+        END TRY
+        BEGIN CATCH
+            DECLARE @ErrorMessage NVARCHAR(4000);
+            DECLARE @ErrorSeverity INT;
+            DECLARE @ErrorState INT;
+            
+            SELECT @ErrorMessage = ERROR_MESSAGE(),
+                   @ErrorSeverity = ERROR_SEVERITY(),
+                   @ErrorState = ERROR_STATE();
+                   
+            ROLLBACK TRANSACTION
+            -- Use RAISERROR inside the CATCH block to return
+            -- error information about the original error that
+            -- caused execution to jump to the CATCH block.
+            RAISERROR (@ErrorMessage, -- Mesasge text
+                       @ErrorSeverity, -- Severity
+                       @ErrorState -- State
+                      );
+            RETURN 0; -- indicate failure
+        END CATCH;
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[int]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[int]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[char]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[int]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[int]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[CustomerID]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[OrderID]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[uspCancelOrder].[@OrderID]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[Amount]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[CustomerID]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[Status]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[OrderID]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Customer]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Customer].[YTDOrders]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Customer].[CustomerID]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[Sales].[uspCancelOrder].[@OrderID]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References Name="[Sales]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="2645" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [Sales].[uspCancelOrder]&#xD;&#xA;@OrderID INT&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[Sales].[uspFillOrder]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+DECLARE @Delta INT, @CustomerID INT
+BEGIN TRANSACTION
+    SELECT @Delta = [Amount], @CustomerID = [CustomerID]
+     FROM [Sales].[Orders] WHERE [OrderID] = @OrderID;
+ 
+UPDATE [Sales].[Orders]
+   SET [Status] = 'F',
+       [FilledDate] = @FilledDate
+WHERE [OrderID] = @OrderID;
+
+UPDATE [Sales].[Customer]
+   SET
+   YTDSales = YTDSales + @Delta
+    WHERE [CustomerID] = @CustomerID
+COMMIT TRANSACTION
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[int]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[int]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[Amount]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[CustomerID]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[OrderID]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[uspFillOrder].[@OrderID]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[Status]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[FilledDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[uspFillOrder].[@FilledDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Customer]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Customer].[YTDSales]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Customer].[CustomerID]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[Sales].[uspFillOrder].[@OrderID]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[Sales].[uspFillOrder].[@FilledDate]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References Name="[Sales]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="505" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [Sales].[uspFillOrder]&#xD;&#xA;@OrderID INT, @FilledDate DATETIME&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[Sales].[uspNewCustomer]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+INSERT INTO [Sales].[Customer] (CustomerName) VALUES (@CustomerName);
+SELECT SCOPE_IDENTITY()
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[Sales].[Customer]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Customer].[CustomerName]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[uspNewCustomer].[@CustomerName]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[Sales].[uspNewCustomer].[@CustomerName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="40" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References Name="[Sales]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="182" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [Sales].[uspNewCustomer]&#xD;&#xA;@CustomerName NVARCHAR (40)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[Sales].[uspPlaceNewOrder]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+DECLARE @RC INT
+BEGIN TRANSACTION
+INSERT INTO [Sales].[Orders] (CustomerID, OrderDate, FilledDate, Status, Amount) 
+     VALUES (@CustomerID, @OrderDate, NULL, @Status, @Amount)
+SELECT @RC = SCOPE_IDENTITY();
+UPDATE [Sales].[Customer]
+   SET
+   YTDOrders = YTDOrders + @Amount
+    WHERE [CustomerID] = @CustomerID
+COMMIT TRANSACTION
+RETURN @RC
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[int]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[CustomerID]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[OrderDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[FilledDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[Status]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[Amount]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[uspPlaceNewOrder].[@CustomerID]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[uspPlaceNewOrder].[@OrderDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[uspPlaceNewOrder].[@Status]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[uspPlaceNewOrder].[@Amount]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Customer]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Customer].[YTDOrders]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Customer].[CustomerID]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[Sales].[uspPlaceNewOrder].[@CustomerID]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[Sales].[uspPlaceNewOrder].[@Amount]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[Sales].[uspPlaceNewOrder].[@OrderDate]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[Sales].[uspPlaceNewOrder].[@Status]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA['O']]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="1" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[char]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References Name="[Sales]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="487" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [Sales].[uspPlaceNewOrder]&#xD;&#xA;@CustomerID INT, @Amount INT, @OrderDate DATETIME, @Status CHAR (1)='O'&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[Sales].[uspShowOrderDetails]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+SELECT [C].[CustomerName], CONVERT(date, [O].[OrderDate]), CONVERT(date, [O].[FilledDate]), [O].[Status], [O].[Amount]
+  FROM [Sales].[Customer] AS C
+  INNER JOIN [Sales].[Orders] AS O
+     ON [O].[CustomerID] = [C].[CustomerID]
+  WHERE [C].[CustomerID] = @CustomerID
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[Sales].[Customer]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[CustomerID]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Customer].[CustomerID]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Customer].[CustomerName]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[date]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[OrderDate]" />
+				</Entry>
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[date]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[FilledDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[Status]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[Orders].[Amount]" />
+				</Entry>
+				<Entry>
+					<References Name="[Sales].[uspShowOrderDetails].[@CustomerID]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[Sales].[uspShowOrderDetails].[@CustomerID]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[0]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References Name="[Sales]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="354" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [Sales].[uspShowOrderDetails]&#xD;&#xA;@CustomerID INT=0&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+	</Model>
+</DataSchemaModel>

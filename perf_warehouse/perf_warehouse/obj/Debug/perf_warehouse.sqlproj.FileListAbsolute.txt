@@ -1,0 +1,6 @@
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\perf_warehouse\bin\Debug\perf_warehouse.dacpac
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\perf_warehouse\bin\Debug\perf_warehouse.dll
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\perf_warehouse\bin\Debug\perf_warehouse.pdb
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\perf_warehouse\bin\Debug\master.dacpac
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\perf_warehouse\obj\Debug\perf_warehouse.dll
+d:\Documents\Visual Studio 2015\Projects\perf_warehouse\perf_warehouse\obj\Debug\perf_warehouse.pdb

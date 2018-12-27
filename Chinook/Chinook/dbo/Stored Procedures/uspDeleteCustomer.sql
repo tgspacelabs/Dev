@@ -1,0 +1,19 @@
+﻿--SET QUOTED_IDENTIFIER ON|OFF
+--SET ANSI_NULLS ON|OFF
+--GO
+
+
+--SET QUOTED_IDENTIFIER ON|OFF
+--SET ANSI_NULLS ON|OFF
+--GO
+CREATE PROCEDURE [uspDeleteCustomer] (@CustomerID INT)
+-- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DELETE FROM
+        [dbo].[Customer]
+    WHERE
+        [CustomerId] = @CustomerID;
+END;

@@ -1,0 +1,11 @@
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfDataServiceLibrary\WcfDataServiceLibrary\bin\Debug\WcfDataServiceLibrary.dll.config
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfDataServiceLibrary\WcfDataServiceLibrary\bin\Debug\WcfDataServiceLibrary.dll
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfDataServiceLibrary\WcfDataServiceLibrary\bin\Debug\WcfDataServiceLibrary.pdb
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfDataServiceLibrary\WcfDataServiceLibrary\bin\Debug\EntityFramework.dll
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfDataServiceLibrary\WcfDataServiceLibrary\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfDataServiceLibrary\WcfDataServiceLibrary\bin\Debug\EntityFramework.xml
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfDataServiceLibrary\WcfDataServiceLibrary\bin\Debug\EntityFramework.SqlServer.xml
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfDataServiceLibrary\WcfDataServiceLibrary\obj\Debug\WcfDataServiceLibrary.csprojResolveAssemblyReference.cache
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfDataServiceLibrary\WcfDataServiceLibrary\obj\Debug\WcfDataServiceLibrary.csproj.CoreCompileInputs.cache
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfDataServiceLibrary\WcfDataServiceLibrary\obj\Debug\WcfDataServiceLibrary.dll
+d:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\WcfDataServiceLibrary\WcfDataServiceLibrary\obj\Debug\WcfDataServiceLibrary.pdb

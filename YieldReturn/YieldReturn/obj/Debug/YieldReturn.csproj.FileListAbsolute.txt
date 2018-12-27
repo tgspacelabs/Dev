@@ -1,0 +1,14 @@
+C:\Users\greentx.NA\Source\Repos\YieldReturn\YieldReturn\obj\Debug\YieldReturn.csprojResolveAssemblyReference.cache
+C:\Users\greentx.NA\Source\Repos\YieldReturn\YieldReturn\obj\Debug\YieldReturn.csproj.CoreCompileInputs.cache
+C:\Users\greentx.NA\Source\Repos\YieldReturn\YieldReturn\bin\Debug\YieldReturn.exe.config
+C:\Users\greentx.NA\Source\Repos\YieldReturn\YieldReturn\bin\Debug\YieldReturn.exe
+C:\Users\greentx.NA\Source\Repos\YieldReturn\YieldReturn\bin\Debug\YieldReturn.pdb
+C:\Users\greentx.NA\Source\Repos\YieldReturn\YieldReturn\obj\Debug\YieldReturn.exe
+C:\Users\greentx.NA\Source\Repos\YieldReturn\YieldReturn\obj\Debug\YieldReturn.pdb
+D:\Dev\YieldReturn\YieldReturn\bin\Debug\YieldReturn.exe.config
+D:\Dev\YieldReturn\YieldReturn\bin\Debug\YieldReturn.exe
+D:\Dev\YieldReturn\YieldReturn\bin\Debug\YieldReturn.pdb
+D:\Dev\YieldReturn\YieldReturn\obj\Debug\YieldReturn.csprojAssemblyReference.cache
+D:\Dev\YieldReturn\YieldReturn\obj\Debug\YieldReturn.csproj.CoreCompileInputs.cache
+D:\Dev\YieldReturn\YieldReturn\obj\Debug\YieldReturn.exe
+D:\Dev\YieldReturn\YieldReturn\obj\Debug\YieldReturn.pdb

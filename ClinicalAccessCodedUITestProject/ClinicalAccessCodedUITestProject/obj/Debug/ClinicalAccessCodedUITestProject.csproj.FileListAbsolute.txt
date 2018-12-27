@@ -1,0 +1,5 @@
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\ClinicalAccessCodedUITestProject\ClinicalAccessCodedUITestProject\bin\Debug\CodedUITestProject2.dll
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\ClinicalAccessCodedUITestProject\ClinicalAccessCodedUITestProject\bin\Debug\CodedUITestProject2.pdb
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\ClinicalAccessCodedUITestProject\ClinicalAccessCodedUITestProject\obj\Debug\ClinicalAccessCodedUITestProject.csprojResolveAssemblyReference.cache
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\ClinicalAccessCodedUITestProject\ClinicalAccessCodedUITestProject\obj\Debug\CodedUITestProject2.dll
+C:\Users\greentx\Documents\Visual Studio 2013\Projects\ClinicalAccessCodedUITestProject\ClinicalAccessCodedUITestProject\obj\Debug\CodedUITestProject2.pdb

@@ -1,0 +1,24 @@
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\ClassLibrary1\bin\Debug\Plugin1.dll
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\ClassLibrary1\bin\Debug\Plugin1.pdb
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\ClassLibrary1\bin\Debug\NuGet.Copy.dll
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\ClassLibrary1\obj\Debug\Plugin1.dll
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\ClassLibrary1\obj\Debug\Plugin1.pdb
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ClassLibrary1\bin\Debug\Plugin1.dll.config
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ClassLibrary1\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ClassLibrary1\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Visual Studio 2015\Projects\ConsoleApplication2\ClassLibrary1\obj\Debug\Plugin1.csprojResolveAssemblyReference.cache
+D:\Dev\ConsoleApplication2\ClassLibrary1\bin\Debug\Plugin1.dll.config
+D:\Dev\ConsoleApplication2\ClassLibrary1\bin\Debug\Plugin1.dll
+D:\Dev\ConsoleApplication2\ClassLibrary1\bin\Debug\Plugin1.pdb
+D:\Dev\ConsoleApplication2\ClassLibrary1\bin\Debug\EntityFramework.dll
+D:\Dev\ConsoleApplication2\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Dev\ConsoleApplication2\ClassLibrary1\bin\Debug\NuGet.Copy.dll
+D:\Dev\ConsoleApplication2\ClassLibrary1\bin\Debug\EntityFramework.xml
+D:\Dev\ConsoleApplication2\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dev\ConsoleApplication2\ClassLibrary1\obj\Debug\Plugin1.csprojAssemblyReference.cache
+D:\Dev\ConsoleApplication2\ClassLibrary1\obj\Debug\Plugin1.csproj.CoreCompileInputs.cache
+D:\Dev\ConsoleApplication2\ClassLibrary1\obj\Debug\Plugin1.csproj.CopyComplete
+D:\Dev\ConsoleApplication2\ClassLibrary1\obj\Debug\Plugin1.dll
+D:\Dev\ConsoleApplication2\ClassLibrary1\obj\Debug\Plugin1.pdb

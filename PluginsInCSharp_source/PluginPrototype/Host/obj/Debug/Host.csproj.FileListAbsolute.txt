@@ -1,0 +1,11 @@
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Host\bin\Debug\Host.exe.config
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Host\bin\Debug\Host.exe
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Host\bin\Debug\Host.pdb
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Host\bin\Debug\PluginInterface.dll
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Host\bin\Debug\PluginInterface.pdb
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Host\obj\Debug\Host.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Host\obj\Debug\Host.frmFeedback.resources
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Host\obj\Debug\Host.frmMain.resources
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Host\obj\Debug\Host.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Host\obj\Debug\Host.exe
+D:\Documents\Visual Studio 2015\Projects\PluginsInCSharp_source\PluginPrototype\Host\obj\Debug\Host.pdb

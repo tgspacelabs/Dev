@@ -1,0 +1,76 @@
+12/3/2015 3:19:30 PM	This log contains information about the import schema operation into project 'Chinook' on computer 'SNODRND0055' by user 'greentx'.
+12/3/2015 3:19:31 PM	Import of database schema has started.
+12/3/2015 3:19:36 PM	Gathering database options
+12/3/2015 3:19:36 PM	Gathering users
+12/3/2015 3:19:36 PM	Gathering roles
+12/3/2015 3:19:36 PM	Gathering application roles
+12/3/2015 3:19:36 PM	Gathering role memberships
+12/3/2015 3:19:36 PM	Gathering filegroups
+12/3/2015 3:19:36 PM	Gathering full-text catalogs
+12/3/2015 3:19:36 PM	Gathering assemblies
+12/3/2015 3:19:36 PM	Gathering certificates
+12/3/2015 3:19:36 PM	Gathering asymmetric keys
+12/3/2015 3:19:36 PM	Gathering symmetric keys
+12/3/2015 3:19:36 PM	Gathering encrypted symmetric keys
+12/3/2015 3:19:36 PM	Gathering schemas
+12/3/2015 3:19:36 PM	Gathering XML schema collections
+12/3/2015 3:19:36 PM	Gathering user-defined data types
+12/3/2015 3:19:36 PM	Gathering user-defined types
+12/3/2015 3:19:36 PM	Gathering table types
+12/3/2015 3:19:36 PM	Gathering unique keys for table types
+12/3/2015 3:19:36 PM	Gathering primary keys for table types
+12/3/2015 3:19:36 PM	Gathering check constraints for table types
+12/3/2015 3:19:36 PM	Gathering default constraints for table types
+12/3/2015 3:19:36 PM	Gathering partition functions
+12/3/2015 3:19:36 PM	Gathering partition schemes
+12/3/2015 3:19:36 PM	Gathering functions
+12/3/2015 3:19:36 PM	Gathering encrypted functions
+12/3/2015 3:19:36 PM	Gathering aggregates
+12/3/2015 3:19:36 PM	Gathering procedures
+12/3/2015 3:19:36 PM	Gathering encrypted procedures
+12/3/2015 3:19:36 PM	Gathering tables
+12/3/2015 3:19:36 PM	Gathering primary keys
+12/3/2015 3:19:36 PM	Gathering unique constraints
+12/3/2015 3:19:36 PM	Gathering foreign keys
+12/3/2015 3:19:36 PM	Gathering default constraints
+12/3/2015 3:19:36 PM	Gathering check constraints
+12/3/2015 3:19:36 PM	Gathering views
+12/3/2015 3:19:36 PM	Gathering encrypted views
+12/3/2015 3:19:36 PM	Gathering indexes
+12/3/2015 3:19:36 PM	Gathering statistics
+12/3/2015 3:19:36 PM	Gathering full-text index stoplists
+12/3/2015 3:19:36 PM	Gathering search property lists
+12/3/2015 3:19:36 PM	Gathering search properties
+12/3/2015 3:19:36 PM	Gathering full-text indexes
+12/3/2015 3:19:36 PM	Gathering column store indexes
+12/3/2015 3:19:36 PM	Gathering spatial indexes
+12/3/2015 3:19:36 PM	Gathering XML indexes
+12/3/2015 3:19:36 PM	Gathering Selective XML indexes
+12/3/2015 3:19:36 PM	Gathering encrypted triggers
+12/3/2015 3:19:36 PM	Gathering triggers
+12/3/2015 3:19:36 PM	Gathering encrypted and clr ddl triggers
+12/3/2015 3:19:36 PM	Gathering ddl triggers
+12/3/2015 3:19:36 PM	Gathering synonyms
+12/3/2015 3:19:36 PM	Gathering defaults
+12/3/2015 3:19:36 PM	Gathering data constraint uddt bindings
+12/3/2015 3:19:36 PM	Gathering rules
+12/3/2015 3:19:36 PM	Gathering data constraint uddt bindings
+12/3/2015 3:19:36 PM	Gathering message types
+12/3/2015 3:19:36 PM	Gathering queues
+12/3/2015 3:19:36 PM	Gathering contracts
+12/3/2015 3:19:36 PM	Gathering services
+12/3/2015 3:19:36 PM	Gathering event notifications
+12/3/2015 3:19:36 PM	Gathering remote service bindings
+12/3/2015 3:19:36 PM	Gathering broker priorities
+12/3/2015 3:19:36 PM	Gathering signatures
+12/3/2015 3:19:36 PM	Gathering data compression options
+12/3/2015 3:19:36 PM	Gathering sequence types
+12/3/2015 3:19:36 PM	Gathering extended properties
+12/3/2015 3:19:36 PM	Gathering credentials
+12/3/2015 3:19:36 PM	Gathering logins
+12/3/2015 3:19:36 PM	Gathering server audits
+12/3/2015 3:19:37 PM	Scanning project for duplicate elements
+12/3/2015 3:19:37 PM	Finished duplicate element processing
+12/3/2015 3:19:37 PM	Finished importing database.
+12/3/2015 3:19:37 PM	A summary of the import was saved to the following location: d:\Documents\Visual Studio 2015\Projects\Chinook\Chinook\Import Schema Logs\Chinook_20151203111930.log
+12/3/2015 3:19:37 PM	Click Finish to continue...

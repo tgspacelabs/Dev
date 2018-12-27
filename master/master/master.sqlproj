@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>master</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{fb9bc848-9aec-4686-bec2-dd9b0ff3705f}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>master</RootNamespace>
+    <AssemblyName>master</AssemblyName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="Server Objects\" />
+    <Folder Include="Security\" />
+    <Folder Include="dbo\Functions\" />
+    <Folder Include="dbo\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\CommandLog.sql" />
+    <Build Include="Server Objects\LinkedServers.sql" />
+    <Build Include="Security\LinkedServerLogins.sql" />
+    <Build Include="Security\sa.sql" />
+    <Build Include="Security\NA_greentx.sql" />
+    <Build Include="Security\NT SERVICE_SQLWriter.sql" />
+    <Build Include="Security\NT SERVICE_Winmgmt.sql" />
+    <Build Include="Security\NT Service_MSSQLSERVER.sql" />
+    <Build Include="Security\NT AUTHORITY_SYSTEM.sql" />
+    <Build Include="Security\NT SERVICE_SQLSERVERAGENT.sql" />
+    <Build Include="Security\portal.sql" />
+    <Build Include="Security\SQL_.sql" />
+    <Build Include="Security\RoleMemberships.sql" />
+    <Build Include="dbo\Functions\GetNums.sql" />
+    <Build Include="dbo\Functions\statement_level_query_plan.sql" />
+    <Build Include="dbo\Stored Procedures\sp_AskBrent.sql" />
+    <Build Include="dbo\Stored Procedures\sp_Blitz.sql" />
+    <Build Include="dbo\Stored Procedures\sp_BlitzCache.sql" />
+    <Build Include="dbo\Stored Procedures\sp_BlitzIndex.sql" />
+    <Build Include="dbo\Stored Procedures\sp_BlitzTrace.sql" />
+    <Build Include="dbo\Stored Procedures\sp_WhoIsActive.sql" />
+    <Build Include="dbo\Stored Procedures\uspQuickCheckOnCache.sql" />
+    <Build Include="dbo\Stored Procedures\CommandExecute.sql" />
+    <Build Include="dbo\Stored Procedures\DatabaseBackup.sql" />
+    <Build Include="dbo\Stored Procedures\DatabaseIntegrityCheck.sql" />
+    <Build Include="dbo\Stored Procedures\IndexOptimize.sql" />
+    <Build Include="dbo\Stored Procedures\sp_blocked_process_report_viewer.sql" />
+    <Build Include="dbo\Stored Procedures\ShowQueryText.sql" />
+    <Build Include="dbo\Stored Procedures\p_Defrag_INDEX.sql" />
+    <Build Include="Security\MS_SQLEnableSystemAssemblyLoadingKey.sql" />
+    <Build Include="Security\SQL_Key.sql" />
+    <Build Include="Server Objects\0ACC52FE-C7FF-419C-9CFA-DBDDB2052449.sql" />
+    <Build Include="Server Objects\AlwaysOn_health.sql" />
+    <Build Include="Server Objects\EE_WatchIOs.sql" />
+    <Build Include="Server Objects\blocked_process.sql" />
+    <Build Include="Server Objects\Wait Statistics.sql" />
+    <Build Include="Server Objects\Page Splits.sql" />
+    <Build Include="Server Objects\Database File I_O.sql" />
+    <Build Include="Server Objects\Capture SELECT.sql" />
+    <Build Include="Server Objects\Capture queries and resources.sql" />
+    <Build Include="Server Objects\Filtered Event.sql" />
+    <Build Include="Server Objects\Capture Parameters.sql" />
+    <Build Include="Server Objects\Capture Deadlock Graphs.sql" />
+    <Build Include="Server Objects\15SecondIOError.sql" />
+    <Build Include="Server Objects\LockCounts.sql" />
+    <Build Include="Server Objects\MonitorLog.sql" />
+    <Build Include="Server Objects\PageLocks.sql" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+d:\Documents\Visual Studio 2015\Projects\Chinook\ChinookTestData\bin\Debug\ChinookTestData.dacpac
+d:\Documents\Visual Studio 2015\Projects\Chinook\ChinookTestData\bin\Debug\ChinookTestData.dll
+d:\Documents\Visual Studio 2015\Projects\Chinook\ChinookTestData\bin\Debug\ChinookTestData.pdb
+d:\Documents\Visual Studio 2015\Projects\Chinook\ChinookTestData\bin\Debug\Chinook.dll
+d:\Documents\Visual Studio 2015\Projects\Chinook\ChinookTestData\bin\Debug\Chinook.pdb
+d:\Documents\Visual Studio 2015\Projects\Chinook\ChinookTestData\bin\Debug\Chinook.dacpac

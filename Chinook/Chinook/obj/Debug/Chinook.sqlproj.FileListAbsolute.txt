@@ -1,0 +1,11 @@
+d:\Documents\Visual Studio 2015\Projects\Chinook\Chinook\bin\Debug\Chinook.dacpac
+d:\Documents\Visual Studio 2015\Projects\Chinook\Chinook\bin\Debug\Chinook.dll
+d:\Documents\Visual Studio 2015\Projects\Chinook\Chinook\bin\Debug\Chinook.pdb
+D:\Debug\AnyCPU\Chinook.dll
+D:\Debug\AnyCPU\Chinook.pdb
+D:\Documents\Visual Studio 2015\Projects\Chinook\Chinook\obj\Debug\Model.xml
+D:\Documents\Visual Studio 2015\Projects\Chinook\Chinook\obj\Debug\refactor.xml
+D:\Documents\Visual Studio 2015\Projects\Chinook\Chinook\obj\Debug\postdeploy.sql
+D:\Documents\Visual Studio 2015\Projects\Chinook\Chinook\obj\Debug\predeploy.sql
+D:\Documents\Visual Studio 2015\Projects\Chinook\Chinook\obj\Debug\Chinook.dll
+D:\Documents\Visual Studio 2015\Projects\Chinook\Chinook\obj\Debug\Chinook.pdb

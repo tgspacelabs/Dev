@@ -1,0 +1,11 @@
+8/3/2016 4:01:11 PM	This log contains information about the import schema operation into project 'PortalDatabase' on computer 'SNODRND0055' by user 'greentx'.
+8/3/2016 4:01:11 PM	Deserializing model
+8/3/2016 4:01:15 PM	Resolving model
+8/3/2016 4:01:19 PM	Visiting imported model for types
+8/3/2016 4:01:20 PM	Scanning project for duplicate elements
+8/3/2016 4:01:32 PM	Finished duplicate element processing
+8/3/2016 4:01:49 PM	Processing extra files
+8/3/2016 4:01:49 PM	For more information about using Pre-Deployment and Post-Deployment Scripts, see: http://go.microsoft.com/fwlink/?LinkID=238792&clcid=0x409
+8/3/2016 4:01:49 PM	Finished importing Data-tier Application file.
+8/3/2016 4:01:49 PM	A summary of the import was saved to the following location: d:\documents\visual studio 2015\Projects\PortalDatabase\PortalDatabase\Import Schema Logs\PortalDatabase_20160803110111.log
+8/3/2016 4:01:49 PM	Click Finish to continue...

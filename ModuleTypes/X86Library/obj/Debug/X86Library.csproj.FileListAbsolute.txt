@@ -1,0 +1,4 @@
+d:\documents\visual studio 2015\Projects\ModuleTypes\X86Library\bin\Debug\X86Library.dll
+d:\documents\visual studio 2015\Projects\ModuleTypes\X86Library\bin\Debug\X86Library.pdb
+d:\documents\visual studio 2015\Projects\ModuleTypes\X86Library\obj\Debug\X86Library.dll
+d:\documents\visual studio 2015\Projects\ModuleTypes\X86Library\obj\Debug\X86Library.pdb

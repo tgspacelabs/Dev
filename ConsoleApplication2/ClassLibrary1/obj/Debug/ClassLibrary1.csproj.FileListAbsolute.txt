@@ -1,0 +1,4 @@
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+d:\documents\visual studio 2015\Projects\ConsoleApplication2\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

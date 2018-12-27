@@ -1,0 +1,9 @@
+d:\documents\visual studio 2015\Projects\Database3\Database3\bin\Debug\Database3.dacpac
+d:\documents\visual studio 2015\Projects\Database3\Database3\bin\Debug\Database3.dll
+d:\documents\visual studio 2015\Projects\Database3\Database3\bin\Debug\Database3.pdb
+d:\documents\visual studio 2015\Projects\Database3\Database3\obj\Debug\Database3.dll
+d:\documents\visual studio 2015\Projects\Database3\Database3\obj\Debug\Database3.pdb
+D:\Documents\Visual Studio 2015\Projects\Database3\Database3\obj\Debug\Model.xml
+D:\Documents\Visual Studio 2015\Projects\Database3\Database3\obj\Debug\refactor.xml
+D:\Documents\Visual Studio 2015\Projects\Database3\Database3\obj\Debug\postdeploy.sql
+D:\Documents\Visual Studio 2015\Projects\Database3\Database3\obj\Debug\predeploy.sql

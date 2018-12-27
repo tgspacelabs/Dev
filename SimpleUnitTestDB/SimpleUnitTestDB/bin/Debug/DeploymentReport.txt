@@ -1,0 +1,29 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [Sales] (Schema)
+       [Sales].[Orders] (Table)
+       [Sales].[Customer] (Table)
+       [Sales].[Def_Orders_OrderDate] (Default Constraint)
+       [Sales].[Def_Orders_Status] (Default Constraint)
+       [Sales].[Def_Customer_YTDOrders] (Default Constraint)
+       [Sales].[Def_Customer_YTDSales] (Default Constraint)
+       [Sales].[FK_Orders_Customer_CustID] (Foreign Key)
+       [Sales].[CK_Orders_FilledDate] (Check Constraint)
+       [Sales].[CK_Orders_OrderDate] (Check Constraint)
+       [Sales].[uspPlaceNewOrder] (Procedure)
+       [Sales].[uspNewCustomer] (Procedure)
+       [Sales].[uspFillOrder] (Procedure)
+       [Sales].[uspCancelOrder] (Procedure)
+       [Sales].[uspShowOrderDetails] (Procedure)
+
+** Supporting actions

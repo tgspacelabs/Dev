@@ -1,0 +1,9 @@
+d:\documents\visual studio 2015\Projects\DBUnitTest\TestDBUnitTest\bin\Debug\TestDBUnitTest.dll.config
+d:\documents\visual studio 2015\Projects\DBUnitTest\TestDBUnitTest\bin\Debug\TestDBUnitTest.dll
+d:\documents\visual studio 2015\Projects\DBUnitTest\TestDBUnitTest\bin\Debug\TestDBUnitTest.pdb
+d:\documents\visual studio 2015\Projects\DBUnitTest\TestDBUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+d:\documents\visual studio 2015\Projects\DBUnitTest\TestDBUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+d:\documents\visual studio 2015\Projects\DBUnitTest\TestDBUnitTest\obj\Debug\TestDBUnitTest.SqlServerUnitTest1.resources
+d:\documents\visual studio 2015\Projects\DBUnitTest\TestDBUnitTest\obj\Debug\TestDBUnitTest.csproj.GenerateResource.Cache
+d:\documents\visual studio 2015\Projects\DBUnitTest\TestDBUnitTest\obj\Debug\TestDBUnitTest.dll
+d:\documents\visual studio 2015\Projects\DBUnitTest\TestDBUnitTest\obj\Debug\TestDBUnitTest.pdb

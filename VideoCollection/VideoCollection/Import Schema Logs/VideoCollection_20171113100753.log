@@ -1,0 +1,82 @@
+11/13/2017 2:07:53 PM	This log contains information about the import schema operation into project 'VideoCollection' on computer 'SNODRND0055' by user 'greentx'.
+11/13/2017 2:07:54 PM	Import of database schema has started.
+11/13/2017 2:07:55 PM	Gathering logins
+11/13/2017 2:10:17 PM	Gathering database credentials
+11/13/2017 2:10:17 PM	Gathering database options
+11/13/2017 2:10:17 PM	Gathering generic database scoped configuration option
+11/13/2017 2:10:17 PM	Gathering users
+11/13/2017 2:10:17 PM	Gathering roles
+11/13/2017 2:10:17 PM	Gathering application roles
+11/13/2017 2:10:17 PM	Gathering role memberships
+11/13/2017 2:10:17 PM	Gathering filegroups
+11/13/2017 2:10:17 PM	Gathering full-text catalogs
+11/13/2017 2:10:17 PM	Gathering assemblies
+11/13/2017 2:10:17 PM	Gathering certificates
+11/13/2017 2:10:17 PM	Gathering symmetric keys
+11/13/2017 2:10:17 PM	Gathering encrypted symmetric keys
+11/13/2017 2:10:17 PM	Gathering schemas
+11/13/2017 2:10:17 PM	Gathering XML schema collections
+11/13/2017 2:10:17 PM	Gathering user-defined data types
+11/13/2017 2:10:17 PM	Gathering user-defined types
+11/13/2017 2:10:17 PM	Gathering table types
+11/13/2017 2:10:17 PM	Gathering unique keys for table types
+11/13/2017 2:10:17 PM	Gathering primary keys for table types
+11/13/2017 2:10:17 PM	Gathering indexes for table types
+11/13/2017 2:10:17 PM	Gathering check constraints for table types
+11/13/2017 2:10:17 PM	Gathering default constraints for table types
+11/13/2017 2:10:17 PM	Gathering partition functions
+11/13/2017 2:10:17 PM	Gathering partition schemes
+11/13/2017 2:10:18 PM	Gathering functions
+11/13/2017 2:10:18 PM	Gathering encrypted functions
+11/13/2017 2:10:18 PM	Gathering aggregates
+11/13/2017 2:10:18 PM	Gathering procedures
+11/13/2017 2:10:18 PM	Gathering encrypted procedures
+11/13/2017 2:10:18 PM	Gathering tables
+11/13/2017 2:10:18 PM	Gathering primary keys
+11/13/2017 2:10:18 PM	Gathering unique constraints
+11/13/2017 2:10:18 PM	Gathering foreign keys
+11/13/2017 2:10:18 PM	Gathering default constraints
+11/13/2017 2:10:18 PM	Gathering check constraints
+11/13/2017 2:10:18 PM	Gathering views
+11/13/2017 2:10:18 PM	Gathering encrypted views
+11/13/2017 2:10:18 PM	Gathering indexes
+11/13/2017 2:10:18 PM	Gathering statistics
+11/13/2017 2:10:18 PM	Gathering full-text index stoplists
+11/13/2017 2:10:18 PM	Gathering search property lists
+11/13/2017 2:10:18 PM	Gathering search properties
+11/13/2017 2:10:18 PM	Gathering full-text indexes
+11/13/2017 2:10:18 PM	Gathering column store indexes
+11/13/2017 2:10:18 PM	Gathering spatial indexes
+11/13/2017 2:10:18 PM	Gathering XML indexes
+11/13/2017 2:10:18 PM	Gathering Selective XML indexes
+11/13/2017 2:10:18 PM	Gathering encrypted triggers
+11/13/2017 2:10:18 PM	Gathering triggers
+11/13/2017 2:10:18 PM	Gathering encrypted and clr ddl triggers
+11/13/2017 2:10:18 PM	Gathering ddl triggers
+11/13/2017 2:10:19 PM	Gathering synonyms
+11/13/2017 2:10:19 PM	Gathering defaults
+11/13/2017 2:10:19 PM	Gathering data constraint uddt bindings
+11/13/2017 2:10:19 PM	Gathering rules
+11/13/2017 2:10:19 PM	Gathering data constraint uddt bindings
+11/13/2017 2:10:19 PM	Gathering message types
+11/13/2017 2:10:19 PM	Gathering queues
+11/13/2017 2:10:19 PM	Gathering contracts
+11/13/2017 2:10:19 PM	Gathering services
+11/13/2017 2:10:19 PM	Gathering event notifications
+11/13/2017 2:10:19 PM	Gathering remote service bindings
+11/13/2017 2:10:19 PM	Gathering broker priorities
+11/13/2017 2:10:19 PM	Gathering signatures
+11/13/2017 2:10:19 PM	Gathering data compression options
+11/13/2017 2:10:19 PM	Gathering sequence types
+11/13/2017 2:10:19 PM	Gathering security policies
+11/13/2017 2:10:19 PM	Gather column encryption keys
+11/13/2017 2:10:19 PM	Gathering column master keys
+11/13/2017 2:10:19 PM	Gathering external data sources
+11/13/2017 2:10:19 PM	Gathering external tables
+11/13/2017 2:10:19 PM	Gathering extended properties
+11/13/2017 2:10:20 PM	Gathering logins
+11/13/2017 2:10:22 PM	Scanning project for duplicate elements
+11/13/2017 2:10:23 PM	Finished duplicate element processing
+11/13/2017 2:10:23 PM	Finished importing database.
+11/13/2017 2:10:23 PM	A summary of the import was saved to the following location: C:\Users\greentx.NA\Source\Repos\VideoCollection\VideoCollection\Import Schema Logs\VideoCollection_20171113100753.log
+11/13/2017 2:10:23 PM	Click Finish to continue...

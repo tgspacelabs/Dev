@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>msdb</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{54fa5956-47b9-4b96-bcb4-b84fdfd5a28a}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>msdb</RootNamespace>
+    <AssemblyName>msdb</AssemblyName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="MS_PerfDashboard\" />
+    <Folder Include="MS_PerfDashboard\Tables\" />
+    <Folder Include="dbo\Views\" />
+    <Folder Include="Security\" />
+    <Folder Include="MS_PerfDashboard\Functions\" />
+    <Folder Include="dbo\Functions\" />
+    <Folder Include="MS_PerfDashboard\Stored Procedures\" />
+    <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="dbo\User Defined Types\" />
+    <Folder Include="Service Broker\" />
+    <Folder Include="dbo\XMLSchemaCollections\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\DTA_input.sql" />
+    <Build Include="dbo\Tables\DTA_progress.sql" />
+    <Build Include="dbo\Tables\DTA_output.sql" />
+    <Build Include="dbo\Tables\DTA_tuningresults.sql" />
+    <Build Include="dbo\Tables\DTA_tuningresults_part.sql" />
+    <Build Include="dbo\Tables\DTA_tuninglog.sql" />
+    <Build Include="dbo\Tables\DTA_reports_database.sql" />
+    <Build Include="dbo\Tables\DTA_reports_partitionfunction.sql" />
+    <Build Include="dbo\Tables\DTA_reports_partitionscheme.sql" />
+    <Build Include="dbo\Tables\DTA_reports_table.sql" />
+    <Build Include="dbo\Tables\DTA_reports_tableview.sql" />
+    <Build Include="dbo\Tables\DTA_reports_query.sql" />
+    <Build Include="dbo\Tables\DTA_reports_querytable.sql" />
+    <Build Include="dbo\Tables\DTA_reports_querydatabase.sql" />
+    <Build Include="dbo\Tables\DTA_reports_index.sql" />
+    <Build Include="dbo\Tables\DTA_reports_queryindex.sql" />
+    <Build Include="dbo\Tables\DTA_reports_column.sql" />
+    <Build Include="dbo\Tables\DTA_reports_indexcolumn.sql" />
+    <Build Include="dbo\Tables\DTA_reports_querycolumn.sql" />
+    <Build Include="MS_PerfDashboard\Tables\tblConfigValues.sql" />
+    <Build Include="dbo\Views\sysdtslog90.sql" />
+    <Build Include="Security\TargetServersRole.sql" />
+    <Build Include="Security\SQLAgentUserRole.sql" />
+    <Build Include="Security\SQLAgentReaderRole.sql" />
+    <Build Include="Security\SQLAgentOperatorRole.sql" />
+    <Build Include="Security\DatabaseMailUserRole.sql" />
+    <Build Include="Security\db_ssisadmin.sql" />
+    <Build Include="Security\db_ssisltduser.sql" />
+    <Build Include="Security\db_ssisoperator.sql" />
+    <Build Include="Security\dc_operator.sql" />
+    <Build Include="Security\dc_admin.sql" />
+    <Build Include="Security\dc_proxy.sql" />
+    <Build Include="Security\PolicyAdministratorRole.sql" />
+    <Build Include="Security\ServerGroupAdministratorRole.sql" />
+    <Build Include="Security\ServerGroupReaderRole.sql" />
+    <Build Include="Security\UtilityCMRReader.sql" />
+    <Build Include="Security\UtilityIMRWriter.sql" />
+    <Build Include="Security\UtilityIMRReader.sql" />
+    <Build Include="Security\MS_DataCollectorInternalUser.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildColumnReference.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildColumnReferenceList.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildDefinedValuesList.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildOrderBy.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildRowset.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildScalarExpression.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildScalarExpressionList.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildScanRange.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildSeekPredicates.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildSeekPredicatesNew.sql" />
+    <Build Include="dbo\Functions\fn_DTA_unquote_dbname.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildSeekPredicate.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildObject.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanBuildWarnings.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatAssert.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatBitmap.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatComputeScalar.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatConcat.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatCollapse.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatIndexScan.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatConstantScan.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatDeletedInsertedScan.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatFilter.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatHashMatch.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatMerge.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatNestedLoops.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatParallelism.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatSimpleUpdate.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatRemoteQuery.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatRemoteScan.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatRemoteModify.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatSort.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatSplit.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatStreamAggregate.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatSegment.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatSpool.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatTableScan.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatTop.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatTVF.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatUDX.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatUpdate.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatRIDLookup.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanFormatGenericUpdate.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_WaitTypeCategory.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_hexstrtovarbin.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_DatediffMilliseconds.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_ShowplanRowDetails.sql" />
+    <Build Include="MS_PerfDashboard\Functions\fn_QueryTextFromHandle.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_Main_GetSessionInfo.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_indexcolumn.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_Main_GetRequestInfo.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_querytable.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_Main_GetRequestWaits.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_querydatabase.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_GetPageDetails.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_querycolumn.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_GetPlanGuideDetails.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_DTA_tuninglog.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_TransformShowplanXMLToTable.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_get_databasetableids.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_get_pftableids.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_get_pstableids.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_get_tableids.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_get_columntableids.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_get_indexableids.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_update_tuninglog_errorfrequency.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_start_xmlprefix.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_end_xmlprefix.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_cleanup_hypothetical_metadata.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_DatabaseOverview.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_LargeIOObjects.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_DBFileIO.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_DmOsWaitStats.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_MissingIndexes.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_QueryText.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_MissingIndexStats.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_QueryAttributes.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_ShowplanAttributes.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_PlanParameters.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_QueryStatsTopN.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_QueryStatsTopN1.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_QueryStatsRecentActivity.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_SessionRequestActivity.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_RequestDetails.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_SessionData.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_SessionRequests.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_LastBatchForIdleSession.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_SessionDetails.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_TraceEventColumns.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_Blocking.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_RequestIoWaits.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_LargestIoRequests.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_RequestWaits.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_LatchStats.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_RequestsWithLatchWaits.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_XEventSessions.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_QueryStatsDetails.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_check_permission.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_add_session.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_delete_session.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_get_session_tuning_results.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_set_interactivestatus.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_help_session.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_update_session.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_get_tuninglog.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_index_usage_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_index_usage_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_database_access_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_database_access_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_table_access_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_table_access_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_column_access_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_column_access_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_query_costrange_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_query_costrange_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_query_cost_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_query_cost_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_event_weight_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_event_weight_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_query_detail_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_query_detail_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_query_indexrelations_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_query_indexrelations_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_index_current_detail_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_index_recommended_detail_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_index_detail_current_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_index_detail_recommended_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_view_table_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_view_table_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_wkld_analysis_helper_xml.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_wkld_analysis_helper_relational.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_get_session_report.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_set_tuninglogtablename.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_get_tuningoptions.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_get_interactivestatus.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_progressinformation.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_set_progressinformation.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_set_outputinformation.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_set_tuningresults_part.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_set_tuningresults.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_database.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_partitionscheme.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_CheckDependencies.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_partitionfunction.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_column.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_tableview.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_query.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_index.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_Main_GetCPUHistory.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_table.sql" />
+    <Build Include="MS_PerfDashboard\Stored Procedures\usp_Main_GetMiscInfo.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DTA_insert_reports_queryindex.sql" />
+    <Build Include="dbo\User Defined Types\syspolicy_target_filters_type.sql" />
+    <Build Include="Service Broker\__www.microsoft.com_databasemail_contracts_SendMail_v1.0.sql" />
+    <Build Include="Service Broker\{__www.microsoft.com_databasemail_messages}SendMail.sql" />
+    <Build Include="Service Broker\{__www.microsoft.com_databasemail_messages}SendMailStatus.sql" />
+    <Build Include="Security\DatabaseMailUserRole_1.sql" />
+    <Build Include="Security\db_ssisadmin_1.sql" />
+    <Build Include="Security\db_ssisltduser_1.sql" />
+    <Build Include="Security\db_ssisoperator_1.sql" />
+    <Build Include="Security\MS_PerfDashboard.sql" />
+    <Build Include="Security\smart_admin.sql" />
+    <Build Include="Security\SQLAgentOperatorRole_1.sql" />
+    <Build Include="Security\SQLAgentReaderRole_1.sql" />
+    <Build Include="Security\SQLAgentUserRole_1.sql" />
+    <Build Include="Security\TargetServersRole_1.sql" />
+    <Build Include="Service Broker\InternalMailService.sql" />
+    <Build Include="Service Broker\ExternalMailService.sql" />
+    <Build Include="Service Broker\syspolicy_event_listener.sql" />
+    <Build Include="dbo\XMLSchemaCollections\schema_collection_Generic SQL Trace Collector Type.sql" />
+    <Build Include="dbo\XMLSchemaCollections\schema_collection_Generic T-SQL Query Collector Type.sql" />
+    <Build Include="dbo\XMLSchemaCollections\schema_collection_Performance Counters Collector Type.sql" />
+    <Build Include="dbo\XMLSchemaCollections\schema_collection_Query Activity Collector Type.sql" />
+    <Build Include="ExtendedProperties.sql" />
+  </ItemGroup>
+</Project>

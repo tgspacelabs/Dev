@@ -1,0 +1,9 @@
+c:\users\greentx\documents\visual studio 2013\Projects\Portal50\Portal50\bin\Debug\Portal50.dacpac
+c:\users\greentx\documents\visual studio 2013\Projects\Portal50\Portal50\bin\Debug\Portal50.dll
+c:\users\greentx\documents\visual studio 2013\Projects\Portal50\Portal50\bin\Debug\Portal50.pdb
+c:\users\greentx\documents\visual studio 2013\Projects\Portal50\Portal50\obj\Debug\Model.xml
+c:\users\greentx\documents\visual studio 2013\Projects\Portal50\Portal50\obj\Debug\refactor.xml
+c:\users\greentx\documents\visual studio 2013\Projects\Portal50\Portal50\obj\Debug\postdeploy.sql
+c:\users\greentx\documents\visual studio 2013\Projects\Portal50\Portal50\obj\Debug\predeploy.sql
+c:\users\greentx\documents\visual studio 2013\Projects\Portal50\Portal50\obj\Debug\Portal50.dll
+c:\users\greentx\documents\visual studio 2013\Projects\Portal50\Portal50\obj\Debug\Portal50.pdb

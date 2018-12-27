@@ -1,0 +1,7 @@
+d:\documents\visual studio 2015\Projects\SetupProject2\SetupProject2\bin\Debug\SetupProject2.msi
+d:\documents\visual studio 2015\Projects\SetupProject2\SetupProject2\bin\Debug\SetupProject2.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\SetupProject2.wixproj.BindContentsFileListnull.txt
+obj\Debug\SetupProject2.wixproj.BindOutputsFileListnull.txt
+obj\Debug\SetupProject2.wixproj.BindBuiltOutputsFileListnull.txt
+d:\documents\visual studio 2015\Projects\SetupProject2\SetupProject2\bin\Debug\cab1.cab

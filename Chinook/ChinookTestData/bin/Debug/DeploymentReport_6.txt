@@ -1,0 +1,50 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Album] (Table)
+       [dbo].[Album].[IFK_AlbumArtistId] (Index)
+       [dbo].[Artist] (Table)
+       [dbo].[Customer] (Table)
+       [dbo].[Customer].[IFK_CustomerSupportRepId] (Index)
+       [dbo].[Employee] (Table)
+       [dbo].[Employee].[IFK_EmployeeReportsTo] (Index)
+       [dbo].[Genre] (Table)
+       [dbo].[Invoice] (Table)
+       [dbo].[Invoice].[IFK_InvoiceCustomerId] (Index)
+       [dbo].[InvoiceLine] (Table)
+       [dbo].[InvoiceLine].[IFK_InvoiceLineInvoiceId] (Index)
+       [dbo].[InvoiceLine].[IFK_InvoiceLineTrackId] (Index)
+       [dbo].[MediaType] (Table)
+       [dbo].[Playlist] (Table)
+       [dbo].[PlaylistTrack] (Table)
+       [dbo].[PlaylistTrack].[IFK_PlaylistTrackTrackId] (Index)
+       [dbo].[Track] (Table)
+       [dbo].[Track].[IFK_TrackAlbumId] (Index)
+       [dbo].[Track].[IFK_TrackGenreId] (Index)
+       [dbo].[Track].[IFK_TrackMediaTypeId] (Index)
+       [dbo].[FK_AlbumArtistId] (Foreign Key)
+       [dbo].[FK_CustomerSupportRepId] (Foreign Key)
+       [dbo].[FK_EmployeeReportsTo] (Foreign Key)
+       [dbo].[FK_InvoiceCustomerId] (Foreign Key)
+       [dbo].[FK_InvoiceLineInvoiceId] (Foreign Key)
+       [dbo].[FK_InvoiceLineTrackId] (Foreign Key)
+       [dbo].[FK_PlaylistTrackPlaylistId] (Foreign Key)
+       [dbo].[FK_PlaylistTrackTrackId] (Foreign Key)
+       [dbo].[FK_TrackAlbumId] (Foreign Key)
+       [dbo].[FK_TrackGenreId] (Foreign Key)
+       [dbo].[FK_TrackMediaTypeId] (Foreign Key)
+       [dbo].[uspDeleteCustomer] (Procedure)
+       [dbo].[uspGetCustomer] (Procedure)
+       [dbo].[uspGetCustomers] (Procedure)
+       [dbo].[uspInsertCustomer] (Procedure)
+
+** Supporting actions

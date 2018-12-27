@@ -1,0 +1,11 @@
+D:\Documents\Visual Studio 2015\Projects\TestTransactionDB\TestProject1\bin\Debug\TestProject1.dll.config
+D:\Documents\Visual Studio 2015\Projects\TestTransactionDB\TestProject1\bin\Debug\TestProject1.dll
+D:\Documents\Visual Studio 2015\Projects\TestTransactionDB\TestProject1\bin\Debug\TestProject1.pdb
+D:\Documents\Visual Studio 2015\Projects\TestTransactionDB\TestProject1\bin\Debug\Microsoft.Data.Tools.Components.dll
+D:\Documents\Visual Studio 2015\Projects\TestTransactionDB\TestProject1\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+D:\Documents\Visual Studio 2015\Projects\TestTransactionDB\TestProject1\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+D:\Documents\Visual Studio 2015\Projects\TestTransactionDB\TestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Documents\Visual Studio 2015\Projects\TestTransactionDB\TestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Documents\Visual Studio 2015\Projects\TestTransactionDB\TestProject1\obj\Debug\TestProject1.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\TestTransactionDB\TestProject1\obj\Debug\TestProject1.dll
+D:\Documents\Visual Studio 2015\Projects\TestTransactionDB\TestProject1\obj\Debug\TestProject1.pdb
