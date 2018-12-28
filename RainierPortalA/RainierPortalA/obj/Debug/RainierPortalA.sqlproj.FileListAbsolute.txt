@@ -1,5 +1,0 @@
-D:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\RainierPortalA\RainierPortalA\bin\Debug\RainierPortalA.dacpac
-D:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\RainierPortalA\RainierPortalA\obj\Debug\RainierPortalA.dll
-D:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\RainierPortalA\RainierPortalA\obj\Debug\RainierPortalA.pdb
-D:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\RainierPortalA\RainierPortalA\bin\Debug\RainierPortalA.dll
-D:\Users\greentx.NA\Documents\Visual Studio 2017\Projects\RainierPortalA\RainierPortalA\bin\Debug\RainierPortalA.pdb
