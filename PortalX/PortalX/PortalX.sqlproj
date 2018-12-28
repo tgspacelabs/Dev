@@ -412,7 +412,7 @@
     <Build Include="dbo\Stored Procedures\usp_CEI_GetLicense.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetVersionList.sql" />
     <Build Include="dbo\Stored Procedures\UpdateRole.sql" />
-    <Build Include="dbo\Stored Procedures\WriteBinInfo.sql" />
+    <Build Include="dbo\Stored Procedures\uspWriteBinInfo.sql" />
     <Build Include="dbo\Stored Procedures\usp_HL7_GetLegacyGdsCodes.sql" />
     <Build Include="dbo\Stored Procedures\usp_HL7_InsertHL7OutMessage.sql" />
     <Build Include="dbo\Stored Procedures\usp_DM3_AddPatient.sql" />
@@ -513,7 +513,7 @@
     <Build Include="dbo\Stored Procedures\p_Encounters_Detail.sql" />
     <Build Include="dbo\Stored Procedures\usp_SaveBlobPrintRequestDataSet.sql" />
     <Build Include="dbo\Stored Procedures\usp_DM3_GetGatewayDetails.sql" />
-    <Build Include="dbo\Stored Procedures\usp_UpdateSysParameter_parmVal.sql" />
+    <Build Include="dbo\Stored Procedures\uspUpdateSysParameterParmVal.sql" />
     <Build Include="dbo\Stored Procedures\GetPatientSavedEventMonitorLog.sql" />
     <Build Include="dbo\Stored Procedures\GetPatientWaveFormTimeHistory.sql" />
     <Build Include="dbo\Stored Procedures\usp_PurgeDlVitalsData.sql" />
@@ -542,7 +542,7 @@
     <Build Include="dbo\Stored Procedures\usp_HL7_UpdateEncounterInformation.sql" />
     <Build Include="dbo\Stored Procedures\usp_PurgeDlAlarmData.sql" />
     <Build Include="dbo\Stored Procedures\GetPatientAuditLogData.sql" />
-    <Build Include="dbo\Stored Procedures\WriteBeatTimeLog.sql" />
+    <Build Include="dbo\Stored Procedures\uspWriteBeatTimeLog.sql" />
     <Build Include="dbo\Stored Procedures\usp_SaveWaveformPrintRequestDataSet.sql" />
     <Build Include="dbo\Stored Procedures\RetrievePacerSpikeLog.sql" />
     <Build Include="dbo\Stored Procedures\usp_CheckNewIDUnique.sql" />
@@ -614,7 +614,7 @@
     <Build Include="dbo\Stored Procedures\usp_HL7_SaveADTMessage.sql" />
     <Build Include="dbo\Stored Procedures\usp_InsertMrnInformation.sql" />
     <Build Include="dbo\Stored Procedures\GetvsvAccess.sql" />
-    <Build Include="dbo\Stored Procedures\WriteAnalysisTime.sql" />
+    <Build Include="dbo\Stored Procedures\uspWriteAnalysisTime.sql" />
     <Build Include="dbo\Stored Procedures\usp_SaveWaveformDataSet.sql" />
     <Build Include="dbo\Stored Procedures\usp_DM3_AddPatientMonitor.sql" />
     <Build Include="dbo\Stored Procedures\usp_DeleteGatewayServerDetails.sql" />
@@ -641,7 +641,7 @@
     <Build Include="dbo\Stored Procedures\GetLegacyPatientVitalsTimeHistory.sql" />
     <Build Include="dbo\Stored Procedures\usp_SaveStatusDataSet.sql" />
     <Build Include="dbo\Stored Procedures\usp_PM_CopyETVitalsData.sql" />
-    <Build Include="dbo\Stored Procedures\WritePacerSpikeLog.sql" />
+    <Build Include="dbo\Stored Procedures\uspWritePacerSpikeLog.sql" />
     <Build Include="dbo\Stored Procedures\p_Purge_HL7_Pending.sql" />
     <Build Include="dbo\Stored Procedures\usp_CEI_DL_GetLiveVitals.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetKeyvalue.sql" />
@@ -671,7 +671,7 @@
     <Build Include="dbo\Stored Procedures\p_Purge_Get_Task.sql" />
     <Build Include="dbo\Stored Procedures\UpdateXmlValue.sql" />
     <Build Include="dbo\Stored Procedures\GetLegacyPatientWaveFormDataByChannels.sql" />
-    <Build Include="dbo\Stored Procedures\WriteEventData.sql" />
+    <Build Include="dbo\Stored Procedures\uspWriteEventData.sql" />
     <Build Include="dbo\Stored Procedures\usp_UpdateOrg.sql" />
     <Build Include="dbo\Stored Procedures\usp_CEI_GetAlarmTextAnd6SecWaveForm.sql" />
     <Build Include="dbo\Stored Procedures\usp_UpdateMonitor.sql" />
@@ -792,7 +792,7 @@
     <Build Include="dbo\Stored Procedures\p_Ins_Plcys.sql" />
     <Build Include="dbo\Stored Procedures\p_ml_Insert_Duplicate_Info.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetUnitLicense.sql" />
-    <Build Include="dbo\Stored Procedures\WriteTrendData.sql" />
+    <Build Include="dbo\Stored Procedures\uspWriteTrendData.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetFacility.sql" />
     <Build Include="dbo\Stored Procedures\usp_DL_UV_GetGatewaySettings.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetSystemLog.sql" />
@@ -828,14 +828,14 @@
     <Build Include="dbo\Stored Procedures\p_Set_cfg_Values.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetNetwork.sql" />
     <Build Include="dbo\Stored Procedures\usp_HL7_UpdatePersonDemographics.sql" />
-    <Build Include="dbo\Stored Procedures\WriteTemplateSetInfo.sql" />
+    <Build Include="dbo\Stored Procedures\uspWriteTemplateSetInfo.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetPatientInformation.sql" />
     <Build Include="dbo\Stored Procedures\GetPatientEventsCountByType.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetHL7LogListInbound.sql" />
     <Build Include="dbo\Stored Procedures\p_Purge_Release_Data.sql" />
     <Build Include="dbo\Stored Procedures\AssignUserRole.sql" />
     <Build Include="dbo\Stored Procedures\usp_CEI_UpdateLog.sql" />
-    <Build Include="dbo\Stored Procedures\WriteTwelveLeadData.sql" />
+    <Build Include="dbo\Stored Procedures\uspWriteTwelveLeadData.sql" />
     <Build Include="dbo\Stored Procedures\usp_HL7_SetAddressInformation.sql" />
     <Build Include="dbo\Stored Procedures\GetUsers.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetOrganization.sql" />
@@ -906,5 +906,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="PortalX.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="PortalX.refactorlog" />
   </ItemGroup>
 </Project>

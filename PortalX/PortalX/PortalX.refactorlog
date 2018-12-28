@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="bf1694b2-f88d-48fa-b7bf-1469d94fc33a" ChangeDateTime="12/27/2018 23:05:36">
+    <Property Name="ElementName" Value="[dbo].[usp_UpdateSysParameter_parmVal]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[uspUpdateSysParameterParmVal]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="90a3b0d4-0c3e-4a9f-928d-c7ae79068d27" ChangeDateTime="12/27/2018 23:07:29">
+    <Property Name="ElementName" Value="[dbo].[WriteAnalysisTime]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[uspWriteAnalysisTime]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="21108b83-981e-4ac3-992f-a73c539352d4" ChangeDateTime="12/27/2018 23:07:46">
+    <Property Name="ElementName" Value="[dbo].[WriteBeatTimeLog]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[uspWriteBeatTimeLog]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3d9b1a8b-75ae-4c3b-b133-389ff060ebbb" ChangeDateTime="12/27/2018 23:10:16">
+    <Property Name="ElementName" Value="[dbo].[WriteBinInfo]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[uspWriteBinInfo]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="040b77f6-27e0-4269-9e8c-4047ea7d200a" ChangeDateTime="12/27/2018 23:10:34">
+    <Property Name="ElementName" Value="[dbo].[WriteEventData]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[uspWriteEventData]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3580af20-48f1-45e3-a157-5dedf8d7c301" ChangeDateTime="12/27/2018 23:11:36">
+    <Property Name="ElementName" Value="[dbo].[WritePacerSpikeLog]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[uspWritePacerSpikeLog]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="147ef0a9-173a-48e9-b12d-9fa0769642f8" ChangeDateTime="12/27/2018 23:12:36">
+    <Property Name="ElementName" Value="[dbo].[WriteTemplateSetInfo]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[uspWriteTemplateSetInfo]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7eb15e9f-9bf6-47db-93d0-964b2af2e833" ChangeDateTime="12/27/2018 23:13:36">
+    <Property Name="ElementName" Value="[dbo].[WriteTrendData]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[uspWriteTrendData]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="38b302c8-a511-4ef8-80fa-0105f61a6f45" ChangeDateTime="12/27/2018 23:14:48">
+    <Property Name="ElementName" Value="[dbo].[WriteTwelveLeadData]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[uspWriteTwelveLeadData]" />
+  </Operation>
+</Operations>
