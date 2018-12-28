@@ -1,4 +1,4 @@
-﻿namespace ConsoleApplication7
+﻿namespace ITestMe
 {
     interface ITestMe
     {

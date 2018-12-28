@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApplication7
+namespace ITestMe
 {
     class TestMe : ITestMe
     {

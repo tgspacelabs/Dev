@@ -7,8 +7,8 @@
     <ProjectGuid>{6EA31C95-A3DE-4AEF-B85A-ABFFDB1B0C2E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication7</RootNamespace>
-    <AssemblyName>ConsoleApplication7</AssemblyName>
+    <RootNamespace>ITestMe</RootNamespace>
+    <AssemblyName>ITestMe</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
