@@ -7,3 +7,13 @@ D:\Documents\Visual Studio 2015\Projects\Database1\Database1\obj\Debug\Model.xml
 D:\Documents\Visual Studio 2015\Projects\Database1\Database1\obj\Debug\refactor.xml
 D:\Documents\Visual Studio 2015\Projects\Database1\Database1\obj\Debug\postdeploy.sql
 D:\Documents\Visual Studio 2015\Projects\Database1\Database1\obj\Debug\predeploy.sql
+D:\Dev\Database1\Database1\bin\Debug\Database1.dacpac
+D:\Dev\Database1\Database1\bin\Debug\Database1.dll
+D:\Dev\Database1\Database1\bin\Debug\Database1.pdb
+D:\Dev\Database1\Database1\obj\Debug\Database1.sqlprojAssemblyReference.cache
+D:\Dev\Database1\Database1\obj\Debug\Model.xml
+D:\Dev\Database1\Database1\obj\Debug\refactor.xml
+D:\Dev\Database1\Database1\obj\Debug\postdeploy.sql
+D:\Dev\Database1\Database1\obj\Debug\predeploy.sql
+D:\Dev\Database1\Database1\obj\Debug\Database1.dll
+D:\Dev\Database1\Database1\obj\Debug\Database1.pdb
